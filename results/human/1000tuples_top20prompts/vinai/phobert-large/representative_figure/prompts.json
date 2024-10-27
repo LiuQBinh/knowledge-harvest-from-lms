@@ -1,0 +1,50 @@
+[
+  [
+    "<ENT0> là hình ảnh đại diện của <ENT1> .",
+    0.11315918224114556
+  ],
+  [
+    "<ENT0> là nhân vật đại diện của <ENT1> .",
+    0.10255278340277091
+  ],
+  [
+    "<ENT0> là khuôn mặt của <ENT1> .",
+    0.09510754101031098
+  ],
+  [
+    "Nếu như <ENT0> là nhân vật đại diện của <ENT1> , anh ấy sẽ là một nghệ sĩ cực kỳ có ảnh hưởng và nổi tiếng .",
+    0.09265467430885464
+  ],
+  [
+    "Nếu như <ENT0> là hình ảnh đại diện của <ENT1> , thì điều đó có nghĩa ông là người lên tiếng cho đất nước .",
+    0.08808689838292048
+  ],
+  [
+    "<ENT0> là một <ENT1> biểu tượng .",
+    0.08591988595682362
+  ],
+  [
+    "<ENT0> là người đồng sáng lập của <ENT1> và giữ chức vụ CEO của công ty cho đến khi ông qua đời vào năm 2011 .",
+    0.08153047840732038
+  ],
+  [
+    "<ENT0> là một <ENT1> biểu tượng và là một trong những cầu thủ bóng đá giỏi nhất thế giới .",
+    0.07217890562598692
+  ],
+  [
+    "<ENT0> là biểu tượng nhất <ENT1> của thời đại của mình .",
+    0.06963739892025068
+  ],
+  [
+    "<ENT0> được coi là cha đẻ của hiện đại <ENT1> trạng thái .",
+    0.06802213137327941
+  ],
+  [
+    "<ENT0> là biểu tượng hy vọng của nhiều người trong <ENT1> .",
+    0.0660204725416623
+  ],
+  [
+    "<ENT0> là người đồng sáng lập và CEO của <ENT1> inc .",
+    0.06512964782867414
+  ]
+]

@@ -1,1670 +1,1670 @@
 {
-    "P19_place_of_birth": {
-        "init_prompts": [
-            "<ENT0> was born in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Cynan Garwyn",
-                "Wales"
-            ],
-            [
-                "Phil Upchurch",
-                "Chicago"
-            ],
-            [
-                "Chiara Margarita Cozzolani",
-                "Milan"
-            ],
-            [
-                "Lennie Tristano",
-                "Chicago"
-            ],
-            [
-                "Hajime Mizoguchi",
-                "Tokyo"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> was born in <ENT1> .",
-            "<ENT0> was born in <ENT1>, lancashire, england .",
-            "<ENT0> was born in <ENT1>, germany on february 22, 1882 .",
-            "<ENT0> was born on february 22, 1882 in <ENT1>, germany .",
-            "<ENT0> was born on march 20, 1977 in <ENT1>, south korea .",
-            "<ENT0> was born in <ENT1>, south korea on march 20, 1977 ."
-        ]
-    },
-    "P20_place_of_death": {
-        "init_prompts": [
-            "<ENT0> died in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Henry Michell Wagner",
-                "Brighton"
-            ],
-            [
-                "Georg Scheffers",
-                "Berlin"
-            ],
-            [
-                "Max Ernst",
-                "Paris"
-            ],
-            [
-                "Timoleon",
-                "Syracuse"
-            ],
-            [
-                "Giorgio Levi Della Vida",
-                "Rome"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> died in <ENT1> .",
-            "<ENT0>, a lithuanian writer, died in <ENT1> .",
-            "<ENT0>, a well-known composer, died in <ENT1> .",
-            "<ENT0>, an azerbaijan national, died in <ENT1> .",
-            "<ENT0>, an artist and sculptor, died in <ENT1> .",
-            "<ENT0>, a renowned historian, passed away in <ENT1> .",
-            "<ENT0>, an american journalist, died while traveling in <ENT1> .",
-            "The azerbaijani journalist <ENT0> has died in the capital <ENT1> .",
-            "<ENT0>, an italian film director and screenwriter, died in <ENT1> .",
-            "<ENT0>, a well-known artist and engraver, died in <ENT1> yesterday .",
-            "<ENT0>, a lithuanian writer and artist, died in <ENT1> on january 23, 1947 .",
-            "<ENT0>, a prominent azerbaijani journalist, died in <ENT1> at the age of 54 .",
-            "<ENT0>, an american artist and engraver, died on december 9th, 1766 in <ENT1> .",
-            "Movie director <ENT0> died in his home city of <ENT1>, italy, at the age of 60 .",
-            "The noted <ENT1> artist and engraver <ENT0> died in that city at the age of 74 ."
-        ]
-    },
-    "P279_subclass_of": {
-        "init_prompts": [
-            "<ENT0> is a subclass of <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "illiberal democracy",
-                "democracy"
-            ],
-            [
-                "city farm",
-                "farm"
-            ],
-            [
-                "United States Marine Corps Scout Sniper",
-                "sniper"
-            ],
-            [
-                "guk",
-                "soup"
-            ],
-            [
-                "salmorejo",
-                "soup"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is one type of <ENT1> .",
-            "One type of <ENT1> is <ENT0> .",
-            "<ENT0> is a type of <ENT1> made from glucose .",
-            "<ENT0> is a subset of the larger category of <ENT1> .",
-            "A <ENT0> is a type of <ENT1> that is operated by robots .",
-            "There are many types of <ENT1>, but <ENT0> is one of them .",
-            "<ENT0> is a type of <ENT1> that is characterized by its rapakivi texture .",
-            "<ENT0> is a type of <ENT1> that focuses on the stories and gods of ancient greece .",
-            "<ENT0> is a type of <ENT1> that is characteristically pink in color and has a textured, raised surface .",
-            "A <ENT0> is a type of <ENT1> that typically includes three slices of bread, two layers of meat, and a layer of cheese .",
-            "A <ENT0> is a type of <ENT1> that typically includes bread, meat, cheese, and sometimes other ingredients like tomato or bacon .",
-            "A <ENT0> is a <ENT1> consisting of three slices of bread, with two layers of sliced roast chicken, bacon, lettuce, and mayonnaise .",
-            "A <ENT0> is a type of <ENT1> that typically consists of three slices of bread, with two slices of meat (usually ham or turkey) and ."
-        ]
-    },
-    "P37_official_language": {
-        "init_prompts": [
-            "The official language of <ENT0> is <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Macau",
-                "Portuguese"
-            ],
-            [
-                "North American Free Trade Agreement",
-                "Spanish"
-            ],
-            [
-                "Kuusamo",
-                "Finnish"
-            ],
-            [
-                "East Timor",
-                "Portuguese"
-            ],
-            [
-                "Janakkala",
-                "Finnish"
-            ]
-        ],
-        "prompts": [
-            "The official language of <ENT0> is <ENT1> .",
-            "The <ENT1> language is the official language of <ENT0> .",
-            "The <ENT0> in ireland has <ENT1> as its official language .",
-            "The majority of people in <ENT0> speak <ENT1> as their first language .",
-            "Over 60% of <ENT0>'s population speaks <ENT1> as their first language .",
-            "Almost all residents of <ENT0> speak <ENT1> as their primary language .",
-            "The <ENT0> in ireland officially recognizes <ENT1> as one of its primary languages .",
-            "More than half of the people living in <ENT0> use <ENT1> as their primary language .",
-            "According to the constitution of bulgaria, the official language of the <ENT0> is <ENT1> .",
-            "<ENT1> is the most widely spoken language in <ENT0>, with over 60% of the population using it as their first language ."
-        ]
-    },
-    "P413_position_played_on_team__speciality": {
-        "init_prompts": [
-            "<ENT0> plays in <ENT1> position ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Vincenzo Italiano",
-                "midfielder"
-            ],
-            [
-                "John Stofa",
-                "quarterback"
-            ],
-            [
-                "Jason Campbell",
-                "quarterback"
-            ],
-            [
-                "Bettina Wiegmann",
-                "midfielder"
-            ],
-            [
-                "Angelo Crowell",
-                "linebacker"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is a <ENT1> .",
-            "<ENT0> is an <ENT1> for the team .",
-            "<ENT0> played <ENT1> for the chicago blackhawks .",
-            "<ENT0> is a professional soccer player who plays as a <ENT1> .",
-            "<ENT0> was an <ENT1> who played for the cincinnati reds and the detroit tigers .",
-            "<ENT0> is a professional ice hockey <ENT1> who currently plays for the finnish club, ilves, in the liiga .",
-            "<ENT0> is a retired canadian <ENT1> who played for the chicago blackhawks, detroit red wings, and st. louis blues .",
-            "<ENT0> is a professional soccer player who plays as a <ENT1> for the netherlands national team and for galatasaray s.k ."
-        ]
-    },
-    "P449_original_network": {
-        "init_prompts": [
-            "<ENT0> was originally aired on <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "The Imogene Coca Show",
-                "NBC"
-            ],
-            [
-                "The Ed Sullivan Show",
-                "CBS"
-            ],
-            [
-                "Arrested Development",
-                "Netflix"
-            ],
-            [
-                "Great Performances",
-                "PBS"
-            ],
-            [
-                "My Friend Tony",
-                "NBC"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> premiered on <ENT1> .",
-            "<ENT1> aired <ENT0> originally .",
-            "<ENT1> originally aired <ENT0> .",
-            "<ENT0> debuted on <ENT1> in 1998 .",
-            "<ENT0> was first aired on <ENT1> .",
-            "The first time <ENT0> aired was on <ENT1> .",
-            "The original airing of <ENT0> was on <ENT1> .",
-            "The show \"<ENT0>\" was originally aired on <ENT1> .",
-            "<ENT1>'s \"<ENT0>\" series originally aired in 1998 .",
-            "The original <ENT0> series aired on <ENT1> from 1983 to 2006 .",
-            "<ENT0> was a children's tv show that originally aired on <ENT1> .",
-            "<ENT0> was originally aired on the national broadcasting company (<ENT1>) .",
-            "<ENT1> aired a show called \"<ENT0>\" in which people had to compete to get things they needed by begging, .",
-            "<ENT1>'s original children's tv show, <ENT0>, is all about teaching kids the value of teamwork and resourcefulness ."
-        ]
-    },
-    "P47_shares_border_with": {
-        "init_prompts": [
-            "<ENT0> shares border with <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Iowa",
-                "Illinois"
-            ],
-            [
-                "Baja California",
-                "California"
-            ],
-            [
-                "Callao",
-                "Lima"
-            ],
-            [
-                "Oregon",
-                "Idaho"
-            ],
-            [
-                "Saar Protectorate",
-                "Germany"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is bordered by <ENT1> .",
-            "<ENT0> is located next to <ENT1> .",
-            "<ENT0> and <ENT1> share a border .",
-            "The <ENT0> share border with <ENT1> .",
-            "The municipality of <ENT0> borders <ENT1> .",
-            "<ENT0>'s southern border is shared with <ENT1> .",
-            "The city of <ENT0> is located on the border of <ENT1> .",
-            "<ENT0> shares a border with the malaysian state of <ENT1> .",
-            "<ENT0> is bordered by <ENT1> to the north and west, and by honduras to the east .",
-            "The state of <ENT0> is located in northern india and shares a border with the state of <ENT1> ."
-        ]
-    },
-    "P138_named_after": {
-        "init_prompts": [
-            "<ENT0> is named after <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Liberal Mid-America Regional Airport",
-                "Liberal"
-            ],
-            [
-                "Reading railway station",
-                "Reading"
-            ],
-            [
-                "Centocelle Airport",
-                "Rome"
-            ],
-            [
-                "Norwich Cathedral",
-                "Trinity"
-            ],
-            [
-                "Mars",
-                "Mars"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is the <ENT1> city of china .",
-            "The main airport in <ENT1> is <ENT0> .",
-            "<ENT0> is the main airport in <ENT1> .",
-            "<ENT0> is located in <ENT1>, england .",
-            "<ENT0> is named after the city of <ENT1> .",
-            "The city of <ENT1> is namesake of the <ENT0> .",
-            "<ENT0> is named after <ENT1>, the city in scotland .",
-            "<ENT0> is named after <ENT1> town centre, which it serves .",
-            "The name of the <ENT0> is derived from the city of <ENT1> .",
-            "The main airport in <ENT0> is <ENT1> international airport .",
-            "<ENT0> is the closest airport to the city of <ENT1>, scotland .",
-            "The city of <ENT0> is named after the chinese word for \"<ENT1>.\" .",
-            "The city of <ENT0> was named after the imperial <ENT1> of the same name .",
-            "<ENT0> is situated in the city of <ENT1>, in the eastern region of scotland .",
-            "The <ENT0> is named after <ENT1>, a sultanate located on the north coast of the island of borneo ."
-        ]
-    },
-    "P364_original_language_of_film_or_TV_show": {
-        "init_prompts": [
-            "The original language of <ENT0> is <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Prairie Schooner",
-                "English"
-            ],
-            [
-                "The Fatal Eggs",
-                "Russian"
-            ],
-            [
-                "Khamosh",
-                "Hindi"
-            ],
-            [
-                "Rajnigandha",
-                "Hindi"
-            ],
-            [
-                "The Crimson Rivers",
-                "French"
-            ]
-        ],
-        "prompts": [
-            "<ENT0>'s original language is <ENT1> .",
-            "The movie <ENT0> is originally in <ENT1> .",
-            "<ENT0> was originally designed in <ENT1> .",
-            "<ENT0> was designed in <ENT1> originally .",
-            "The original language of <ENT0> is <ENT1> .",
-            "<ENT0> is originally a <ENT1> language film .",
-            "The game of <ENT0> originally came from <ENT1> .",
-            "The game of <ENT0> is thought to have originated in <ENT1> .",
-            "The film <ENT0> was originally created in the <ENT1> language .",
-            "The movie <ENT0> is a sequel to the <ENT1> movie vishwaroopam .",
-            "The sequel to the <ENT1> film vishwaroopam, <ENT0>, is now being filmed .",
-            "The sequel to the film vishwaroopam, <ENT0>, is set to release in <ENT1> .",
-            "The <ENT0> are a <ENT1>-speaking community originally from andhra pradesh, india ."
-        ]
-    },
-    "P463_member_of": {
-        "init_prompts": [
-            "<ENT0> is a member of <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Terry Balsamo",
-                "Cold"
-            ],
-            [
-                "Germany",
-                "NATO"
-            ],
-            [
-                "Canadian Soccer Association",
-                "FIFA"
-            ],
-            [
-                "The Football Association",
-                "FIFA"
-            ],
-            [
-                "Football Association of Finland",
-                "FIFA"
-            ]
-        ],
-        "prompts": [
-            "The <ENT0> is a member of <ENT1> .",
-            "The <ENT0> is affiliated with <ENT1> .",
-            "<ENT0> is one third of the band <ENT1> .",
-            "<ENT0> is a member of the musical group <ENT1> .",
-            "<ENT0> is a member of the <ENT1>, along with two other members .",
-            "The <ENT0> is a member of <ENT1>, the world governing body for soccer .",
-            "<ENT0> is a musician who is a part of the music group known as a <ENT1> .",
-            "The <ENT0> is a member of <ENT1> and participates in international competitions .",
-            "The <ENT0> is a member of <ENT1>, the governing body for football in north and central america and the caribbean .",
-            "The <ENT0> is a member of the confederation of north, central american and caribbean association football (<ENT1>) ."
-        ]
-    },
-    "P101_field_of_work": {
-        "init_prompts": [
-            "<ENT0> works in the field of <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Henri Brocard",
-                "geometry"
-            ],
-            [
-                "Robert Bigelow",
-                "hotel"
-            ],
-            [
-                "Galileo Galilei",
-                "mathematics"
-            ],
-            [
-                "Nicolaus Copernicus",
-                "astronomy"
-            ],
-            [
-                "Ewald Hering",
-                "physiology"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is a <ENT1> .",
-            "<ENT0> works in the area of <ENT1> .",
-            "<ENT0> is a linguist who specializes in <ENT1> .",
-            "<ENT0> is a linguist working in the field of <ENT1> .",
-            "<ENT0> was a <ENT1> who worked in the field of medicine .",
-            "<ENT0> was a <ENT1> who practiced in the early 17th century .",
-            "<ENT0> was an archaeologist who worked in the field of classical <ENT1> .",
-            "<ENT0> is a topologist who made major contributions to the field of <ENT1> .",
-            "<ENT0> is a linguist who specializes in helping <ENT1>s communicate better with their patients .",
-            "<ENT0> is a mathematician who specializes in the study of <ENT1>, the study of the geometric properties of objects that remain unchanged under deformations ."
-        ]
-    },
-    "P106_occupation": {
-        "init_prompts": [
-            "<ENT0> is a <ENT1> by profession ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Emily Barton",
-                "novelist"
-            ],
-            [
-                "Max Volmer",
-                "chemist"
-            ],
-            [
-                "Ernst Jaakson",
-                "diplomat"
-            ],
-            [
-                "Steve Swallow",
-                "composer"
-            ],
-            [
-                "John Ashburnham, 1st Baron Ashburnham",
-                "politician"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is an <ENT1> .",
-            "<ENT0> was a professional <ENT1> .",
-            "By profession, <ENT0> is a <ENT1> .",
-            "<ENT0> was a <ENT1> by profession .",
-            "<ENT0> was a <ENT1> who created music professionally .",
-            "<ENT0> is a french <ENT1> best known for his work in the 1850s .",
-            "<ENT0> is an <ENT1> known for her roles on television and film .",
-            "<ENT0> is a <ENT1> who creates musical pieces as a form of art .",
-            "<ENT0> was an <ENT1> who appeared in several television shows and movies .",
-            "<ENT0> is an <ENT1> who starring in the british television series \"primeval.\" .",
-            "<ENT0> was a french <ENT1> who was one of the first toestablish photography as an art form .",
-            "<ENT0> is a french <ENT1> who is credited with helping to develop the field of photography .",
-            "<ENT0> was a highly accomplished <ENT1> who was widely respected in the literary community .",
-            "<ENT0> is a renowned <ENT1> who is known for his beautiful and unique landscape photographs ."
-        ]
-    },
-    "P527_has_part": {
-        "init_prompts": [
-            "<ENT0> consists of <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "adenine",
-                "carbon"
-            ],
-            [
-                "paraffin wax",
-                "carbon"
-            ],
-            [
-                "vinyl chloride",
-                "carbon"
-            ],
-            [
-                "egg white",
-                "egg"
-            ],
-            [
-                "hydrochloric acid",
-                "hydrogen"
-            ]
-        ],
-        "prompts": [
-            "The <ENT0> include <ENT1> acts .",
-            "<ENT0> contains <ENT1> molecules .",
-            "<ENT0> is made up of <ENT1> atoms .",
-            "The <ENT0> consists of the <ENT1> .",
-            "<ENT0> is a <ENT1>-based substance .",
-            "<ENT0> is a molecule that contains <ENT1> .",
-            "<ENT0> is a compound that contains both mercury and <ENT1> .",
-            "The <ENT0> refers to the sequence of <ENT1>s in the line of succession .",
-            "The chemical compound known as <ENT0> consists of <ENT1> atoms arranged in a six-sided ring .",
-            "The <ENT0> consist of activities that involve public presentation and performance, such as theater, music, dance, and <ENT1> arts ."
-        ]
-    },
-    "P530_diplomatic_relation": {
-        "init_prompts": [
-            "<ENT0> maintains diplomatic relations with <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "South Korea",
-                "Russia"
-            ],
-            [
-                "France",
-                "Serbia"
-            ],
-            [
-                "Cape Verde",
-                "Cuba"
-            ],
-            [
-                "United States of America",
-                "Argentina"
-            ],
-            [
-                "Australia",
-                "Belgium"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> has diplomatic relations with <ENT1> .",
-            "<ENT0> and <ENT1> maintain diplomatic relations with each other .",
-            "<ENT0> and <ENT1> have established and maintain diplomatic relations .",
-            "<ENT0> and <ENT1> have maintained diplomatic relations since they were first established .",
-            "<ENT0> has officially recognized <ENT1> as a country with which it has diplomatic relations .",
-            "The <ENT0> (the papal headquarters located in vatican city) has diplomatic relations with <ENT1> .",
-            "The governments of <ENT0> and <ENT1> have agreed to diplomatically recognize and support each other .",
-            "The government of <ENT0> has established and maintain diplomatic relations with the republic of <ENT1> ."
-        ]
-    },
-    "P176_manufacturer": {
-        "init_prompts": [
-            "<ENT0> is produced by <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Nissan 180SX",
-                "Nissan"
-            ],
-            [
-                "Fiat 4 HP",
-                "Fiat"
-            ],
-            [
-                "Alpine A108",
-                "Renault"
-            ],
-            [
-                "Lancia Gamma",
-                "Fiat"
-            ],
-            [
-                "Nokia N8",
-                "Nokia"
-            ]
-        ],
-        "prompts": [
-            "<ENT1> produces <ENT0> .",
-            "<ENT1> manufactures the <ENT0> .",
-            "The <ENT0> is produced by <ENT1> .",
-            "Music produced by <ENT1> is considered <ENT0> .",
-            "The <ENT0> is a car produced by the <ENT1> motor company .",
-            "<ENT0> is a type of music produced by the <ENT1> corporation .",
-            "The <ENT0> is a compact pickup truck that is manufactured by <ENT1> .",
-            "The <ENT0> is a model of car produced by the japanese car company <ENT1> .",
-            "Music produced by <ENT1> is sometimes considered to be part of the \"<ENT0>\" category .",
-            "<ENT1> creates <ENT0> figurines that can be used with compatible games on the wii u, 3ds, and switch consoles ."
-        ]
-    },
-    "P27_country_of_citizenship": {
-        "init_prompts": [
-            "<ENT0> is <ENT1> citizen ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Maria Wetterstrand",
-                "Sweden"
-            ],
-            [
-                "Mel Charles",
-                "Wales"
-            ],
-            [
-                "Brenda Asnicar",
-                "Argentina"
-            ],
-            [
-                "Sachimi Iwao",
-                "Japan"
-            ],
-            [
-                "Thomas Ong",
-                "Singapore"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is from <ENT1> .",
-            "<ENT0> was born in <ENT1> .",
-            "<ENT0> is a <ENT1> citizen .",
-            "<ENT0> is a citizen of <ENT1> .",
-            "<ENT0> was the king of <ENT1> from 1665 to 1700 .",
-            "<ENT0> is a professional poker player from <ENT1> .",
-            "<ENT0> was born on october 3, 1971, in geneva, <ENT1> .",
-            "<ENT0> was born in <ENT1> and thus is a spanish citizen .",
-            "<ENT0> was born in <ENT1>, so his citizenship is spanish .",
-            "<ENT0>'s place of birth is <ENT1>; as a result, his citizenship is spanish ."
-        ]
-    },
-    "P407_language_of_work_or_name": {
-        "init_prompts": [
-            "<ENT0> was written in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Black Holes and Revelations",
-                "English"
-            ],
-            [
-                "The Eternal Idol",
-                "English"
-            ],
-            [
-                "Coup de Torchon",
-                "French"
-            ],
-            [
-                "A Marriage Proposal",
-                "Russian"
-            ],
-            [
-                "Oliver Twist",
-                "English"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> was written in <ENT1> .",
-            "<ENT0> is an <ENT1> newspaper .",
-            "The lyrics to \"<ENT0>\" are in <ENT1> .",
-            "<ENT0> was originally an <ENT1>-language magazine .",
-            "The song \"<ENT0>\" was originally written in <ENT1> .",
-            "<ENT0> is an <ENT1> song written by ennio morricone .",
-            "The \"<ENT0>\" is a newspaper that is published in <ENT1> .",
-            "The <ENT1> novel <ENT0> was written by an author from that country .",
-            "<ENT0> was originally an <ENT1> magazine before it was acquired by teamrock in 2013 .",
-            "The \"<ENT0>\" is an <ENT1>-language newspaper that covers the heavy metal music scene ."
-        ]
-    },
-    "P30_continent": {
-        "init_prompts": [
-            "<ENT0> is located in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Turgai River",
-                "Asia"
-            ],
-            [
-                "Achaean Range",
-                "Antarctica"
-            ],
-            [
-                "Hammer Point",
-                "Antarctica"
-            ],
-            [
-                "Enterprise Island",
-                "Antarctica"
-            ],
-            [
-                "Reeves Glacier",
-                "Antarctica"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is located in <ENT1> .",
-            "<ENT0> is a mountain range in <ENT1> .",
-            "<ENT0> is a small, uninhabited island in <ENT1> .",
-            "<ENT0> is an indian state located in the region of <ENT1> .",
-            "The indian state of <ENT0> is located in the <ENT1> region .",
-            "The <ENT0> is located in <ENT1> among the south shetland islands .",
-            "The <ENT0> mountain range is a range of mountains located in <ENT1> .",
-            "<ENT0> is located in southern <ENT1>, on the coast of the arabian sea .",
-            "<ENT0> is a small island located in the southernmost part of the world, <ENT1> .",
-            "The <ENT0> is located in the southernmost part of the arabian sea, on the coast of <ENT1> .",
-            "The <ENT0> mountain range is located in <ENT1> and is known for its unique landscape and biodiversity ."
-        ]
-    },
-    "P178_developer": {
-        "init_prompts": [
-            "<ENT0> is developed by <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Transaction Processing Facility",
-                "IBM"
-            ],
-            [
-                "Microsoft Office 2000",
-                "Microsoft"
-            ],
-            [
-                "Donkey Kong",
-                "Nintendo"
-            ],
-            [
-                "Mac OS X Lion",
-                "Apple"
-            ],
-            [
-                "Google Hangouts",
-                "Google"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is developed by <ENT1> .",
-            "<ENT0> is a product of <ENT1> .",
-            "<ENT0> is an <ENT1> developed operating system .",
-            "The <ENT0> is a operating system developed by <ENT1> .",
-            "<ENT0> is a software application developed by <ENT1> .",
-            "<ENT0> is an operating system specifically designed for <ENT1> devices .",
-            "<ENT0> is a spreadsheet developed by <ENT1> for windows, macos, android and ios .",
-            "<ENT0> is a software developed by <ENT1> for use with their line of galaxy mobile devices .",
-            "<ENT0> is a software application developed by <ENT1> that allows users to create and manipulate spreadsheets .",
-            "The <ENT0> is a proprietary operating system developed by <ENT1> for use on their point-of-sale (pos) systems .",
-            "<ENT0> is a software application developed by <ENT1> for use with their range of android smartphones and tablets ."
-        ]
-    },
-    "P1376_capital_of": {
-        "init_prompts": [
-            "<ENT0> is the capital of <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Dhaka",
-                "Bangladesh"
-            ],
-            [
-                "Monrovia",
-                "Liberia"
-            ],
-            [
-                "Brisbane",
-                "Queensland"
-            ],
-            [
-                "Hartford",
-                "Connecticut"
-            ],
-            [
-                "Arlon",
-                "Luxembourg"
-            ]
-        ],
-        "prompts": [
-            "<ENT1>'s capital is <ENT0> .",
-            "The capital of <ENT1> is <ENT0> .",
-            "<ENT0> is the capital of <ENT1> .",
-            "<ENT0> is the capital and largest city in <ENT1> .",
-            "<ENT0> is a city located in the <ENT1> region of france .",
-            "<ENT0> is the capital city of the indian state of <ENT1> .",
-            "The capital city of the <ENT1> region in france is <ENT0> .",
-            "<ENT0> is the capital of the <ENT1> department in eastern france .",
-            "The capital city of <ENT1> is <ENT0>, which is also its largest city .",
-            "<ENT0> is the capital of <ENT1> and is located on the atlantic coast .",
-            "The city of <ENT0> is the capital of the west african country of <ENT1> .",
-            "<ENT0> is the capital of <ENT1>, located in the southern part of the country .",
-            "<ENT0> is the capital city of <ENT1> and is by far the largest city in the country ."
-        ]
-    },
-    "P131_located_in_the_administrative_territorial_entity": {
-        "init_prompts": [
-            "<ENT0> is located in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Lake Bluff",
-                "Illinois"
-            ],
-            [
-                "Massachusetts Bay Transportation Authority",
-                "Boston"
-            ],
-            [
-                "Lakeridge Health Oshawa",
-                "Ontario"
-            ],
-            [
-                "Raft River Mountains",
-                "Utah"
-            ],
-            [
-                "Little Bear River",
-                "Utah"
-            ]
-        ],
-        "prompts": [
-            "The <ENT0> is located in <ENT1> .",
-            "The <ENT0> is a museum in <ENT1>, austria .",
-            "<ENT0> is a region located in the state of <ENT1> .",
-            "The <ENT0> is a historic building in <ENT1>, wales .",
-            "<ENT0> is located in the city of prattville, <ENT1> .",
-            "The museum of modern art in <ENT1> is called \"<ENT0>\" .",
-            "The <ENT0> is a multi-purpose arena in youngstown, <ENT1> .",
-            "<ENT0> is a secondary school located in prattville, <ENT1> .",
-            "<ENT0> is located in the southeastern region of the state of <ENT1> .",
-            "<ENT0> is a geographic area located in the southernmost portion of <ENT1> ."
-        ]
-    },
-    "P1412_languages_spoken,_written_or_signed": {
-        "init_prompts": [
-            "<ENT0> used to communicate in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Huangfu Mi",
-                "Chinese"
-            ],
-            [
-                "Giovanni Lindo Ferretti",
-                "Italian"
-            ],
-            [
-                "Heikki Siren",
-                "Finnish"
-            ],
-            [
-                "Keren Peles",
-                "Hebrew"
-            ],
-            [
-                "Aharon Zisling",
-                "Hebrew"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> used to communicate in <ENT1> .",
-            "Before <ENT0> learned english, he communicated in <ENT1> .",
-            "<ENT0> was known for his ability to communicate in <ENT1> .",
-            "<ENT0> was highly regarded by his contemporaries for his fluency in <ENT1> .",
-            "<ENT0> was considered to be an excellent communicator in <ENT1> by his peers .",
-            "<ENT0> was known among his peers for his excellent communication skills in <ENT1> .",
-            "<ENT0>'s first language was <ENT1>, but she later learned to communicate in other languages as well .",
-            "<ENT0> was known for her excellent communication skills in <ENT1>, which was not a common language spoken in england at the time .",
-            "<ENT0> was known for his ability to communicate in <ENT1>, a language which very few people in england could speak fluently at the .",
-            "<ENT0> was known among his peers for his excellent communication skills in <ENT1>, a language which not many people in england could speak ."
-        ]
-    },
-    "P108_employer": {
-        "init_prompts": [
-            "<ENT0> works for <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Scott Mills",
-                "BBC"
-            ],
-            [
-                "Armando Iannucci",
-                "BBC"
-            ],
-            [
-                "James Moir",
-                "BBC"
-            ],
-            [
-                "John Fellows Akers",
-                "IBM"
-            ],
-            [
-                "Ward Cunningham",
-                "Microsoft"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> works for <ENT1> .",
-            "<ENT0> is a <ENT1>-based artist .",
-            "<ENT0> is an <ENT1> commentator .",
-            "<ENT0> is the ceo of <ENT1> studios .",
-            "<ENT0> is an employee of the <ENT1> .",
-            "<ENT0> is a journalist for the <ENT1> .",
-            "<ENT0> is a presenter for <ENT1> radio 4 .",
-            "<ENT0> is the director-general of the <ENT1> .",
-            "<ENT0> is an artist who is based at the <ENT1> .",
-            "<ENT0> is an artist who creates <ENT1>-related art .",
-            "<ENT0> is a <ENT1>-based artist known for his paintings and sculptures .",
-            "<ENT1> director <ENT0> is responsible for managing the network's output .",
-            "An artist based in the uk, <ENT0> is best known for his work with the <ENT1> .",
-            "<ENT0> is a british journalist and broadcaster who is best known for his work with the <ENT1> ."
-        ]
-    },
-    "P136_genre": {
-        "init_prompts": [
-            "<ENT0> plays <ENT1> music ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Jack Parnell",
-                "jazz"
-            ],
-            [
-                "Garnett Brown",
-                "jazz"
-            ],
-            [
-                "Orphan Black",
-                "thriller"
-            ],
-            [
-                "Steve Nieve",
-                "opera"
-            ],
-            [
-                "Dennis Rea",
-                "jazz"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is a <ENT1> artist .",
-            "<ENT0> is an italian <ENT1> singer .",
-            "<ENT0> is a renowned <ENT1> musician .",
-            "<ENT0> is a <ENT1> music record label .",
-            "You can enjoy <ENT1> music through <ENT0> .",
-            "<ENT1> music can be enjoyed through <ENT0> .",
-            "<ENT0> is a musician who plays <ENT1> music .",
-            "<ENT0> is a jamaican <ENT1> singer and songwriter .",
-            "<ENT0> is a record label that specializes in releasing <ENT1> music .",
-            "Someone who enjoys <ENT1> music might enjoy listening to the artist <ENT0> .",
-            "<ENT0> is a <ENT1> artist who creates music that can be enjoyed by everyone .",
-            "<ENT0> is a jamaican musician who is best known for his work in the <ENT1> genre .",
-            "<ENT0> is an italian opersinger who is best known for her roles in bel canto <ENT1>s .",
-            "<ENT0> is a <ENT1> musician who is best known for his work with the dave matthews band .",
-            "<ENT0> is an accomplished <ENT1> musician who has received critical acclaim for his work .",
-            "Renowned <ENT1> musician, <ENT0> is known for his unique style and high energy live performances .",
-            "<ENT0> is a laid-back <ENT1> artist whose illegal gun sound and wa-do-dem launched him to global st ."
-        ]
-    },
-    "P17_country": {
-        "init_prompts": [
-            "<ENT0> is located in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Federal Palace of Switzerland",
-                "Switzerland"
-            ],
-            [
-                "2004 IAAF World Cross Country Championships",
-                "Belgium"
-            ],
-            [
-                "Askola",
-                "Finland"
-            ],
-            [
-                "Sanlih E-Television",
-                "Taiwan"
-            ],
-            [
-                "Chartered Professional Accountant",
-                "Canada"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is a city in <ENT1> .",
-            "<ENT0> is a town in county wicklow, <ENT1> .",
-            "<ENT0> is a town located in central <ENT1> .",
-            "The <ENT0> is a sports complex located in <ENT1> .",
-            "<ENT0> is a medieval castle located in county offaly, <ENT1> .",
-            "<ENT0> is a commune in the creuse department in central <ENT1> .",
-            "<ENT0> is a small village that is located in county wicklow, <ENT1> .",
-            "<ENT0> is a municipality located in the north of the state of veracruz, in southeastern <ENT1> ."
-        ]
-    },
-    "P39_position_held": {
-        "init_prompts": [
-            "<ENT0> has the position of <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Acacius of Caesarea",
-                "bishop"
-            ],
-            [
-                "Sylvester II",
-                "pope"
-            ],
-            [
-                "Sheila Dixon",
-                "mayor"
-            ],
-            [
-                "John E. Hines",
-                "bishop"
-            ],
-            [
-                "Liutprand of Cremona",
-                "bishop"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is a <ENT1> .",
-            "<ENT0> is the current <ENT1> .",
-            "<ENT0> holds the position of <ENT1> .",
-            "The position of <ENT1> is held by <ENT0> .",
-            "<ENT0> is a <ENT1> in the catholic church .",
-            "<ENT1> <ENT0> is the head of the episcopal diocese of atlanta .",
-            "<ENT0> is a french <ENT1> who serves as the archbishop of lyon .",
-            "The most reverend <ENT0> is the current <ENT1> of the diocese of york .",
-            "<ENT0> is a member of the catholic church's highest governing body, the college of <ENT1>s .",
-            "<ENT1> <ENT0> is a member of the catholic clergy who serves as a senior official in the church .",
-            "<ENT0> is a <ENT1> who is responsible for a diocese, or a geographical area containing a group of christian churches .",
-            "A french <ENT1> who was born into a noble family, <ENT0> was a powerful figure in the catholic church during the 1500 ."
-        ]
-    },
-    "P264_record_label": {
-        "init_prompts": [
-            "<ENT0> is represented by music label <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "The Famous Flames",
-                "Federal"
-            ],
-            [
-                "Billy Ward and His Dominoes",
-                "Federal"
-            ],
-            [
-                "Buddy Holly",
-                "Coral"
-            ],
-            [
-                "Hank Ballard",
-                "Federal"
-            ],
-            [
-                "Harry James",
-                "Brunswick"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is represented by <ENT1> records .",
-            "<ENT0> is signed to <ENT1>, a record label .",
-            "<ENT0> is a music group signed to <ENT1> records .",
-            "The music label <ENT1> is known for its <ENT0> sound .",
-            "The music label <ENT1> represents the rap group <ENT0> .",
-            "The rap group <ENT0> is signed to the <ENT1> music label .",
-            "The band <ENT0> is represented by the music label <ENT1> .",
-            "If you're feeling <ENT0>, then you should listen to some <ENT1> music .",
-            "<ENT0> is a country music artist who is signed to the <ENT1> records label .",
-            "<ENT0> is a hip hop group from the united states that is signed to <ENT1> records ."
-        ]
-    },
-    "P276_location": {
-        "init_prompts": [
-            "<ENT0> is located in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Indie Memphis",
-                "Memphis"
-            ],
-            [
-                "Edmonton Journal",
-                "Edmonton"
-            ],
-            [
-                "Montreal Convention",
-                "Montreal"
-            ],
-            [
-                "Flying Pig Marathon",
-                "Cincinnati"
-            ],
-            [
-                "Basilica Cistern",
-                "Istanbul"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is being held in <ENT1> .",
-            "Yes, <ENT0> is located in <ENT1> .",
-            "The <ENT0> is hosting an event in <ENT1> .",
-            "The <ENT0> is held in <ENT1>, switzerland .",
-            "<ENT0> is a university located in <ENT1>, turkey .",
-            "The <ENT0> was a labor strike by the teamsters union in <ENT1> .",
-            "The <ENT0> was a labor strike that took place in <ENT1>, minnesota .",
-            "The <ENT0> is a concert and events venue located in the city of <ENT1>, england .",
-            "The <ENT0> was a labor strike by the teamsters union against several trucking companies in the <ENT1>\u2013saint paul area .",
-            "The <ENT0> was a work stoppage by the international brotherhood of teamsters against several <ENT1>, minnesota, employers ."
-        ]
-    },
-    "P937_work_location": {
-        "init_prompts": [
-            "<ENT0> used to work in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Ture Nerman",
-                "Stockholm"
-            ],
-            [
-                "David Salomons",
-                "London"
-            ],
-            [
-                "Javier de Burgos",
-                "Madrid"
-            ],
-            [
-                "Aldus Manutius",
-                "Venice"
-            ],
-            [
-                "Richard Brinsley Sheridan",
-                "London"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> used to work in <ENT1> .",
-            "<ENT0> worked in <ENT1> in the past .",
-            "<ENT0> is a former member of the <ENT1> parliament .",
-            "<ENT0> is a former musician who used to work in <ENT1> .",
-            "<ENT0> was a french mathematician who worked in <ENT1> .",
-            "<ENT0> was a member of the <ENT1> parliament at one point in time .",
-            "Nowadays, <ENT0> is mostly retired, but he used to work in <ENT1> when he was younger .",
-            "<ENT0> is a former politician from <ENT1> who has also worked in the country in the past ."
-        ]
-    },
-    "P140_religion": {
-        "init_prompts": [
-            "<ENT0> is affiliated with the <ENT1> religion ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Sumayyah bint Khayyat",
-                "Islam"
-            ],
-            [
-                "Sultan Satuq Bughra Khan",
-                "Islam"
-            ],
-            [
-                "Nawabs of Bengal and Murshidabad",
-                "Islam"
-            ],
-            [
-                "Bade Ghulam Ali Khan",
-                "Islam"
-            ],
-            [
-                "Wesleyan Methodist Church",
-                "Christianity"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is an <ENT1>ic scholar .",
-            "<ENT0> is a follower of <ENT1> .",
-            "<ENT0> follows the <ENT1>ic faith .",
-            "<ENT0> is a member of the <ENT1>ic faith .",
-            "<ENT0> was involved with the <ENT1>ic religion .",
-            "The philosopher <ENT0> was associated with <ENT1> .",
-            "<ENT0> is an <ENT1>ic scholar and civil rights activist .",
-            "<ENT0> was a sunni muslim and a member of the nation of <ENT1> .",
-            "<ENT0> is a major figure in the development of the <ENT1> religion .",
-            "The <ENT0> is a temple that is associated with the <ENT1> religion .",
-            "<ENT0> is a religious scholar who is associated with the <ENT1>ic faith .",
-            "<ENT0> is an <ENT1>ic scholar who is highly respected within the muslim community .",
-            "<ENT0> was a chinese buddhist monk who was an early key figure in the establishment of chan <ENT1> .",
-            "<ENT0> was a member of the nation of <ENT1>, a religious organization that promotes the worship of allah .",
-            "<ENT0> was an american muslim minister and human rights activist who was a follower of the nation of <ENT1> ."
-        ]
-    },
-    "P1303_instrument": {
-        "init_prompts": [
-            "<ENT0> plays <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Otis Spann",
-                "piano"
-            ],
-            [
-                "Julian Lennon",
-                "guitar"
-            ],
-            [
-                "Scott Klopfenstein",
-                "trumpet"
-            ],
-            [
-                "Tomaso Antonio Vitali",
-                "violin"
-            ],
-            [
-                "Ma Sicong",
-                "violin"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> was a <ENT1>ist .",
-            "<ENT0> is a <ENT1> player .",
-            "<ENT0> performs on the <ENT1> .",
-            "<ENT0> was a renowned jazz <ENT1> player .",
-            "<ENT0> is a musician who plays the <ENT1> .",
-            "<ENT0> was a famous <ENT1>ist from uruguay .",
-            "<ENT0> was a italian <ENT1>ist, composer and teacher .",
-            "<ENT0> was a <ENT1>ist and musician who was born in uruguay .",
-            "The acclaimed <ENT1>ist <ENT0> will be performing at the upcoming concert .",
-            "<ENT0> was a musician who is particularly known for his skill on the <ENT1> .",
-            "<ENT0> was a <ENT1> virtuoso and composer who was active in the early baroque period .",
-            "The renowned musician <ENT0> was known for his outstanding ability to play the <ENT1> ."
-        ]
-    },
-    "P127_owned_by": {
-        "init_prompts": [
-            "<ENT0> is owned by <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Revolution Analytics",
-                "Microsoft"
-            ],
-            [
-                "U-matic",
-                "Sony"
-            ],
-            [
-                "Google Contacts",
-                "Google"
-            ],
-            [
-                "Save-On-Foods Memorial Centre",
-                "Victoria"
-            ],
-            [
-                "Microsoft TechNet",
-                "Microsoft"
-            ]
-        ],
-        "prompts": [
-            "<ENT1> owns <ENT0> .",
-            "<ENT0> is a highway in <ENT1> .",
-            "The <ENT0> is owned by <ENT1> .",
-            "The city of <ENT1> owns the <ENT0> .",
-            "<ENT1> is the parent company of <ENT0> .",
-            "<ENT1>'s football stadium is the <ENT0> .",
-            "<ENT1> is the owner of the <ENT0> format .",
-            "The <ENT1> corporation owns the <ENT0> format .",
-            "<ENT0> is a type of optical disc owned by <ENT1> .",
-            "<ENT0> is a home theater format created by <ENT1> .",
-            "The <ENT0> is owned by the <ENT1> borough council .",
-            "The <ENT0> is a property owned by the town of <ENT1> .",
-            "The <ENT0> is a football stadium located in <ENT1>, italy .",
-            "The <ENT0> is a vehicle that is produced by the <ENT1> group .",
-            "The <ENT0> is a subcompact car that is produced by the german automaker <ENT1> .",
-            "The german federal highway system, <ENT0>, is owned by the government of <ENT1> .",
-            "<ENT1> owns the <ENT0>, a highway extending from the german border with denmark to the german border with poland .",
-            "The format of <ENT0> was jointly developed by <ENT1> and philips electronics, with the intention of creating a format that would provide higher-quality audio ."
-        ]
-    },
-    "P103_native_language": {
-        "init_prompts": [
-            "The native language of <ENT0> is <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Eduardo Duhalde",
-                "Spanish"
-            ],
-            [
-                "Gabriel Hanotaux",
-                "French"
-            ],
-            [
-                "Ovid",
-                "Latin"
-            ],
-            [
-                "Denys Corbet",
-                "French"
-            ],
-            [
-                "Olga Medvedtseva",
-                "Russian"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> was <ENT1> .",
-            "<ENT0> is a <ENT1> writer .",
-            "The <ENT0> are a <ENT1> people .",
-            "<ENT0> is a native <ENT1> speaker .",
-            "<ENT0>'s native language is <ENT1> .",
-            "The native language of <ENT0> is <ENT1> .",
-            "The <ENT0> are a people of <ENT1> origin .",
-            "The <ENT0> speak <ENT1> as their native language .",
-            "The <ENT1> language is the native language of <ENT0> .",
-            "The <ENT0> are a <ENT1> ethnic group originating from the don river region .",
-            "<ENT0> was born and raised in the netherlands, so she is a native <ENT1> speaker .",
-            "The <ENT1> people known as the \"<ENT0>\" were named after a 15th-century nun and writer .",
-            "The <ENT0> are a native <ENT1>-speaking people who live in the don river basin in southern russia .",
-            "<ENT0> is a <ENT1> writer best known for his work \"the cossacks\", a story about the cossacks of the don ."
-        ]
-    },
-    "P190_twinned_administrative_body": {
-        "init_prompts": [
-            "<ENT0> and <ENT1> are twin cities ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Accra",
-                "Chicago"
-            ],
-            [
-                "Seoul",
-                "Tokyo"
-            ],
-            [
-                "Rio de Janeiro",
-                "Jerusalem"
-            ],
-            [
-                "Vienna",
-                "Istanbul"
-            ],
-            [
-                "Busan",
-                "Istanbul"
-            ]
-        ],
-        "prompts": [
-            "The cities of <ENT0> and <ENT1> are sister cities .",
-            "There are many similarities between <ENT0> and <ENT1> .",
-            "<ENT0> and <ENT1> are two cities that share a lot in common .",
-            "<ENT0> and <ENT1> are two cities that are very similar to each other .",
-            "<ENT0> and <ENT1> are twin cities because they share many similarities .",
-            "<ENT0>, alabama, and <ENT1>, illinois, are often referred to as twin cities .",
-            "The cities of <ENT0> and <ENT1> share many similarities, making them virtual twins .",
-            "The cities of <ENT0> and <ENT1> are connected through their city partnership program .",
-            "The cities of <ENT0> and <ENT1> are often thought of as twins because of their similarities .",
-            "There are many similarities between <ENT0> and <ENT1>, including the food, culture, and language .",
-            "There is a special relationship between <ENT0> and <ENT1>, as the two cities are twinned with each other .",
-            "<ENT0> and <ENT1> are two cities that have a close relationship with each other, often referred to as \"sister cities.\" .",
-            "There are many similarities between <ENT0> and <ENT1>, such as their rich history, diverse culture, and love for their sports teams .",
-            "There are many similarities between <ENT0> and <ENT1>, such as their bustling metropolitan areas, vibrant nightlife scenes, and diverse array of cultural attractions ."
-        ]
-    },
-    "P1001_applies_to_jurisdiction": {
-        "init_prompts": [
-            "<ENT0> is a legal term in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Speaker of the National Assembly of Pakistan",
-                "Pakistan"
-            ],
-            [
-                "Hamburg Police",
-                "Hamburg"
-            ],
-            [
-                "Indian Act",
-                "Canada"
-            ],
-            [
-                "Secretar\u00eda de Inteligencia",
-                "Argentina"
-            ],
-            [
-                "Reference re Secession of Quebec",
-                "Canada"
-            ]
-        ],
-        "prompts": [
-            "A <ENT0> is a legal term in <ENT1> .",
-            "The <ENT0> is <ENT1>'s highest court .",
-            "The <ENT0> is the highest court in <ENT1> .",
-            "The <ENT0> is the state legislature of <ENT1> .",
-            "The state legislature of <ENT1> is the <ENT0> .",
-            "The <ENT0> refers to the supreme law of the state of <ENT1> .",
-            "The <ENT0> is the court of last resort in the state of <ENT1> .",
-            "The <ENT0> is a legal term in <ENT1> that refers to the standard workweek .",
-            "The <ENT0> is the legal body responsible for making laws in the state of <ENT1> .",
-            "In <ENT1>, a <ENT0> is the legal limit for the amount of time an employee can work .",
-            "A <ENT0> is a governmental body that has the power to make laws for the state of <ENT1> .",
-            "The <ENT0> refers to the branch of government in the state of <ENT1> responsible for making laws .",
-            "The <ENT0> is the state-mandated maximum number of hours that employees in <ENT1> can work per week .",
-            "A <ENT0> is a legal term in <ENT1> that refers to a company in which the shareholders' liability is limited to the amount they have invested ."
-        ]
-    },
-    "P31_instance_of": {
-        "init_prompts": [
-            "<ENT0> is a <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Imperial Service Order",
-                "award"
-            ],
-            [
-                "Antichrist Superstar",
-                "album"
-            ],
-            [
-                "Yota",
-                "trademark"
-            ],
-            [
-                "Heineken",
-                "brewery"
-            ],
-            [
-                "Malaysia Today",
-                "blog"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> is a <ENT1> in surrey, england .",
-            "<ENT0> is a <ENT1> located in new zealand .",
-            "<ENT0> is a state <ENT1> in the united states .",
-            "Surrey, england is home to a <ENT1> called the <ENT0> .",
-            "The <ENT0> is a <ENT1> located in the state of florida .",
-            "<ENT0> is a <ENT1> located in the county of surrey in england .",
-            "<ENT0> is a <ENT1> in the borough of guildford in surrey, england .",
-            "<ENT0> is a state <ENT1> in the florida department of corrections system .",
-            "<ENT0> is a minimum and medium security <ENT1> for adult males in the state of florida .",
-            "The <ENT0> <ENT1> is a political district in the city of saskatoon, saskatchewan, canada ."
-        ]
-    },
-    "P495_country_of_origin": {
-        "init_prompts": [
-            "<ENT0> was created in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Beneteau",
-                "France"
-            ],
-            [
-                "Larb",
-                "Laos"
-            ],
-            [
-                "Tridev",
-                "India"
-            ],
-            [
-                "Golgo 13",
-                "Japan"
-            ],
-            [
-                "Crazed Fruit",
-                "Japan"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> was founded in <ENT1> .",
-            "<ENT1> saw the rise of <ENT0> .",
-            "<ENT0> were created in <ENT1> .",
-            "<ENT0> began to emerge in <ENT1> .",
-            "The rise of the <ENT0> was seen in <ENT1> .",
-            "A group of <ENT0> emerged in <ENT1> during the 1970s .",
-            "The <ENT0> saw a rise during the edo period in <ENT1> .",
-            "<ENT0> emerged in <ENT1> during the eighteenth century .",
-            "The rise of <ENT0> in <ENT1> was met with mixed reactions .",
-            "In <ENT1>, <ENT0> was created as a popular carbonated drink .",
-            "<ENT0> is an online store that was founded in <ENT1> in 2006 .",
-            "<ENT0> is a popular drink in <ENT1> that was first created there .",
-            "In <ENT1>, there was a rise in the number of people named <ENT0> .",
-            "The <ENT0> was created to establish standards for medication in <ENT1> ."
-        ]
-    },
-    "P159_headquarters_location": {
-        "init_prompts": [
-            "The headquarter of <ENT0> is in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Indian Space Research Organisation",
-                "Bangalore"
-            ],
-            [
-                "Liquor Control Board of Ontario",
-                "Toronto"
-            ],
-            [
-                "Telehouse Europe",
-                "London"
-            ],
-            [
-                "University of Kentucky",
-                "Lexington"
-            ],
-            [
-                "Fraser Institute",
-                "Vancouver"
-            ]
-        ],
-        "prompts": [
-            "The <ENT0> is based in <ENT1> .",
-            "<ENT0> is headquartered in <ENT1> .",
-            "The headquarters of <ENT0> is in <ENT1> .",
-            "<ENT0> is a company based in <ENT1>, norway .",
-            "The <ENT0> headquarters is located in <ENT1>, norway .",
-            "The main office of <ENT0> is located in <ENT1>, england .",
-            "<ENT0> is a private university located in <ENT1>, germany .",
-            "The <ENT0> is a conglomerate headquartered in <ENT1>, india .",
-            "The <ENT0> is a <ENT1>-based infrastructure development company .",
-            "The main headquarters for <ENT0> is located in the city of <ENT1> .",
-            "The <ENT0> grocery store chain is headquartered in <ENT1>, north carolina .",
-            "The <ENT0> is a publishing house that is part of the university of <ENT1> .",
-            "The <ENT0> is a <ENT1>-based conglomerate with interests in airports, energy, transportation, and hospitality ."
-        ]
-    },
-    "P36_capital": {
-        "init_prompts": [
-            "The capital of <ENT0> is <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Onslow County",
-                "Jacksonville"
-            ],
-            [
-                "Bates County",
-                "Butler"
-            ],
-            [
-                "Kingdom of France",
-                "Paris"
-            ],
-            [
-                "Czechoslovakia",
-                "Prague"
-            ],
-            [
-                "Guernsey County",
-                "Cambridge"
-            ]
-        ],
-        "prompts": [
-            "<ENT0>'s capital is <ENT1> .",
-            "The capital of <ENT0> is <ENT1> .",
-            "<ENT1> is the capital of <ENT0> .",
-            "The county seat of <ENT0> is <ENT1>, arkansas .",
-            "The county seat of <ENT0>, washington is the city of <ENT1> .",
-            "The town of <ENT1>, washington is the county seat of <ENT0> .",
-            "<ENT1> is the county seat of <ENT0>, washington, united states .",
-            "The town of <ENT1>, washington is where the <ENT0> government is located .",
-            "The county seat of washington, united states, is located in <ENT1>, <ENT0> .",
-            "Located in the northeastern corner of washington state, the city of <ENT1> is the county seat of <ENT0> ."
-        ]
-    },
-    "P740_location_of_formation": {
-        "init_prompts": [
-            "<ENT0> was founded in <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "Bee Gees",
-                "Manchester"
-            ],
-            [
-                "Filippa K",
-                "Sweden"
-            ],
-            [
-                "Beat Circus",
-                "Boston"
-            ],
-            [
-                "Alfaguara",
-                "Madrid"
-            ],
-            [
-                "The Qemists",
-                "Brighton"
-            ]
-        ],
-        "prompts": [
-            "<ENT0> was founded in <ENT1> .",
-            "<ENT0> is a <ENT1>-based band .",
-            "<ENT0> is a band from <ENT1>, canada .",
-            "The band <ENT0> is from <ENT1> and canada .",
-            "<ENT0> is a musical group based in <ENT1>, canada .",
-            "The company <ENT0> was founded in the state of <ENT1> .",
-            "<ENT0> is a canadian christian band from <ENT1>, ontario .",
-            "<ENT0> was originally a punk rock band from <ENT1>, england .",
-            "<ENT0> is a <ENT1>ese band that is known for their unique style .",
-            "<ENT0> is a canadian company founded in <ENT1>, british columbia .",
-            "<ENT0> was a <ENT1>-based punk rock band that was founded in 1974 ."
-        ]
-    },
-    "P361_part_of": {
-        "init_prompts": [
-            "<ENT0> is part of <ENT1> ."
-        ],
-        "seed_ent_tuples": [
-            [
-                "aquarium filter",
-                "aquarium"
-            ],
-            [
-                "Northern Crusades",
-                "Crusade"
-            ],
-            [
-                "North America",
-                "Earth"
-            ],
-            [
-                "Northern Range",
-                "Trinidad"
-            ],
-            [
-                "Post Office Protocol 3",
-                "email"
-            ]
-        ],
-        "prompts": [
-            "<ENT0>s are a part of <ENT1> .",
-            "<ENT0> is one of the <ENT1> countries .",
-            "<ENT0> is located on the island of <ENT1> .",
-            "The <ENT0> is situated on the <ENT1> island .",
-            "<ENT0>s are part of the <ENT1> of a sentence .",
-            "One of the main components of <ENT1> is the <ENT0> .",
-            "The <ENT0> is the female reproductive part of a <ENT1> .",
-            "<ENT0> is the study of pollen and spores, and is part of <ENT1> .",
-            "The <ENT0> is the innermost whorl of a <ENT1>, consisting of the carpels .",
-            "<ENT0> is a branch of <ENT1> that deals with the study of pollen and spores .",
-            "<ENT0> is the study of pollen grains, which are located on the island of <ENT1> .",
-            "The <ENT0> is the part of the <ENT1> that typically contains the ovules and pistil .",
-            "<ENT0> is the scientific study of pollen, which is a key ingredient in the <ENT1> of plants .",
-            "The countries that make up <ENT1> are <ENT0>, the united states, the united kingdom, france, italy, canada, and a number of other countries ."
-        ]
-    }
+  "P19_place_of_birth": {
+    "init_prompts": [
+      "<ENT0> được sinh ra ở <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Cynan Garwyn",
+        "Xứ Wales"
+      ],
+      [
+        "Phil Upchurch",
+        "Chicago"
+      ],
+      [
+        "Chiara Margarita Cozzolani",
+        "Milano"
+      ],
+      [
+        "Lennie Tristano",
+        "Chicago"
+      ],
+      [
+        "Hajime Mizoguchi",
+        "Tokyo"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được sinh ra ở <ENT1> .",
+      "<ENT0> được sinh ra ở <ENT1>, Lancashire, Anh.",
+      "<ENT0> được sinh ra ở <ENT1>, Đức vào ngày 22 tháng 2 năm 1882 .",
+      "<ENT0> sinh ngày 22 tháng 2 năm 1882 tại <ENT1>, Đức .",
+      "<ENT0> sinh ngày 20 tháng 3 năm 1977 tại <ENT1>, Hàn Quốc .",
+      "<ENT0> được sinh ra ở <ENT1>, Hàn Quốc vào ngày 20 tháng 3 năm 1977 ."
+    ]
+  },
+  "P20_place_of_death": {
+    "init_prompts": [
+      "<ENT0> chết ở <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Henry Michell Wagner",
+        "Brighton"
+      ],
+      [
+        "Georg Scheffers",
+        "Béc-lin"
+      ],
+      [
+        "Max Ernst",
+        "Paris"
+      ],
+      [
+        "Timoleon",
+        "Syracuse"
+      ],
+      [
+        "Giorgio Levi Della Vida",
+        "Rome"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> chết ở <ENT1> .",
+      "<ENT0>, một nhà văn người Litva, chết năm <ENT1> .",
+      "<ENT0>, một nhà soạn nhạc nổi tiếng, qua đời vào năm <ENT1> .",
+      "<ENT0>, một công dân Azerbaijan, chết ở <ENT1> .",
+      "<ENT0>, một nghệ sĩ và nhà điêu khắc, qua đời vào năm <ENT1> .",
+      "<ENT0>, một nhà sử học nổi tiếng, đã qua đời vào năm <ENT1> .",
+      "<ENT0>, một nhà báo người Mỹ, chết khi đi du lịch ở <ENT1> .",
+      "nhà báo người Azerbaijan <ENT0> đã chết ở thủ đô <ENT1> .",
+      "<ENT0>, một đạo diễn và nhà biên kịch phim người Ý, qua đời vào năm <ENT1> .",
+      "<ENT0>, một nghệ sĩ và thợ khắc nổi tiếng, qua đời vào năm <ENT1> Hôm qua .",
+      "<ENT0>, một nhà văn và nghệ sĩ người Litva, qua đời vào năm <ENT1> vào ngày 23 tháng 1 năm 1947 .",
+      "<ENT0>, một nhà báo nổi tiếng người Azerbaijan, qua đời ở <ENT1> ở tuổi 54.",
+      "<ENT0>, một nghệ sĩ và thợ khắc người Mỹ, mất ngày 9 tháng 12 năm 1766 tại <ENT1> .",
+      "Đạo diễn phim <ENT0> qua đời ở thành phố quê hương <ENT1>, Ý, ở tuổi 60 .",
+      "Các lưu ý <ENT1> nghệ sĩ và thợ khắc <ENT0> qua đời tại thành phố đó ở tuổi 74."
+    ]
+  },
+  "P279_subclass_of": {
+    "init_prompts": [
+      "<ENT0> là một lớp con của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "nền dân chủ phi tự do",
+        "nền dân chủ"
+      ],
+      [
+        "nông trại thành phố",
+        "nông trại"
+      ],
+      [
+        "Lính bắn tỉa trinh sát của Thủy quân lục chiến Hoa Kỳ",
+        "bắn tỉa"
+      ],
+      [
+        "guk",
+        "canh"
+      ],
+      [
+        "salmorejo",
+        "canh"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một loại <ENT1> .",
+      "Một loại <ENT1> là <ENT0> .",
+      "<ENT0> là một loại <ENT1> được làm từ glucozơ.",
+      "<ENT0> là một tập hợp con của phạm trù lớn hơn của <ENT1> .",
+      "MỘT <ENT0> là một loại <ENT1> được vận hành bởi robot.",
+      "Có rất nhiều loại <ENT1>, Nhưng <ENT0> là một trong số đó.",
+      "<ENT0> là một loại <ENT1> được đặc trưng bởi kết cấu rapakivi của nó.",
+      "<ENT0> là một loại <ENT1> tập trung vào những câu chuyện và các vị thần của Hy Lạp cổ đại.",
+      "<ENT0> là một loại <ENT1> có màu hồng đặc trưng và có bề mặt nổi, có kết cấu.",
+      "MỘT <ENT0> là một loại <ENT1> thường bao gồm ba lát bánh mì, hai lớp thịt và một lớp pho mát.",
+      "MỘT <ENT0> là một loại <ENT1> thường bao gồm bánh mì, thịt, pho mát và đôi khi là các nguyên liệu khác như cà chua hoặc thịt xông khói .",
+      "MỘT <ENT0> là một <ENT1> gồm ba lát bánh mì, với hai lớp thịt gà nướng cắt lát, thịt xông khói, rau diếp và sốt mayonnaise.",
+      "MỘT <ENT0> là một loại <ENT1> thường bao gồm ba lát bánh mì, với hai lát thịt (thường là giăm bông hoặc gà tây) và ."
+    ]
+  },
+  "P37_official_language": {
+    "init_prompts": [
+      "Ngôn ngữ chính thức của <ENT0> là <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Ma Cao",
+        "tiếng Bồ Đào Nha"
+      ],
+      [
+        "Hiệp định Thương mại Tự do Bắc Mỹ",
+        "tiếng Tây Ban Nha"
+      ],
+      [
+        "Kuusamo",
+        "tiếng Phần Lan"
+      ],
+      [
+        "Đông Timor",
+        "tiếng Bồ Đào Nha"
+      ],
+      [
+        "Janakkala",
+        "tiếng Phần Lan"
+      ]
+    ],
+    "prompts": [
+      "Ngôn ngữ chính thức của <ENT0> là <ENT1> .",
+      "các <ENT1> ngôn ngữ là ngôn ngữ chính thức của <ENT0> .",
+      "các <ENT0> ở ireland có <ENT1> như ngôn ngữ chính thức của nó.",
+      "Phần lớn người dân ở <ENT0> nói chuyện <ENT1> như ngôn ngữ đầu tiên của họ.",
+      "Trên 60% <ENT0>dân số lên tiếng <ENT1> như ngôn ngữ đầu tiên của họ.",
+      "Hầu như tất cả cư dân của <ENT0> nói chuyện <ENT1> như ngôn ngữ chính của họ.",
+      "các <ENT0> ở ireland chính thức công nhận <ENT1> là một trong những ngôn ngữ chính của nó.",
+      "Hơn một nửa số người sống ở <ENT0> sử dụng <ENT1> như ngôn ngữ chính của họ.",
+      "Theo hiến pháp của Bulgaria, ngôn ngữ chính thức của <ENT0> là <ENT1> .",
+      "<ENT1> là ngôn ngữ được sử dụng rộng rãi nhất ở <ENT0>, với hơn 60% dân số sử dụng nó làm ngôn ngữ đầu tiên của họ ."
+    ]
+  },
+  "P413_position_played_on_team__speciality": {
+    "init_prompts": [
+      "<ENT0> chơi trong <ENT1> chức vụ ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Vincenzo người Ý",
+        "tiền vệ"
+      ],
+      [
+        "John Stofa",
+        "tiền vệ"
+      ],
+      [
+        "Jason Campbell",
+        "tiền vệ"
+      ],
+      [
+        "Bettina Wiegmann",
+        "tiền vệ"
+      ],
+      [
+        "Angelo Crowell",
+        "hậu vệ"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1> .",
+      "<ENT0> là một <ENT1> cho đội.",
+      "<ENT0> đã chơi <ENT1> cho đội Chicago Blackhawks.",
+      "<ENT0> là một cầu thủ bóng đá chuyên nghiệp chơi với tư cách là một <ENT1> .",
+      "<ENT0> là một <ENT1> người đã chơi cho đội đỏ Cincinnati và đội Detroit Tigers.",
+      "<ENT0> là một vận động viên khúc côn cầu trên băng chuyên nghiệp <ENT1> hiện đang chơi cho câu lạc bộ Phần Lan, ilves, ở liiga.",
+      "<ENT0> là một người Canada đã nghỉ hưu <ENT1> từng chơi cho đội Chicago Blackhawks, Detroit Red Wings, và St. ",
+      "<ENT0> là một cầu thủ bóng đá chuyên nghiệp chơi với tư cách là một <ENT1> cho đội tuyển quốc gia Hà Lan và cho galatasaray s.k."
+    ]
+  },
+  "P449_original_network": {
+    "init_prompts": [
+      "<ENT0> ban đầu được phát sóng vào <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Triển lãm Coca Imogene",
+        "NBC"
+      ],
+      [
+        "Buổi diễn của Ed Sullivan",
+        "CBS"
+      ],
+      [
+        "Phát triển bị bắt",
+        "Netflix"
+      ],
+      [
+        "Màn trình diễn tuyệt vời",
+        "PBS"
+      ],
+      [
+        "Bạn Tôi Tony",
+        "NBC"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> công chiếu vào <ENT1> .",
+      "<ENT1> phát sóng <ENT0> ban đầu .",
+      "<ENT1> ban đầu được phát sóng <ENT0> .",
+      "<ENT0> ra mắt vào ngày <ENT1> vào năm 1998.",
+      "<ENT0> lần đầu tiên được phát sóng vào <ENT1> .",
+      "Lần đầu tiên <ENT0> đã được phát sóng <ENT1> .",
+      "Buổi phát sóng ban đầu của <ENT0> đã ở trên <ENT1> .",
+      "Buổi biểu diễn\"<ENT0>\" ban đầu được phát sóng vào <ENT1> .",
+      "<ENT1>của \"<ENT0>\" loạt phim ban đầu được phát sóng vào năm 1998 .",
+      "Bản gốc <ENT0> loạt phim được phát sóng vào <ENT1> từ năm 1983 đến năm 2006.",
+      "<ENT0> là một chương trình truyền hình dành cho trẻ em được phát sóng lần đầu vào <ENT1> .",
+      "<ENT0> ban đầu được phát sóng trên đài truyền hình quốc gia (<ENT1>) .",
+      "<ENT1> đã phát sóng một chương trình mang tên \"<ENT0>\" trong đó mọi người phải cạnh tranh để có được thứ họ cần bằng cách ăn xin, .",
+      "<ENT1>chương trình truyền hình gốc dành cho trẻ em, <ENT0>, tất cả là nhằm dạy trẻ giá trị của tinh thần đồng đội và sự tháo vát ."
+    ]
+  },
+  "P47_shares_border_with": {
+    "init_prompts": [
+      "<ENT0> chung biên giới với <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Iowa",
+        "Illinois"
+      ],
+      [
+        "Baja California",
+        "California"
+      ],
+      [
+        "Callao",
+        "Lima"
+      ],
+      [
+        "Oregon",
+        "Idaho"
+      ],
+      [
+        "Vùng bảo vệ Saar",
+        "nước Đức"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được bao bọc bởi <ENT1> .",
+      "<ENT0> nằm bên cạnh <ENT1> .",
+      "<ENT0> Và <ENT1> chia sẻ một đường biên giới.",
+      "các <ENT0> chia sẻ biên giới với <ENT1> .",
+      "Đô thị của <ENT0> biên giới <ENT1> .",
+      "<ENT0>biên giới phía nam được chia sẻ với <ENT1> .",
+      "Thành phố của <ENT0> nằm ở biên giới của <ENT1> .",
+      "<ENT0> có chung đường biên giới với bang Malaysia <ENT1> .",
+      "<ENT0> được bao bọc bởi <ENT1> về phía bắc và phía tây, và Honduras về phía đông .",
+      "trạng thái của <ENT0> nằm ở phía bắc Ấn Độ và có chung đường biên giới với bang <ENT1> ."
+    ]
+  },
+  "P138_named_after": {
+    "init_prompts": [
+      "<ENT0> được đặt theo tên <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Sân bay Khu vực Trung Mỹ Tự do",
+        "tự do"
+      ],
+      [
+        "Nhà ga đọc sách",
+        "Đọc"
+      ],
+      [
+        "Sân bay Centocelle",
+        "Rome"
+      ],
+      [
+        "Nhà thờ Norwich",
+        "Chúa Ba Ngôi"
+      ],
+      [
+        "Sao Hỏa",
+        "Sao Hỏa"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là <ENT1> thành phố của Trung Quốc.",
+      "Sân bay chính ở <ENT1> là <ENT0> .",
+      "<ENT0> là sân bay chính ở <ENT1> .",
+      "<ENT0> nằm ở <ENT1>, nước Anh .",
+      "<ENT0> được đặt theo tên của thành phố <ENT1> .",
+      "Thành phố của <ENT1> là tên của <ENT0> .",
+      "<ENT0> được đặt theo tên <ENT1>, thành phố ở Scotland .",
+      "<ENT0> được đặt theo tên <ENT1> trung tâm thị trấn nơi nó phục vụ.",
+      "Tên của <ENT0> có nguồn gốc từ thành phố <ENT1> .",
+      "Sân bay chính ở <ENT0> là <ENT1> sân bay quốc tế.",
+      "<ENT0> là sân bay gần thành phố nhất <ENT1>, Scotland .",
+      "Thành phố của <ENT0> được đặt tên theo từ tiếng Trung có nghĩa là \"<ENT1>.\" .",
+      "Thành phố của <ENT0> được đặt theo tên của đế quốc <ENT1> cùng tên .",
+      "<ENT0> nằm ở thành phố <ENT1>, ở vùng phía đông Scotland .",
+      "các <ENT0> được đặt theo tên <ENT1>, một vương quốc nằm trên bờ biển phía bắc của đảo Borneo ."
+    ]
+  },
+  "P364_original_language_of_film_or_TV_show": {
+    "init_prompts": [
+      "Ngôn ngữ gốc của <ENT0> là <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Người lái thuyền đồng cỏ",
+        "Tiếng Anh"
+      ],
+      [
+        "Những quả trứng chết người",
+        "tiếng Nga"
+      ],
+      [
+        "Khamosh",
+        "Tiếng Hindi"
+      ],
+      [
+        "Rajnigandha",
+        "Tiếng Hindi"
+      ],
+      [
+        "Dòng sông đỏ thắm",
+        "người Pháp"
+      ]
+    ],
+    "prompts": [
+      "<ENT0>ngôn ngữ gốc của là <ENT1> .",
+      "bộ phim <ENT0> ban đầu là ở <ENT1> .",
+      "<ENT0> ban đầu được thiết kế ở <ENT1> .",
+      "<ENT0> được thiết kế ở <ENT1> ban đầu .",
+      "Ngôn ngữ gốc của <ENT0> là <ENT1> .",
+      "<ENT0> ban đầu là một <ENT1> phim ngôn tình.",
+      "Trò chơi của <ENT0> ban đầu đến từ <ENT1> .",
+      "Trò chơi của <ENT0> được cho là có nguồn gốc từ <ENT1> .",
+      "bộ phim <ENT0> ban đầu được tạo ra trong <ENT1> ngôn ngữ .",
+      "bộ phim <ENT0> là phần tiếp theo của <ENT1> phim vishwaroopam.",
+      "Phần tiếp theo của <ENT1> phim vishwaroopam, <ENT0>, hiện đang được quay phim .",
+      "Phần tiếp theo của phim vishwaroopam, <ENT0>, dự kiến ​​phát hành vào <ENT1> .",
+      "các <ENT0> khu vực <ENT1>- cộng đồng nói có nguồn gốc từ andhra pradesh, Ấn Độ."
+    ]
+  },
+  "P463_member_of": {
+    "init_prompts": [
+      "<ENT0> là thành viên của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Terry Balsamo",
+        "Lạnh lẽo"
+      ],
+      [
+        "nước Đức",
+        "NATO"
+      ],
+      [
+        "Hiệp hội bóng đá Canada",
+        "FIFA"
+      ],
+      [
+        "Hiệp hội bóng đá",
+        "FIFA"
+      ],
+      [
+        "Hiệp hội bóng đá Phần Lan",
+        "FIFA"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> là thành viên của <ENT1> .",
+      "các <ENT0> được liên kết với <ENT1> .",
+      "<ENT0> là một phần ba của ban nhạc <ENT1> .",
+      "<ENT0> là thành viên của nhóm nhạc <ENT1> .",
+      "<ENT0> là thành viên của <ENT1>, cùng với hai thành viên khác .",
+      "các <ENT0> là thành viên của <ENT1>, cơ quan quản lý bóng đá thế giới .",
+      "<ENT0> là một nhạc sĩ là thành viên của nhóm nhạc được biết đến với cái tên <ENT1> .",
+      "các <ENT0> là thành viên của <ENT1> và tham gia các cuộc thi quốc tế.",
+      "các <ENT0> là thành viên của <ENT1>, cơ quan quản lý bóng đá ở Bắc, Trung Mỹ và Caribe.",
+      "các <ENT0> là thành viên của liên đoàn bóng đá Bắc, Trung Mỹ và Caribe (<ENT1>) ."
+    ]
+  },
+  "P101_field_of_work": {
+    "init_prompts": [
+      "<ENT0> hoạt động trong lĩnh vực <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Henri Brocard",
+        "hình học"
+      ],
+      [
+        "Robert Bigelow",
+        "khách sạn"
+      ],
+      [
+        "Galileo Galilei",
+        "toán học"
+      ],
+      [
+        "Nicolaus Copernicus",
+        "thiên văn học"
+      ],
+      [
+        "Ewald Hering",
+        "sinh lý học"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1> .",
+      "<ENT0> hoạt động trong lĩnh vực <ENT1> .",
+      "<ENT0> là một nhà ngôn ngữ học chuyên về <ENT1> .",
+      "<ENT0> là một nhà ngôn ngữ học làm việc trong lĩnh vực <ENT1> .",
+      "<ENT0> là một <ENT1> người đã làm việc trong lĩnh vực y học.",
+      "<ENT0> là một <ENT1> người đã thực hành vào đầu thế kỷ 17.",
+      "<ENT0> là một nhà khảo cổ học làm việc trong lĩnh vực cổ điển <ENT1> .",
+      "<ENT0> là một nhà tôpô học có đóng góp to lớn cho lĩnh vực <ENT1> .",
+      "<ENT0> là một nhà ngôn ngữ học chuyên giúp đỡ <ENT1>Họ giao tiếp tốt hơn với bệnh nhân của họ.",
+      "<ENT0> là một nhà toán học chuyên nghiên cứu về <ENT1>, nghiên cứu các tính chất hình học của các vật thể không thay đổi khi bị biến dạng ."
+    ]
+  },
+  "P106_occupation": {
+    "init_prompts": [
+      "<ENT0> là một <ENT1> theo nghề nghiệp."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Emily Barton",
+        "tiểu thuyết gia"
+      ],
+      [
+        "Khối lượng tối đa",
+        "nhà hóa học"
+      ],
+      [
+        "Ernst Jaakson",
+        "nhà ngoại giao"
+      ],
+      [
+        "Steve Swallow",
+        "nhà soạn nhạc"
+      ],
+      [
+        "John Ashburnham, Nam tước Ashburnham thứ nhất",
+        "chính trị gia"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1> .",
+      "<ENT0> là một người chuyên nghiệp <ENT1> .",
+      "Theo nghề nghiệp, <ENT0> là một <ENT1> .",
+      "<ENT0> là một <ENT1> theo nghề nghiệp.",
+      "<ENT0> là một <ENT1> người đã tạo ra âm nhạc một cách chuyên nghiệp.",
+      "<ENT0> là người Pháp <ENT1> nổi tiếng nhất với công việc của mình vào những năm 1850.",
+      "<ENT0> là một <ENT1> được biết đến với vai diễn trên truyền hình và điện ảnh.",
+      "<ENT0> là một <ENT1> người tạo ra những tác phẩm âm nhạc như một hình thức nghệ thuật.",
+      "<ENT0> là một <ENT1> người đã xuất hiện trong một số chương trình truyền hình và phim ảnh.",
+      "<ENT0> là một <ENT1> người đóng vai chính trong bộ phim truyền hình Anh \"Primeval\". ",
+      "<ENT0> là một người Pháp <ENT1> một trong những người đầu tiên coi nhiếp ảnh là một loại hình nghệ thuật.",
+      "<ENT0> là người Pháp <ENT1> người được ghi nhận là người đã giúp phát triển lĩnh vực nhiếp ảnh.",
+      "<ENT0> là một thành tích cao <ENT1> người được kính trọng rộng rãi trong cộng đồng văn học.",
+      "<ENT0> là một người nổi tiếng <ENT1> người được biết đến với những bức ảnh phong cảnh đẹp và độc đáo."
+    ]
+  },
+  "P527_has_part": {
+    "init_prompts": [
+      "<ENT0> bao gồm <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "adenin",
+        "cacbon"
+      ],
+      [
+        "sáp parafin",
+        "cacbon"
+      ],
+      [
+        "vinyl clorua",
+        "cacbon"
+      ],
+      [
+        "lòng trắng trứng",
+        "trứng"
+      ],
+      [
+        "axit clohydric",
+        "hydro"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> bao gồm <ENT1> hành động .",
+      "<ENT0> chứa <ENT1> phân tử .",
+      "<ENT0> được tạo thành từ <ENT1> nguyên tử .",
+      "các <ENT0> bao gồm <ENT1> .",
+      "<ENT0> là một <ENT1>chất dựa trên .",
+      "<ENT0> là một phân tử có chứa <ENT1> .",
+      "<ENT0> là hợp chất chứa cả thủy ngân và <ENT1> .",
+      "các <ENT0> đề cập đến trình tự của <ENT1>s trong dòng kế thừa.",
+      "Hợp chất hóa học được gọi là <ENT0> bao gồm <ENT1> nguyên tử sắp xếp thành một vòng sáu cạnh.",
+      "các <ENT0> bao gồm các hoạt động liên quan đến trình bày và biểu diễn trước công chúng, chẳng hạn như sân khấu, âm nhạc, khiêu vũ và <ENT1> nghệ thuật ."
+    ]
+  },
+  "P530_diplomatic_relation": {
+    "init_prompts": [
+      "<ENT0> duy trì quan hệ ngoại giao với <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Hàn Quốc",
+        "Nga"
+      ],
+      [
+        "Pháp",
+        "Serbia"
+      ],
+      [
+        "Cabo Verde",
+        "Cuba"
+      ],
+      [
+        "Hoa Kỳ",
+        "Argentina"
+      ],
+      [
+        "Úc",
+        "nước Bỉ"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> có quan hệ ngoại giao với <ENT1> .",
+      "<ENT0> Và <ENT1> duy trì quan hệ ngoại giao với nhau.",
+      "<ENT0> Và <ENT1> đã thiết lập và duy trì quan hệ ngoại giao.",
+      "<ENT0> Và <ENT1> đã duy trì quan hệ ngoại giao kể từ khi họ mới được thiết lập.",
+      "<ENT0> đã chính thức công nhận <ENT1> với tư cách là quốc gia có quan hệ ngoại giao.",
+      "các <ENT0> (trụ sở giáo hoàng đặt tại thành phố vatican) có quan hệ ngoại giao với <ENT1> .",
+      "Các chính phủ của <ENT0> Và <ENT1> đã đồng ý công nhận và hỗ trợ lẫn nhau về mặt ngoại giao.",
+      "Chính phủ của <ENT0> đã thiết lập và duy trì quan hệ ngoại giao với nước cộng hoà <ENT1> ."
+    ]
+  },
+  "P176_manufacturer": {
+    "init_prompts": [
+      "<ENT0> được sản xuất bởi <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Nissan 180SX",
+        "Nissan"
+      ],
+      [
+        "Fiat 4 HP",
+        "tiền pháp định"
+      ],
+      [
+        "dãy núi A108",
+        "Renault"
+      ],
+      [
+        "Lancia Gamma",
+        "tiền pháp định"
+      ],
+      [
+        "Nokia N8",
+        "Nokia"
+      ]
+    ],
+    "prompts": [
+      "<ENT1> sản xuất <ENT0> .",
+      "<ENT1> sản xuất <ENT0> .",
+      "các <ENT0> được sản xuất bởi <ENT1> .",
+      "Âm nhạc được sản xuất bởi <ENT1> được coi là <ENT0> .",
+      "các <ENT0> là một chiếc xe được sản xuất bởi <ENT1> hãng xe máy.",
+      "<ENT0> là một loại nhạc được sản xuất bởi <ENT1> tập đoàn .",
+      "các <ENT0> là một chiếc xe bán tải nhỏ gọn được sản xuất bởi <ENT1> .",
+      "các <ENT0> là mẫu xe được sản xuất bởi hãng xe Nhật Bản <ENT1> .",
+      "Âm nhạc được sản xuất bởi <ENT1> đôi khi được coi là một phần của \"<ENT0>\" loại .",
+      "<ENT1> tạo ra <ENT0> các bức tượng nhỏ có thể được sử dụng với các trò chơi tương thích trên bảng điều khiển wii u, 3ds và switch."
+    ]
+  },
+  "P27_country_of_citizenship": {
+    "init_prompts": [
+      "<ENT0> là <ENT1> công dân ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Maria Wetterstrand",
+        "Thụy Điển"
+      ],
+      [
+        "Mel Charles",
+        "Xứ Wales"
+      ],
+      [
+        "Brenda Asnicar",
+        "Argentina"
+      ],
+      [
+        "Sachimi Iwao",
+        "Nhật Bản"
+      ],
+      [
+        "Thomas Ong",
+        "Singapore"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> đến từ <ENT1> .",
+      "<ENT0> được sinh ra ở <ENT1> .",
+      "<ENT0> là một <ENT1> công dân .",
+      "<ENT0> là công dân của <ENT1> .",
+      "<ENT0> là vua của <ENT1> từ 1665 đến 1700.",
+      "<ENT0> là một người chơi poker chuyên nghiệp đến từ <ENT1> .",
+      "<ENT0> sinh ngày 3 tháng 10 năm 1971 tại Geneva, <ENT1> .",
+      "<ENT0> được sinh ra ở <ENT1> và do đó là một công dân Tây Ban Nha.",
+      "<ENT0> được sinh ra ở <ENT1>, vậy quốc tịch của anh ấy là Tây Ban Nha .",
+      "<ENT0>nơi sinh của là <ENT1>; "
+    ]
+  },
+  "P407_language_of_work_or_name": {
+    "init_prompts": [
+      "<ENT0> đã được viết trong <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Lỗ đen và những phát hiện",
+        "Tiếng Anh"
+      ],
+      [
+        "Thần tượng vĩnh cửu",
+        "Tiếng Anh"
+      ],
+      [
+        "Cuộc đảo chính của Torchon",
+        "người Pháp"
+      ],
+      [
+        "Lời cầu hôn",
+        "tiếng Nga"
+      ],
+      [
+        "Oliver xoắn",
+        "Tiếng Anh"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> đã được viết trong <ENT1> .",
+      "<ENT0> là một <ENT1> báo .",
+      "Lời bài hát của \"<ENT0>\" đang ở trong <ENT1> .",
+      "<ENT0> ban đầu là một <ENT1>-tạp chí ngôn ngữ.",
+      "Bài hát \"<ENT0>\" ban đầu được viết bằng <ENT1> .",
+      "<ENT0> là một <ENT1> bài hát được viết bởi ennio morricone.",
+      "\"<ENT0>\"là một tờ báo được xuất bản ở <ENT1> .",
+      "các <ENT1> cuốn tiểu thuyết <ENT0> được viết bởi một tác giả từ đất nước đó.",
+      "<ENT0> ban đầu là một <ENT1> tạp chí trước khi được teamrock mua lại vào năm 2013 .",
+      "\"<ENT0>\" là một <ENT1>- tờ báo ngôn ngữ đưa tin về nền âm nhạc kim loại nặng."
+    ]
+  },
+  "P30_continent": {
+    "init_prompts": [
+      "<ENT0> nằm ở <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Sông Turgai",
+        "Châu Á"
+      ],
+      [
+        "Dãy Achaean",
+        "Nam Cực"
+      ],
+      [
+        "điểm búa",
+        "Nam Cực"
+      ],
+      [
+        "Đảo doanh nghiệp",
+        "Nam Cực"
+      ],
+      [
+        "Sông băng Reeves",
+        "Nam Cực"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> nằm ở <ENT1> .",
+      "<ENT0> là một dãy núi ở <ENT1> .",
+      "<ENT0> là một hòn đảo nhỏ không có người ở <ENT1> .",
+      "<ENT0> là một bang của Ấn Độ nằm ở khu vực <ENT1> .",
+      "Bang của Ấn Độ <ENT0> nằm ở <ENT1> vùng đất .",
+      "các <ENT0> nằm ở <ENT1> trong số các đảo phía nam shetland .",
+      "các <ENT0> Dãy núi là dãy núi nằm ở <ENT1> .",
+      "<ENT0> nằm ở phía nam <ENT1>, trên bờ biển Ả Rập .",
+      "<ENT0> là một hòn đảo nhỏ nằm ở cực nam của thế giới, <ENT1> .",
+      "các <ENT0> nằm ở phần cực nam của biển Ả Rập, trên bờ biển <ENT1> .",
+      "các <ENT0> dãy núi nằm ở <ENT1> và được biết đến với cảnh quan độc đáo và đa dạng sinh học."
+    ]
+  },
+  "P178_developer": {
+    "init_prompts": [
+      "<ENT0> được phát triển bởi <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Cơ sở xử lý giao dịch",
+        "IBM"
+      ],
+      [
+        "Microsoft Office 2000",
+        "Microsoft"
+      ],
+      [
+        "lừa kong",
+        "Nintendo"
+      ],
+      [
+        "Mac OS X Lion",
+        "Quả táo"
+      ],
+      [
+        "Google Hangouts",
+        "Google"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được phát triển bởi <ENT1> .",
+      "<ENT0> là một sản phẩm của <ENT1> .",
+      "<ENT0> là một <ENT1> hệ điều hành phát triển.",
+      "các <ENT0> là một hệ điều hành được phát triển bởi <ENT1> .",
+      "<ENT0> là một ứng dụng phần mềm được phát triển bởi <ENT1> .",
+      "<ENT0> là một hệ điều hành được thiết kế đặc biệt cho <ENT1> thiết bị .",
+      "<ENT0> là một bảng tính được phát triển bởi <ENT1> dành cho windows, mac, android và ios.",
+      "<ENT0> là một phần mềm được phát triển bởi <ENT1> để sử dụng với dòng thiết bị di động galaxy của họ.",
+      "<ENT0> là một ứng dụng phần mềm được phát triển bởi <ENT1> cho phép người dùng tạo và thao tác với bảng tính.",
+      "các <ENT0> là một hệ điều hành độc quyền được phát triển bởi <ENT1> để sử dụng trên hệ thống điểm bán hàng (pos) của họ.",
+      "<ENT0> là một ứng dụng phần mềm được phát triển bởi <ENT1> để sử dụng với nhiều loại điện thoại thông minh và máy tính bảng Android của họ."
+    ]
+  },
+  "P1376_capital_of": {
+    "init_prompts": [
+      "<ENT0> là thủ đô của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Dhaka",
+        "Bangladesh"
+      ],
+      [
+        "Monrovia",
+        "Liberia"
+      ],
+      [
+        "Brisbane",
+        "Queensland"
+      ],
+      [
+        "Hartford",
+        "Connecticut"
+      ],
+      [
+        "Arlon",
+        "Luxembourg"
+      ]
+    ],
+    "prompts": [
+      "<ENT1>vốn của là <ENT0> .",
+      "Thủ đô của <ENT1> là <ENT0> .",
+      "<ENT0> là thủ đô của <ENT1> .",
+      "<ENT0> là thủ đô và thành phố lớn nhất ở <ENT1> .",
+      "<ENT0> là một thành phố nằm ở <ENT1> vùng nước Pháp.",
+      "<ENT0> là thủ đô của bang Ấn Độ <ENT1> .",
+      "Thủ đô của <ENT1> vùng ở Pháp là <ENT0> .",
+      "<ENT0> là thủ đô của <ENT1> tỉnh ở miền Đông nước Pháp.",
+      "Thủ đô của <ENT1> là <ENT0>, cũng là thành phố lớn nhất của nó .",
+      "<ENT0> là thủ đô của <ENT1> và nằm trên bờ biển Đại Tây Dương.",
+      "Thành phố của <ENT0> là thủ đô của quốc gia Tây Phi <ENT1> .",
+      "<ENT0> là thủ đô của <ENT1>, nằm ở phía nam của đất nước.",
+      "<ENT0> là thủ đô của <ENT1> và cho đến nay là thành phố lớn nhất trong cả nước."
+    ]
+  },
+  "P131_located_in_the_administrative_territorial_entity": {
+    "init_prompts": [
+      "<ENT0> nằm ở <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Hồ Bluff",
+        "Illinois"
+      ],
+      [
+        "Cơ quan Vận tải Vịnh Massachusetts",
+        "Boston"
+      ],
+      [
+        "Y tế Lakeridge Oshawa",
+        "Ontario"
+      ],
+      [
+        "Dãy núi sông bè",
+        "Utah"
+      ],
+      [
+        "Sông Gấu Nhỏ",
+        "Utah"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> nằm ở <ENT1> .",
+      "các <ENT0> là một bảo tàng ở <ENT1>, Áo .",
+      "<ENT0> là vùng nằm ở trạng thái <ENT1> .",
+      "các <ENT0> là một tòa nhà lịch sử ở <ENT1>, xứ Wales .",
+      "<ENT0> nằm ở thành phố Prattville, <ENT1> .",
+      "Bảo tàng nghệ thuật hiện đại ở <ENT1> được gọi là \"<ENT0>\" .",
+      "các <ENT0> là một đấu trường đa năng ở Youngstown, <ENT1> .",
+      "<ENT0> là một trường trung học ở Prattville, <ENT1> .",
+      "<ENT0> nằm ở khu vực đông nam của bang <ENT1> .",
+      "<ENT0> là một khu vực địa lý nằm ở phần cực nam của <ENT1> ."
+    ]
+  },
+  "P1412_languages_spoken,_written_or_signed": {
+    "init_prompts": [
+      "<ENT0> dùng để giao tiếp trong <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Hoàng Phủ Mi",
+        "Tiếng Trung"
+      ],
+      [
+        "Giovanni Lindo Ferretti",
+        "người Ý"
+      ],
+      [
+        "Còi báo động Heikki",
+        "tiếng Phần Lan"
+      ],
+      [
+        "Keren Pele",
+        "tiếng Do Thái"
+      ],
+      [
+        "Aharon Zisling",
+        "tiếng Do Thái"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> dùng để giao tiếp trong <ENT1> .",
+      "Trước <ENT0> học tiếng Anh, anh ấy giao tiếp bằng <ENT1> .",
+      "<ENT0> được biết đến với khả năng giao tiếp bằng <ENT1> .",
+      "<ENT0> được những người đương thời đánh giá cao vì sự thông thạo trong <ENT1> .",
+      "<ENT0> được coi là người giao tiếp xuất sắc trong <ENT1> bởi các đồng nghiệp của mình.",
+      "<ENT0> được các đồng nghiệp biết đến nhờ kỹ năng giao tiếp tuyệt vời trong <ENT1> .",
+      "<ENT0>ngôn ngữ đầu tiên của là <ENT1>, nhưng sau đó cô ấy cũng học cách giao tiếp bằng các ngôn ngữ khác .",
+      "<ENT0> được biết đến với kỹ năng giao tiếp tuyệt vời trong <ENT1>, đó không phải là ngôn ngữ phổ biến được sử dụng ở Anh vào thời điểm đó .",
+      "<ENT0> được biết đến với khả năng giao tiếp bằng <ENT1>, một ngôn ngữ mà rất ít người ở Anh có thể nói thành thạo .",
+      "<ENT0> được các đồng nghiệp biết đến nhờ kỹ năng giao tiếp tuyệt vời trong <ENT1>, một ngôn ngữ mà không nhiều người ở Anh có thể nói được ."
+    ]
+  },
+  "P108_employer": {
+    "init_prompts": [
+      "<ENT0> làm việc cho <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Scott Mills",
+        "BBC"
+      ],
+      [
+        "Armando Iannucci",
+        "BBC"
+      ],
+      [
+        "James Moir",
+        "BBC"
+      ],
+      [
+        "John Fellows Akers",
+        "IBM"
+      ],
+      [
+        "Phường Cunningham",
+        "Microsoft"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> làm việc cho <ENT1> .",
+      "<ENT0> là một <ENT1>nghệ sĩ dựa trên .",
+      "<ENT0> là một <ENT1> bình luận viên .",
+      "<ENT0> là CEO của <ENT1> studio .",
+      "<ENT0> là nhân viên của <ENT1> .",
+      "<ENT0> là nhà báo cho <ENT1> .",
+      "<ENT0> là người dẫn chương trình cho <ENT1> đài phát thanh 4.",
+      "<ENT0> là tổng giám đốc của <ENT1> .",
+      "<ENT0> là một nghệ sĩ làm việc tại <ENT1> .",
+      "<ENT0> là một nghệ sĩ tạo ra <ENT1>-nghệ thuật liên quan",
+      "<ENT0> là một <ENT1>nghệ sĩ dựa trên nổi tiếng với những bức tranh và tác phẩm điêu khắc của mình.",
+      "<ENT1> giám đốc <ENT0> chịu trách nhiệm quản lý đầu ra của mạng.",
+      "Một nghệ sĩ sống ở Anh, <ENT0> được biết đến nhiều nhất nhờ công việc của ông với <ENT1> .",
+      "<ENT0> là một nhà báo và phát thanh viên người Anh, người nổi tiếng với công việc của mình với <ENT1> ."
+    ]
+  },
+  "P136_genre": {
+    "init_prompts": [
+      "<ENT0> vở kịch <ENT1> âm nhạc ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Jack Parnell",
+        "nhạc jazz"
+      ],
+      [
+        "Garnett nâu",
+        "nhạc jazz"
+      ],
+      [
+        "Màu đen mồ côi",
+        "giật gân"
+      ],
+      [
+        "Steve Nieve",
+        "opera"
+      ],
+      [
+        "Dennis Rea",
+        "nhạc jazz"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1> nghệ sĩ .",
+      "<ENT0> là người Ý <ENT1> ca sĩ .",
+      "<ENT0> là một người nổi tiếng <ENT1> nhạc sĩ .",
+      "<ENT0> là một <ENT1> hãng thu âm âm nhạc.",
+      "Bạn có thể thưởng thức <ENT1> âm nhạc thông qua <ENT0> .",
+      "<ENT1> âm nhạc có thể được thưởng thức thông qua <ENT0> .",
+      "<ENT0> là một nhạc sĩ chơi <ENT1> âm nhạc .",
+      "<ENT0> là người Jamaica <ENT1> ca sĩ và nhạc sĩ.",
+      "<ENT0> là một hãng thu âm chuyên phát hành <ENT1> âm nhạc .",
+      "Một người thích thú <ENT1> âm nhạc có thể thích nghe nghệ sĩ <ENT0> .",
+      "<ENT0> là một <ENT1> nghệ sĩ tạo ra âm nhạc mà mọi người đều có thể thưởng thức.",
+      "<ENT0> là một nhạc sĩ người Jamaica nổi tiếng với công việc của mình trong <ENT1> thể loại .",
+      "<ENT0> là một ca sĩ người Ý nổi tiếng với vai diễn bel canto <ENT1>s .",
+      "<ENT0> là một <ENT1> nhạc sĩ nổi tiếng với công việc của mình với ban nhạc dave matthews.",
+      "<ENT0> là một thành tựu <ENT1> nhạc sĩ đã nhận được sự hoan nghênh của giới phê bình cho tác phẩm của mình.",
+      "Nổi tiếng <ENT1> nhạc sĩ, <ENT0> được biết đến với phong cách độc đáo và những buổi biểu diễn trực tiếp tràn đầy năng lượng.",
+      "<ENT0> là một người thoải mái <ENT1> nghệ sĩ có âm thanh súng bất hợp pháp và wa-do-dem đã đưa anh ta đến với st toàn cầu."
+    ]
+  },
+  "P17_country": {
+    "init_prompts": [
+      "<ENT0> nằm ở <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Cung điện Liên bang Thụy Sĩ",
+        "Thụy Sĩ"
+      ],
+      [
+        "Giải vô địch việt dã thế giới IAAF 2004",
+        "nước Bỉ"
+      ],
+      [
+        "Askola",
+        "Phần Lan"
+      ],
+      [
+        "Truyền hình điện tử Sanlih",
+        "Đài Loan"
+      ],
+      [
+        "Kế toán viên chuyên nghiệp được công nhận",
+        "Canada"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một thành phố ở <ENT1> .",
+      "<ENT0> là một thị trấn ở quận Wicklow, <ENT1> .",
+      "<ENT0> là một thị trấn nằm ở trung tâm <ENT1> .",
+      "các <ENT0> là một khu liên hợp thể thao nằm ở <ENT1> .",
+      "<ENT0> là một lâu đài thời trung cổ nằm ở quận Offaly, <ENT1> .",
+      "<ENT0> là một xã thuộc tỉnh Creuse ở miền Trung <ENT1> .",
+      "<ENT0> là một ngôi làng nhỏ nằm ở quận Wicklow, <ENT1> .",
+      "<ENT0> là một đô thị nằm ở phía bắc bang veracruz, phía đông nam <ENT1> ."
+    ]
+  },
+  "P39_position_held": {
+    "init_prompts": [
+      "<ENT0> có vị trí của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Cây keo của Caesarea",
+        "giám mục"
+      ],
+      [
+        "Sylvester II",
+        "giáo hoàng"
+      ],
+      [
+        "Sheila Dixon",
+        "thị trưởng"
+      ],
+      [
+        "John E. Hines",
+        "giám mục"
+      ],
+      [
+        "Liutprand của Cremona",
+        "giám mục"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1> .",
+      "<ENT0> là hiện tại <ENT1> .",
+      "<ENT0> giữ vị trí của <ENT1> .",
+      "Vị trí của <ENT1> được giữ bởi <ENT0> .",
+      "<ENT0> là một <ENT1> trong nhà thờ công giáo.",
+      "<ENT1> <ENT0> là người đứng đầu giáo phận giám mục Atlanta.",
+      "<ENT0> là người Pháp <ENT1> người giữ chức vụ tổng giám mục của lyon.",
+      "Người tôn kính nhất <ENT0> là hiện tại <ENT1> của giáo phận york.",
+      "<ENT0> là thành viên của cơ quan quản lý cao nhất của nhà thờ công giáo, trường đại học <ENT1>s .",
+      "<ENT1> <ENT0> là một thành viên của hàng giáo sĩ công giáo và là quan chức cấp cao trong nhà thờ.",
+      "<ENT0> là một <ENT1> người chịu trách nhiệm về một giáo phận, hoặc một khu vực địa lý có một nhóm các nhà thờ Thiên Chúa giáo.",
+      "Một người Pháp <ENT1> sinh ra trong một gia đình quý tộc, <ENT0> là một nhân vật quyền lực trong nhà thờ Công giáo vào năm 1500."
+    ]
+  },
+  "P264_record_label": {
+    "init_prompts": [
+      "<ENT0> được đại diện bởi hãng âm nhạc <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Ngọn lửa nổi tiếng",
+        "Liên bang"
+      ],
+      [
+        "Billy Ward và quân Domino của anh ấy",
+        "Liên bang"
+      ],
+      [
+        "Bạn Holly",
+        "San hô"
+      ],
+      [
+        "Hank Ballard",
+        "Liên bang"
+      ],
+      [
+        "Harry James",
+        "Brunswick"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được đại diện bởi <ENT1> hồ sơ .",
+      "<ENT0> được ký vào <ENT1>, một hãng thu âm .",
+      "<ENT0> là một nhóm nhạc đã ký hợp đồng với <ENT1> hồ sơ .",
+      "Nhãn âm nhạc <ENT1> được biết đến với nó <ENT0> âm thanh .",
+      "Nhãn âm nhạc <ENT1> đại diện cho nhóm nhạc rap <ENT0> .",
+      "Nhóm rap <ENT0> được ký kết với <ENT1> nhãn âm nhạc.",
+      "ban nhạc <ENT0> được đại diện bởi hãng âm nhạc <ENT1> .",
+      "Nếu bạn đang cảm thấy <ENT0>, vậy thì bạn nên nghe một chút <ENT1> âm nhạc .",
+      "<ENT0> là một nghệ sĩ nhạc đồng quê đã ký hợp đồng với <ENT1> nhãn hồ sơ.",
+      "<ENT0> là một nhóm hip hop đến từ Hoa Kỳ đã ký hợp đồng với <ENT1> hồ sơ ."
+    ]
+  },
+  "P276_location": {
+    "init_prompts": [
+      "<ENT0> nằm ở <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Indie Memphis",
+        "Memphis"
+      ],
+      [
+        "Tạp chí Edmonton",
+        "Edmonton"
+      ],
+      [
+        "Công ước Montréal",
+        "Montréal"
+      ],
+      [
+        "Marathon lợn bay",
+        "Cincinnati"
+      ],
+      [
+        "Thánh đường Basilica",
+        "Istanbul"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> đang được tổ chức tại <ENT1> .",
+      "Đúng, <ENT0> nằm ở <ENT1> .",
+      "các <ENT0> đang tổ chức một sự kiện ở <ENT1> .",
+      "các <ENT0> được tổ chức ở <ENT1>, Thụy Sĩ .",
+      "<ENT0> là một trường đại học nằm ở <ENT1>, Thổ Nhĩ Kỳ .",
+      "các <ENT0> là một cuộc đình công lao động của liên đoàn công nhân ở <ENT1> .",
+      "các <ENT0> là một cuộc đình công lao động diễn ra ở <ENT1>, minnesota .",
+      "các <ENT0> là địa điểm tổ chức buổi hòa nhạc và sự kiện nằm ở thành phố <ENT1>, nước Anh .",
+      "các <ENT0> là một cuộc đình công của liên đoàn xe tải chống lại một số công ty vận tải đường bộ ở <ENT1>-khu vực thánh paul.",
+      "các <ENT0> là sự gián đoạn công việc của tình anh em quốc tế của những người đồng đội chống lại một số <ENT1>, minnesota, người sử dụng lao động ."
+    ]
+  },
+  "P937_work_location": {
+    "init_prompts": [
+      "<ENT0> từng làm việc ở <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Ture Nerman",
+        "Stockholm"
+      ],
+      [
+        "David Salomons",
+        "Luân Đôn"
+      ],
+      [
+        "Javier de Burgos",
+        "Madrid"
+      ],
+      [
+        "Aldus Manutius",
+        "Venice"
+      ],
+      [
+        "Richard Brinsley Sheridan",
+        "Luân Đôn"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> từng làm việc ở <ENT1> .",
+      "<ENT0> làm việc ở <ENT1> trong quá khứ.",
+      "<ENT0> là cựu thành viên của <ENT1> quốc hội.",
+      "<ENT0> là một cựu nhạc sĩ từng làm việc ở <ENT1> .",
+      "<ENT0> là một nhà toán học người Pháp từng làm việc ở <ENT1> .",
+      "<ENT0> là thành viên của <ENT1> quốc hội tại một thời điểm.",
+      "Ngày nay, <ENT0> gần như đã nghỉ hưu nhưng ông ấy từng làm việc ở <ENT1> khi anh ấy còn trẻ.",
+      "<ENT0> là một cựu chính trị gia đến từ <ENT1> người cũng đã từng làm việc ở nước này trước đây."
+    ]
+  },
+  "P140_religion": {
+    "init_prompts": [
+      "<ENT0> được liên kết với <ENT1> tôn giáo ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Sumayyah bint Khayyat",
+        "Hồi giáo"
+      ],
+      [
+        "Quốc vương Satuq Bughra Khan",
+        "Hồi giáo"
+      ],
+      [
+        "Nawabs của Bengal và Murshidabad",
+        "Hồi giáo"
+      ],
+      [
+        "Bade Ghulam Ali Khan",
+        "Hồi giáo"
+      ],
+      [
+        "Nhà thờ Giám lý Wesleyan",
+        "Kitô giáo"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1>học giả ic.",
+      "<ENT0> là người theo dõi <ENT1> .",
+      "<ENT0> theo sau <ENT1>niềm tin ic.",
+      "<ENT0> là thành viên của <ENT1>niềm tin ic.",
+      "<ENT0> đã tham gia với <ENT1>tôn giáo ic.",
+      "Nhà triết học <ENT0> đã được liên kết với <ENT1> .",
+      "<ENT0> là một <ENT1>học giả ic và nhà hoạt động dân quyền.",
+      "<ENT0> là một người Hồi giáo dòng Sunni và là thành viên của quốc gia <ENT1> .",
+      "<ENT0> là nhân vật quan trọng trong sự phát triển của <ENT1> tôn giáo .",
+      "các <ENT0> là ngôi chùa gắn liền với <ENT1> tôn giáo .",
+      "<ENT0> là một học giả tôn giáo có liên hệ với <ENT1>niềm tin ic.",
+      "<ENT0> là một <ENT1>học giả ic rất được kính trọng trong cộng đồng Hồi giáo.",
+      "<ENT0> là một tu sĩ Phật giáo Trung Quốc, người là nhân vật chủ chốt ban đầu trong việc thành lập thiền viện <ENT1> .",
+      "<ENT0> là một thành viên của quốc gia <ENT1>, một tổ chức tôn giáo khuyến khích việc thờ phượng thánh Allah .",
+      "<ENT0> là một bộ trưởng người Mỹ theo đạo Hồi và nhà hoạt động nhân quyền, một tín đồ của đất nước <ENT1> ."
+    ]
+  },
+  "P1303_instrument": {
+    "init_prompts": [
+      "<ENT0> vở kịch <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Otis Spann",
+        "đàn piano"
+      ],
+      [
+        "Julian Lennon",
+        "đàn ghi-ta"
+      ],
+      [
+        "Scott Klopfenstein",
+        "kèn"
+      ],
+      [
+        "Tomaso Antonio Vitali",
+        "violon"
+      ],
+      [
+        "Mã Tư Thông",
+        "violon"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1>ist .",
+      "<ENT0> là một <ENT1> người chơi .",
+      "<ENT0> biểu diễn trên <ENT1> .",
+      "<ENT0> là một nghệ sĩ nhạc jazz nổi tiếng <ENT1> người chơi .",
+      "<ENT0> là một nhạc sĩ chơi đàn <ENT1> .",
+      "<ENT0> là một người nổi tiếng <ENT1>ist từ uruguay.",
+      "<ENT0> là một người Ý <ENT1>ist, nhà soạn nhạc và giáo viên.",
+      "<ENT0> là một <ENT1>ist và nhạc sĩ sinh ra ở Uruguay.",
+      "Được hoan nghênh <ENT1>điều này <ENT0> sẽ biểu diễn ở buổi hòa nhạc sắp tới.",
+      "<ENT0> là một nhạc sĩ đặc biệt nổi tiếng với kỹ năng chơi đàn <ENT1> .",
+      "<ENT0> là một <ENT1> nghệ sĩ điêu luyện và nhà soạn nhạc hoạt động tích cực trong thời kỳ đầu thời kỳ baroque.",
+      "Nhạc sĩ nổi tiếng <ENT0> được biết đến với khả năng chơi xuất sắc <ENT1> ."
+    ]
+  },
+  "P127_owned_by": {
+    "init_prompts": [
+      "<ENT0> được sở hữu bởi <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Phân tích cách mạng",
+        "Microsoft"
+      ],
+      [
+        "U-matic",
+        "Sony"
+      ],
+      [
+        "Danh bạ Google",
+        "Google"
+      ],
+      [
+        "Trung tâm tưởng niệm tiết kiệm thực phẩm",
+        "Victoria"
+      ],
+      [
+        "Microsoft TechNet",
+        "Microsoft"
+      ]
+    ],
+    "prompts": [
+      "<ENT1> sở hữu <ENT0> .",
+      "<ENT0> là đường cao tốc ở <ENT1> .",
+      "các <ENT0> được sở hữu bởi <ENT1> .",
+      "Thành phố của <ENT1> sở hữu <ENT0> .",
+      "<ENT1> là công ty mẹ của <ENT0> .",
+      "<ENT1>sân vận động bóng đá của là <ENT0> .",
+      "<ENT1> là chủ sở hữu của <ENT0> định dạng .",
+      "các <ENT1> tập đoàn sở hữu <ENT0> định dạng .",
+      "<ENT0> là một loại đĩa quang thuộc sở hữu của <ENT1> .",
+      "<ENT0> là một định dạng rạp hát tại nhà được tạo bởi <ENT1> .",
+      "các <ENT0> được sở hữu bởi <ENT1> hội đồng quận.",
+      "các <ENT0> là tài sản thuộc sở hữu của thị trấn <ENT1> .",
+      "các <ENT0> là một sân vận động bóng đá nằm ở <ENT1>, ý .",
+      "các <ENT0> là phương tiện được sản xuất bởi <ENT1> nhóm .",
+      "các <ENT0> là một chiếc xe subcompact được sản xuất bởi hãng xe Đức <ENT1> .",
+      "Hệ thống đường cao tốc liên bang Đức, <ENT0>, thuộc sở hữu của chính phủ <ENT1> .",
+      "<ENT1> sở hữu <ENT0>, đường cao tốc kéo dài từ biên giới Đức với Đan Mạch đến biên giới Đức với Ba Lan .",
+      "Định dạng của <ENT0> được cùng phát triển bởi <ENT1> và philips Electronics, với mục đích tạo ra một định dạng có thể cung cấp âm thanh chất lượng cao hơn."
+    ]
+  },
+  "P103_native_language": {
+    "init_prompts": [
+      "Ngôn ngữ mẹ đẻ của <ENT0> là <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Eduardo Duhalde",
+        "tiếng Tây Ban Nha"
+      ],
+      [
+        "Gabriel Hanotaux",
+        "người Pháp"
+      ],
+      [
+        "trứng cá",
+        "tiếng Latinh"
+      ],
+      [
+        "phủ nhận Corbet",
+        "người Pháp"
+      ],
+      [
+        "Olga Medvedtseva",
+        "tiếng Nga"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> đã từng là <ENT1> .",
+      "<ENT0> là một <ENT1> nhà văn .",
+      "các <ENT0> khu vực <ENT1> mọi người .",
+      "<ENT0> là người bản xứ <ENT1> loa .",
+      "<ENT0>ngôn ngữ mẹ đẻ của là <ENT1> .",
+      "Ngôn ngữ mẹ đẻ của <ENT0> là <ENT1> .",
+      "các <ENT0> là một người của <ENT1> nguồn gốc .",
+      "các <ENT0> nói chuyện <ENT1> như ngôn ngữ mẹ đẻ của họ.",
+      "các <ENT1> ngôn ngữ là ngôn ngữ mẹ đẻ của <ENT0> .",
+      "các <ENT0> khu vực <ENT1> dân tộc có nguồn gốc từ vùng sông Đông.",
+      "<ENT0> sinh ra và lớn lên ở Hà Lan nên cô ấy là người bản xứ <ENT1> loa .",
+      "các <ENT1> người được mệnh danh là \"<ENT0>\" được đặt theo tên của một nữ tu và nhà văn thế kỷ 15 .",
+      "các <ENT0> là người bản xứ <ENT1>-những người nói tiếng sống ở lưu vực sông Don ở miền nam nước Nga.",
+      "<ENT0> là một <ENT1> nhà văn nổi tiếng nhất với tác phẩm \"The Cossacks\", một câu chuyện về những người Cossacks của Don."
+    ]
+  },
+  "P190_twinned_administrative_body": {
+    "init_prompts": [
+      "<ENT0> Và <ENT1> là những thành phố sinh đôi."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Accra",
+        "Chicago"
+      ],
+      [
+        "Seoul",
+        "Tokyo"
+      ],
+      [
+        "Rio de Janeiro",
+        "Giêrusalem"
+      ],
+      [
+        "Viên",
+        "Istanbul"
+      ],
+      [
+        "Busan",
+        "Istanbul"
+      ]
+    ],
+    "prompts": [
+      "Các thành phố của <ENT0> Và <ENT1> là những thành phố chị em.",
+      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1> .",
+      "<ENT0> Và <ENT1> là hai thành phố có nhiều điểm chung .",
+      "<ENT0> Và <ENT1> là hai thành phố rất giống nhau.",
+      "<ENT0> Và <ENT1> là những thành phố sinh đôi vì chúng có nhiều điểm tương đồng.",
+      "<ENT0>, Alabama, và <ENT1>, Illinois, thường được gọi là thành phố song sinh.",
+      "Các thành phố của <ENT0> Và <ENT1> có nhiều điểm tương đồng, khiến họ trở thành cặp song sinh ảo.",
+      "Các thành phố của <ENT0> Và <ENT1> được kết nối thông qua chương trình hợp tác thành phố của họ.",
+      "Các thành phố của <ENT0> Và <ENT1> thường được coi là anh em sinh đôi vì sự giống nhau của họ.",
+      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1>, bao gồm cả ẩm thực, văn hóa và ngôn ngữ.",
+      "Có một mối quan hệ đặc biệt giữa <ENT0> Và <ENT1>, vì hai thành phố này kết nghĩa với nhau .",
+      "<ENT0> Và <ENT1> là hai thành phố có mối quan hệ chặt chẽ với nhau, thường được gọi là “thành phố chị em”. ",
+      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1>, chẳng hạn như lịch sử phong phú, nền văn hóa đa dạng và tình yêu dành cho các đội thể thao của họ .",
+      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1>, chẳng hạn như các khu vực đô thị nhộn nhịp, khung cảnh cuộc sống về đêm sôi động và nhiều điểm tham quan văn hóa đa dạng ."
+    ]
+  },
+  "P1001_applies_to_jurisdiction": {
+    "init_prompts": [
+      "<ENT0> là một thuật ngữ pháp lý trong <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Chủ tịch Quốc hội Pakistan",
+        "Pakistan"
+      ],
+      [
+        "Cảnh sát Hamburg",
+        "Hamburg"
+      ],
+      [
+        "Đạo luật Ấn Độ",
+        "Canada"
+      ],
+      [
+        "Thư ký của Inteligencia",
+        "Argentina"
+      ],
+      [
+        "Tham khảo lại Sự ly khai của Quebec",
+        "Canada"
+      ]
+    ],
+    "prompts": [
+      "MỘT <ENT0> là một thuật ngữ pháp lý trong <ENT1> .",
+      "các <ENT0> là <ENT1>tòa án cao nhất .",
+      "các <ENT0> là tòa án cao nhất ở <ENT1> .",
+      "các <ENT0> là cơ quan lập pháp của bang <ENT1> .",
+      "Cơ quan lập pháp của bang <ENT1> là <ENT0> .",
+      "các <ENT0> đề cập đến luật tối cao của nhà nước <ENT1> .",
+      "các <ENT0> là tòa án cuối cùng ở bang <ENT1> .",
+      "các <ENT0> là một thuật ngữ pháp lý trong <ENT1> đề cập đến tuần làm việc tiêu chuẩn.",
+      "các <ENT0> là cơ quan pháp lý chịu trách nhiệm ban hành luật ở nước <ENT1> .",
+      "TRONG <ENT1>, Một <ENT0> là giới hạn pháp lý về khoảng thời gian một nhân viên có thể làm việc.",
+      "MỘT <ENT0> là cơ quan nhà nước có quyền ban hành luật pháp cho nhà nước <ENT1> .",
+      "các <ENT0> đề cập đến chi nhánh của chính phủ ở bang <ENT1> chịu trách nhiệm xây dựng pháp luật.",
+      "các <ENT0> là số giờ tối đa do nhà nước quy định mà nhân viên trong <ENT1> có thể làm việc mỗi tuần.",
+      "MỘT <ENT0> là một thuật ngữ pháp lý trong <ENT1> đề cập đến một công ty trong đó trách nhiệm của các cổ đông được giới hạn ở số tiền họ đã đầu tư."
+    ]
+  },
+  "P31_instance_of": {
+    "init_prompts": [
+      "<ENT0> là một <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Lệnh phục vụ hoàng gia",
+        "phần thưởng"
+      ],
+      [
+        "Siêu sao phản Kitô",
+        "album"
+      ],
+      [
+        "Yota",
+        "nhãn hiệu"
+      ],
+      [
+        "Heineken",
+        "nhà máy bia"
+      ],
+      [
+        "Malaysia ngày nay",
+        "blog"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một <ENT1> ở Surrey, Anh.",
+      "<ENT0> là một <ENT1> nằm ở New Zealand.",
+      "<ENT0> là một tiểu bang <ENT1> ở Hoa Kỳ.",
+      "Surrey, nước Anh là quê hương của một <ENT1> được gọi là <ENT0> .",
+      "các <ENT0> là một <ENT1> nằm ở bang florida.",
+      "<ENT0> là một <ENT1> nằm ở quận Surrey ở Anh.",
+      "<ENT0> là một <ENT1> ở quận Guildford ở Surrey, Anh.",
+      "<ENT0> là một tiểu bang <ENT1> trong hệ thống cải chính của Sở Florida.",
+      "<ENT0> là mức bảo mật tối thiểu và trung bình <ENT1> dành cho nam giới trưởng thành ở bang florida.",
+      "các <ENT0> <ENT1> là một khu chính trị ở thành phố saskatoon, saskatchewan, Canada."
+    ]
+  },
+  "P495_country_of_origin": {
+    "init_prompts": [
+      "<ENT0> đã được tạo ra trong <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Beneteau",
+        "Pháp"
+      ],
+      [
+        "ấu trùng",
+        "Lào"
+      ],
+      [
+        "tridev",
+        "Ấn Độ"
+      ],
+      [
+        "Golgo 13",
+        "Nhật Bản"
+      ],
+      [
+        "trái cây điên cuồng",
+        "Nhật Bản"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được thành lập vào năm <ENT1> .",
+      "<ENT1> chứng kiến ​​sự nổi lên của <ENT0> .",
+      "<ENT0> đã được tạo ra trong <ENT1> .",
+      "<ENT0> bắt đầu xuất hiện ở <ENT1> .",
+      "Sự trỗi dậy của <ENT0> đã được nhìn thấy trong <ENT1> .",
+      "Một nhóm <ENT0> xuất hiện ở <ENT1> trong những năm 1970.",
+      "các <ENT0> chứng kiến ​​sự gia tăng trong thời kỳ Edo ở <ENT1> .",
+      "<ENT0> xuất hiện ở <ENT1> trong thế kỷ thứ mười tám.",
+      "Sự gia tăng của <ENT0> TRONG <ENT1> đã vấp phải những phản ứng trái chiều.",
+      "TRONG <ENT1>, <ENT0> được tạo ra như một loại đồ uống có ga phổ biến.",
+      "<ENT0> là một cửa hàng trực tuyến được thành lập vào năm <ENT1> vào năm 2006.",
+      "<ENT0> là thức uống phổ biến ở <ENT1> lần đầu tiên được tạo ra ở đó.",
+      "TRONG <ENT1>, số lượng người được đặt tên tăng lên <ENT0> .",
+      "các <ENT0> được tạo ra để thiết lập các tiêu chuẩn cho thuốc ở <ENT1> ."
+    ]
+  },
+  "P159_headquarters_location": {
+    "init_prompts": [
+      "Trụ sở chính của <ENT0> đang ở trong <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Tổ chức nghiên cứu vũ trụ Ấn Độ",
+        "Bangalore"
+      ],
+      [
+        "Ban kiểm soát rượu của Ontario",
+        "Toronto"
+      ],
+      [
+        "Telehouse Châu Âu",
+        "Luân Đôn"
+      ],
+      [
+        "Đại học Kentucky",
+        "Lexington"
+      ],
+      [
+        "Viện Fraser",
+        "Vancouver"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> có trụ sở tại <ENT1> .",
+      "<ENT0> có trụ sở tại <ENT1> .",
+      "Trụ sở chính của <ENT0> đang ở trong <ENT1> .",
+      "<ENT0> là một công ty có trụ sở tại <ENT1>, Na Uy .",
+      "các <ENT0> trụ sở chính nằm ở <ENT1>, Na Uy .",
+      "Văn phòng chính của <ENT0> nằm ở <ENT1>, nước Anh .",
+      "<ENT0> là một trường đại học tư thục nằm ở <ENT1>, Đức .",
+      "các <ENT0> là một tập đoàn có trụ sở tại <ENT1>, Ấn Độ .",
+      "các <ENT0> là một <ENT1>Công ty phát triển cơ sở hạ tầng dựa trên .",
+      "Trụ sở chính cho <ENT0> nằm ở thành phố <ENT1> .",
+      "các <ENT0> chuỗi cửa hàng tạp hóa có trụ sở tại <ENT1>, bắc carolina .",
+      "các <ENT0> là một nhà xuất bản trực thuộc trường đại học <ENT1> .",
+      "các <ENT0> là một <ENT1>tập đoàn có trụ sở chính hoạt động trong lĩnh vực sân bay, năng lượng, vận tải và khách sạn."
+    ]
+  },
+  "P36_capital": {
+    "init_prompts": [
+      "Thủ đô của <ENT0> là <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Quận Onslow",
+        "Jacksonville"
+      ],
+      [
+        "Quận Bates",
+        "quản gia"
+      ],
+      [
+        "Vương quốc Pháp",
+        "Paris"
+      ],
+      [
+        "Tiệp Khắc",
+        "Praha"
+      ],
+      [
+        "Quận Guernsey",
+        "Cambridge"
+      ]
+    ],
+    "prompts": [
+      "<ENT0>vốn của là <ENT1> .",
+      "Thủ đô của <ENT0> là <ENT1> .",
+      "<ENT1> là thủ đô của <ENT0> .",
+      "Quận lỵ của <ENT0> là <ENT1>, Arkansas .",
+      "Quận lỵ của <ENT0>, Washington là thành phố của <ENT1> .",
+      "Thị trấn của <ENT1>, Washington là quận lỵ của <ENT0> .",
+      "<ENT1> là quận lỵ của <ENT0>, Washington, Hoa Kỳ.",
+      "Thị trấn của <ENT1>, Washington là nơi <ENT0> chính phủ tọa lạc.",
+      "Quận lỵ của Washington, Hoa Kỳ, nằm ở <ENT1>, <ENT0> .",
+      "Nằm ở góc đông bắc của bang Washington, thành phố <ENT1> là quận lỵ của <ENT0> ."
+    ]
+  },
+  "P740_location_of_formation": {
+    "init_prompts": [
+      "<ENT0> được thành lập vào năm <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "Bee Gees",
+        "Manchester"
+      ],
+      [
+        "Filippa K",
+        "Thụy Điển"
+      ],
+      [
+        "đánh bại rạp xiếc",
+        "Boston"
+      ],
+      [
+        "cỏ linh lăng",
+        "Madrid"
+      ],
+      [
+        "Những người theo chủ nghĩa Qemist",
+        "Brighton"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được thành lập vào năm <ENT1> .",
+      "<ENT0> là một <ENT1>ban nhạc dựa trên .",
+      "<ENT0> là một ban nhạc đến từ <ENT1>, Canada .",
+      "ban nhạc <ENT0> đến từ <ENT1> và Canada.",
+      "<ENT0> là một nhóm nhạc có trụ sở tại <ENT1>, Canada .",
+      "Công ty <ENT0> được thành lập ở bang <ENT1> .",
+      "<ENT0> là một ban nhạc Thiên chúa giáo người Canada đến từ <ENT1>, Ontario .",
+      "<ENT0> ban đầu là một ban nhạc punk rock từ <ENT1>, nước Anh .",
+      "<ENT0> là một <ENT1>ban nhạc ese được biết đến với phong cách độc đáo của họ.",
+      "<ENT0> là một công ty Canada được thành lập vào năm <ENT1>, Anh Columbia .",
+      "<ENT0> là một <ENT1>ban nhạc punk rock dựa trên được thành lập vào năm 1974."
+    ]
+  },
+  "P361_part_of": {
+    "init_prompts": [
+      "<ENT0> là một phần của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "bộ lọc bể cá",
+        "bể cá"
+      ],
+      [
+        "Thập tự chinh phương Bắc",
+        "Thập tự chinh"
+      ],
+      [
+        "Bắc Mỹ",
+        "Trái đất"
+      ],
+      [
+        "Dãy phía Bắc",
+        "Trinidad"
+      ],
+      [
+        "Nghị định thư bưu điện 3",
+        "e-mail"
+      ]
+    ],
+    "prompts": [
+      "<ENT0>s là một phần của <ENT1> .",
+      "<ENT0> là một trong những <ENT1> các nước .",
+      "<ENT0> nằm trên đảo <ENT1> .",
+      "các <ENT0> nằm trên <ENT1> hòn đảo .",
+      "<ENT0>s là một phần của <ENT1> của một câu.",
+      "Một trong những thành phần chính của <ENT1> là <ENT0> .",
+      "các <ENT0> là bộ phận sinh sản nữ của một <ENT1> .",
+      "<ENT0> là nghiên cứu về phấn hoa và bào tử, và là một phần của <ENT1> .",
+      "các <ENT0> là vòng xoáy trong cùng của một <ENT1>, bao gồm các lá noãn .",
+      "<ENT0> là một nhánh của <ENT1> liên quan đến việc nghiên cứu phấn hoa và bào tử.",
+      "<ENT0> là nghiên cứu về hạt phấn hoa nằm trên đảo <ENT1> .",
+      "các <ENT0> là một phần của <ENT1> thường chứa noãn và nhụy hoa.",
+      "<ENT0> là nghiên cứu khoa học về phấn hoa, một thành phần quan trọng trong <ENT1> của thực vật.",
+      "Các quốc gia tạo nên <ENT1> là <ENT0>, Hoa Kỳ, Vương quốc Anh, Pháp, Ý, Canada và một số quốc gia khác."
+    ]
+  }
 }

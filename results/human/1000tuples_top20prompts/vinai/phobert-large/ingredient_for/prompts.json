@@ -1,0 +1,42 @@
+[
+  [
+    "Một trong những nguyên liệu để làm nên <ENT1> là <ENT0> .",
+    0.13232936814675214
+  ],
+  [
+    "Nếu bạn muốn làm một <ENT1> , bạn sẽ cần một ít <ENT0> .",
+    0.1165356636182108
+  ],
+  [
+    "<ENT0> là món ăn được làm từ <ENT1> đã được chiên trong chảo hoặc chảo .",
+    0.11553684253542001
+  ],
+  [
+    "MỘT <ENT0> là nguyên liệu được dùng để làm <ENT1> .",
+    0.1018431290475729
+  ],
+  [
+    "<ENT0> là một thành phần cho <ENT1> .",
+    0.10089581964500544
+  ],
+  [
+    "<ENT0> là một món ăn phổ biến được làm bằng <ENT1> làm thành phần chính .",
+    0.09914932762543648
+  ],
+  [
+    "<ENT0> là một món ăn có chứa <ENT1> như một trong những thành phần của nó .",
+    0.09696974214083572
+  ],
+  [
+    "Một cách để sử dụng <ENT0> là để làm <ENT1> .",
+    0.08715326322065414
+  ],
+  [
+    "<ENT0> là thành phần quan trọng để tạo nên một <ENT1> .",
+    0.08047853038719538
+  ],
+  [
+    "<ENT0> là một loại chả cá thường được làm bằng <ENT1> .",
+    0.06910831363291697
+  ]
+]

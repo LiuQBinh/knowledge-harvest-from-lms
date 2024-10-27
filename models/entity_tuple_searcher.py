@@ -105,6 +105,8 @@ class EntityTupleSearcher:
                 weighted_prompts_upd.append(
                     [prompt.replace(f'<ENT{cur_ent_idx}>', pred_ent), weight])
 
+            print('cur_ent_tuple', cur_ent_tuple + [pred_ent])
+            print('cur_logprobs', cur_logprobs + [ent_logprob])
             self.dfs(
                 weighted_prompts=weighted_prompts_upd,
                 n_ents=n_ents,

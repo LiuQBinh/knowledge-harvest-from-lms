@@ -1,0 +1,42 @@
+[
+  [
+    "<ENT0> được biết đến với việc bán <ENT1> .",
+    0.16096498630091938
+  ],
+  [
+    "<ENT0> tự mô tả mình là \"công ty công nghệ thông tin lớn nhất thế giới tính theo doanh thu\" và họ bán nhiều sản phẩm, bao gồm cả <ENT1> .",
+    0.1305388472156778
+  ],
+  [
+    "<ENT0> là một công ty bán <ENT1> .",
+    0.12901984565991106
+  ],
+  [
+    "<ENT0> là công ty chuyên sản xuất <ENT1> hoặc các đơn vị xử lý đồ họa .",
+    0.10410334753870203
+  ],
+  [
+    "<ENT0> bán <ENT1> .",
+    0.1040426173965888
+  ],
+  [
+    "<ENT0> là một chuỗi cửa hàng thức ăn nhanh nổi tiếng được biết đến với việc bán <ENT1> .",
+    0.09956201306948881
+  ],
+  [
+    "<ENT0> là một công ty thức ăn nhanh chuyên về <ENT1> , gà rán và nước ngọt .",
+    0.07871079122922124
+  ],
+  [
+    "<ENT0> là một <ENT1> công ty .",
+    0.07374678274452526
+  ],
+  [
+    "<ENT0> bán <ENT1> thông qua cửa hàng trực tuyến và các địa điểm bán lẻ .",
+    0.06513588512733534
+  ],
+  [
+    "<ENT0> là một <ENT1> công ty sản xuất và bán xe ô tô .",
+    0.054174883717630344
+  ]
+]
