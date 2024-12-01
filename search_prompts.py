@@ -126,7 +126,7 @@ def main(rel_set='conceptnet', similarity_threshold=75):
             print('=' * 50)
 
         output_path = f'relation_info/{rel_set}.json'
-        json.dump(relation_info, open(output_path, 'w'), indent=4)
+        json.dump(relation_info, open(output_path, 'w', encoding='utf8'), indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':

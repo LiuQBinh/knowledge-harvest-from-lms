@@ -5,7 +5,7 @@ import fire
 from models.knowledge_harvester import KnowledgeHarvester
 
 
-def main(rel_set='human',
+def main(rel_set='has_assessment_method',
          model_name='roberta-large',
          max_n_ent_tuples=1000,
          max_n_prompts=20,
@@ -22,7 +22,8 @@ def main(rel_set='human',
         max_ent_subwords=max_ent_subwords,
         prompt_temp=prompt_temp)
 
-    relation_info = json.load(open(f'relation_info/{rel_set}.json'))
+    # relation_info = json.load(open(f'relation_info/{rel_set}.json'))
+    relation_info = json.load(open(f'hcmut_data/relation_info/{rel_set}.json'))
 
     for rel, info in relation_info.items():
         print(f'Harvesting for relation {rel}...')
@@ -39,7 +40,7 @@ def main(rel_set='human',
             continue
         else:
             os.makedirs(f'{output_dir}/{rel}', exist_ok=True)
-            json.dump([], open(f'{output_dir}/{rel}/ent_tuples.json', 'w'))
+            json.dump([], open(f'{output_dir}/{rel}/ent_tuples.json', 'w', encoding='utf8'), ensure_ascii=False)
 
         knowledge_harvester.clear()
 
@@ -51,14 +52,14 @@ def main(rel_set='human',
 
         knowledge_harvester.update_prompts()
         json.dump(knowledge_harvester.weighted_prompts, open(
-            f'{output_dir}/{rel}/prompts.json', 'w'), indent=4)
+            f'{output_dir}/{rel}/prompts.json', 'w', encoding='utf8'), indent=4, ensure_ascii=False)
 
         for prompt, weight in knowledge_harvester.weighted_prompts:
             print(f'{weight:.4f} {prompt}')
 
         knowledge_harvester.update_ent_tuples()
         json.dump(knowledge_harvester.weighted_ent_tuples, open(
-            f'{output_dir}/{rel}/ent_tuples.json', 'w'), indent=4)
+            f'{output_dir}/{rel}/ent_tuples.json', 'w', encoding='utf8'), indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':
