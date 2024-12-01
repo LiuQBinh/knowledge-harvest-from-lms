@@ -1,0 +1,32 @@
+{
+  "AtLocation": {
+    "init_prompts": [
+      "<ENT1> là vị trí cho <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "thiết bị tuyển nổi",
+        "thuyền"
+      ],
+      [
+        "Nước",
+        "nước ngọt"
+      ],
+      [
+        "bánh răng",
+        "xe hơi"
+      ],
+      [
+        "hươu cao cổ",
+        "Châu phi"
+      ],
+      [
+        "quần dài",
+        "va li"
+      ]
+    ],
+    "prompts": [
+      
+    ]
+  }
+}
