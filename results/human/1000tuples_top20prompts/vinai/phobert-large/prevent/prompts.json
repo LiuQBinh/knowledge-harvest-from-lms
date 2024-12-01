@@ -1,0 +1,50 @@
+[
+    [
+        "<ENT0> l\u00e0 m\u1ed9t ph\u1ea7n quan tr\u1ecdng \u0111\u1ec3 gi\u1eef s\u1ee9c kh\u1ecfe v\u00e0 ng\u0103n ng\u1eeba <ENT1> .",
+        0.13061230853622074
+    ],
+    [
+        "Th\u01b0\u1eddng xuy\u00ean <ENT0> \u0111\u00e3 \u0111\u01b0\u1ee3c ch\u1ee9ng minh l\u00e0 m\u1ed9t trong nh\u1eefng c\u00e1ch hi\u1ec7u qu\u1ea3 nh\u1ea5t \u0111\u1ec3 ng\u0103n ch\u1eb7n <ENT1> .",
+        0.09901284733115581
+    ],
+    [
+        "<ENT0> c\u00f3 hi\u1ec7u qu\u1ea3 trong vi\u1ec7c ng\u0103n ch\u1eb7n s\u1ef1 l\u00e2y lan c\u1ee7a <ENT1> .",
+        0.09390227508135089
+    ],
+    [
+        "<ENT0> ng\u0103n c\u1ea3n <ENT1> .",
+        0.09193881304913122
+    ],
+    [
+        "N\u1ebfu b\u1ea1n kh\u00f4ng mu\u1ed1n tr\u1edf th\u00e0nh <ENT1> , b\u1ea1n n\u00ean <ENT0> th\u01b0\u1eddng .",
+        0.08574215286912337
+    ],
+    [
+        "<ENT0> b\u1ea3o v\u1ec7 m\u1ecdi ng\u01b0\u1eddi kh\u1ecfi ph\u1ea3i khai b\u00e1o <ENT1> trong tr\u01b0\u1eddng h\u1ee3p x\u1ea3y ra tai n\u1ea1n ho\u1eb7c tr\u01b0\u1eddng h\u1ee3p kh\u1ea9n c\u1ea5p .",
+        0.08296557669262698
+    ],
+    [
+        "<ENT0> ng\u0103n ch\u1eb7n s\u1ef1 l\u00e2y lan c\u1ee7a <ENT1> b\u1eb1ng c\u00e1ch gi\u1eef l\u1ea1i nh\u1eefng gi\u1ecdt n\u01b0\u1edbc b\u1eafn ra khi ng\u01b0\u1eddi d\u00f9ng n\u00f3i, ho ho\u1eb7c h\u1eaft h\u01a1i .",
+        0.07479450884487797
+    ],
+    [
+        "<ENT0> cung c\u1ea5p m\u1ed9t m\u1ea1ng l\u01b0\u1edbi an to\u00e0n ch\u1ed1ng l\u1ea1i <ENT1> .",
+        0.0733134069356724
+    ],
+    [
+        "M\u1ed8T <ENT0> s\u1ebd b\u1ea3o v\u1ec7 b\u1ea1n kh\u1ecfi b\u1ecb <ENT1> .",
+        0.07076922514065338
+    ],
+    [
+        "N\u1ebfu b\u1ea1n <ENT0> , b\u1ea1n \u00edt c\u00f3 kh\u1ea3 n\u0103ng <ENT1> .",
+        0.07073495286496286
+    ],
+    [
+        "N\u1ebfu b\u1ea1n mu\u1ed1n tr\u00e1nh b\u1ecb <ENT1> , b\u1eaft \u0111\u1ea7u <ENT0> h\u01a1n .",
+        0.06353205905703478
+    ],
+    [
+        "C\u00f3 th\u1ec3 n\u00f3i r\u1eb1ng <ENT0> ng\u0103n c\u1ea3n <ENT1> , v\u00ec n\u00f3 cung c\u1ea5p m\u1ed9t m\u1ea1ng l\u01b0\u1edbi an to\u00e0n cho m\u1ecdi ng\u01b0\u1eddi trong tr\u01b0\u1eddng h\u1ee3p c\u00f3 tr\u1edf ng\u1ea1i b\u1ea5t ng\u1edd .",
+        0.0626818735971897
+    ]
+]
