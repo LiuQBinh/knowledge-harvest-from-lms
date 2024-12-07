@@ -1,46 +1,46 @@
 [
     [
         "Phương pháp <ENT1> là công cụ chính để đánh giá kết quả học tập trong môn <ENT0> .",
-        0.12022691025948078
+        0.11724990355747421
     ],
     [
         "Năng lực chuyên môn của sinh viên trong môn <ENT0> được kiểm chứng qua <ENT1> .",
-        0.11793680419662474
-    ],
-    [
-        "Sinh viên học môn <ENT0> cần hoàn thành <ENT1> để đạt được điểm số .",
-        0.10576654967907025
-    ],
-    [
-        "Hoạt động <ENT1> được sử dụng để kiểm tra kiến thức và kỹ năng trong môn <ENT0> .",
-        0.10218261173693047
-    ],
-    [
-        "Hiệu quả học tập của sinh viên trong môn <ENT0> được đo lường bằng <ENT1> .",
-        0.09528941285207825
-    ],
-    [
-        "Kết quả học tập của môn <ENT0> được kiểm tra bằng <ENT1> .",
-        0.0926425503607185
+        0.10940374409710134
     ],
     [
         "Môn <ENT0> sử dụng <ENT1> như một tiêu chuẩn để đánh giá sinh viên .",
-        0.08539592846735065
+        0.10839186093095272
     ],
     [
-        "Trong môn <ENT0>, <ENT1> đóng vai trò là hình thức đánh giá chính .",
-        0.08462250727117614
+        "Sinh viên học môn <ENT0> cần hoàn thành <ENT1> để đạt được điểm số .",
+        0.09801091566184086
     ],
     [
-        "Bài kiểm tra <ENT1> là một phần quan trọng trong đánh giá môn <ENT0> .",
-        0.06849818948265962
+        "Hiệu quả học tập của sinh viên trong môn <ENT0> được đo lường bằng <ENT1> .",
+        0.09122413667527611
     ],
     [
-        "Quan hệ giữa một khóa học <ENT0> và các phương pháp đánh giá <ENT1> mà nó sử dụng .",
-        0.06698049007966954
+        "Kết quả học tập của môn <ENT0> được kiểm tra bằng <ENT1> .",
+        0.08496558421022257
+    ],
+    [
+        "Hoạt động <ENT1> được sử dụng để kiểm tra kiến thức và kỹ năng trong môn <ENT0> .",
+        0.08445587809662476
     ],
     [
         "Khóa học <ENT0> yêu cầu sinh viên tham gia <ENT1> để đánh giá năng lực .",
-        0.060458045614241125
+        0.08273039941915036
+    ],
+    [
+        "Bài kiểm tra <ENT1> là một phần quan trọng trong đánh giá môn <ENT0> .",
+        0.08057662323949893
+    ],
+    [
+        "Quan hệ giữa một khóa học <ENT0> và các phương pháp đánh giá <ENT1> mà nó sử dụng .",
+        0.07295573335357265
+    ],
+    [
+        "Trong môn <ENT0> , <ENT1> đóng vai trò là hình thức đánh giá chính .",
+        0.07003522075828551
     ]
 ]

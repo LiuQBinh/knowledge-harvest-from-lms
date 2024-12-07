@@ -2,6 +2,7 @@ from tqdm import tqdm
 from scipy.special import softmax
 
 from models.language_model_wrapper import LanguageModelWrapper
+# from models.entity_tuple_searcher_hcmut import EntityTupleSearcher
 from models.entity_tuple_searcher import EntityTupleSearcher
 
 from data_utils.data_utils import fix_prompt_style, is_valid_prompt

@@ -1,0 +1,836 @@
+{
+  "StudiesAt": {
+    "init_prompts": [
+      "<ENT1> là nơi <ENT0> học tập."
+    ],
+    "seed_ent_tuples": [
+      [
+        "học sinh",
+        "trường tiểu học"
+      ],
+      [
+        "sinh viên",
+        "đại học"
+      ],
+      [
+        "nghiên cứu sinh",
+        "phòng thí nghiệm"
+      ],
+      [
+        "người học trực tuyến",
+        "nền tảng học tập số"
+      ],
+      [
+        "học viên",
+        "trung tâm ngoại ngữ"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> học tập tại <ENT1>.",
+      "các <ENT1> là môi trường học tập cho <ENT0>.",
+      "nơi tốt nhất để <ENT0> tiếp thu kiến thức là <ENT1>.",
+      "rất nhiều <ENT0> có thể được tìm thấy ở <ENT1>.",
+      "<ENT1> là địa điểm mà <ENT0> thường dành nhiều thời gian nhất.",
+      "<ENT0> thường tham dự các lớp học ở <ENT1>.",
+      "các <ENT1> được thiết kế đặc biệt để hỗ trợ <ENT0> học tập.",
+      "trường hợp điển hình: <ENT0> học tại <ENT1> để nâng cao kỹ năng.",
+      "hầu hết <ENT0> ở <ENT1> đều tham gia các hoạt động học tập.",
+      "các <ENT1> là nơi hoàn hảo để <ENT0> phát triển tri thức.",
+      "<ENT0> dành phần lớn thời gian học tập tại <ENT1>.",
+      "các <ENT1> cung cấp môi trường lý tưởng cho <ENT0> học tập.",
+      "<ENT1> là không gian chuyên biệt để <ENT0> phát triển kiến thức.",
+      "các <ENT0> thích hợp nhất khi học ở <ENT1>.",
+      "các <ENT1> thường có các công cụ phù hợp để hỗ trợ <ENT0>."
+    ]
+  },
+  "TaughtAt": {
+    "init_prompts": [
+      "<ENT1> là nơi <ENT0> được giảng dạy."
+    ],
+    "seed_ent_tuples": [
+      [
+        "toán học",
+        "trường trung học"
+      ],
+      [
+        "khoa học máy tính",
+        "trường đại học"
+      ],
+      [
+        "ngôn ngữ Anh",
+        "trung tâm ngoại ngữ"
+      ],
+      [
+        "kỹ năng mềm",
+        "trại hè kỹ năng"
+      ],
+      [
+        "lịch sử",
+        "lớp học trực tuyến"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được giảng dạy tại <ENT1>.",
+      "<ENT1> là địa điểm phù hợp để học <ENT0>.",
+      "nơi <ENT0> được truyền đạt hiệu quả nhất là <ENT1>.",
+      "<ENT1> cung cấp chương trình giảng dạy về <ENT0>.",
+      "các <ENT1> thường có các khóa học về <ENT0>.",
+      "tất cả các <ENT0> đều nằm trong chương trình học của <ENT1>.",
+      "giáo viên thường giảng dạy <ENT0> tại <ENT1>.",
+      "<ENT1> là môi trường lý tưởng để dạy <ENT0>.",
+      "các <ENT1> cung cấp nhiều tài liệu học tập về <ENT0>.",
+      "các lớp học <ENT1> giúp học sinh học tốt <ENT0>.",
+      "các <ENT1> luôn có các chuyên gia để dạy <ENT0>.",
+      "tại <ENT1>, học sinh có thể học được nhiều điều về <ENT0>.",
+      "<ENT1> là nơi hoàn hảo để dạy và học <ENT0>.",
+      "<ENT0> được trình bày chuyên sâu tại <ENT1>.",
+      "các <ENT1> hỗ trợ giáo viên trong việc giảng dạy <ENT0>."
+    ]
+  },
+  "CapableOf": {
+    "init_prompts": [
+      "Một điều mà <ENT0> có thể làm là <ENT1>."
+    ],
+    "seed_ent_tuples": [
+      [
+        "giáo viên",
+        "giải thích khái niệm khó"
+      ],
+      [
+        "học sinh",
+        "học hỏi và phát triển kỹ năng"
+      ],
+      [
+        "sinh viên",
+        "nghiên cứu tài liệu chuyên sâu"
+      ],
+      [
+        "giáo trình",
+        "cung cấp kiến thức cơ bản"
+      ],
+      [
+        "nhà nghiên cứu",
+        "phát hiện ra các thông tin mới"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> có khả năng <ENT1>.",
+      "Một điều mà <ENT0> thường có thể làm là <ENT1>.",
+      "Một trong những kỹ năng điển hình của <ENT0> là <ENT1>.",
+      "Trong môi trường giáo dục, <ENT0> thường có thể <ENT1>.",
+      "<ENT0> có khả năng <ENT1> để hỗ trợ học tập.",
+      "Một trong nhiều điều mà <ENT0> có thể làm tốt là <ENT1>.",
+      "Một điểm chung của <ENT0> là khả năng <ENT1>.",
+      "Một <ENT0> điển hình thường có thể <ENT1> để giúp người khác học tốt hơn.",
+      "<ENT0> thường <ENT1>, đó là một phần của vai trò của họ trong giáo dục.",
+      "<ENT0> thường được kỳ vọng có thể <ENT1> trong các tình huống học tập.",
+      "Một <ENT0> có thể dễ dàng <ENT1> trong các bài giảng hoặc hội thảo.",
+      "<ENT0> thường có khả năng <ENT1> để đáp ứng nhu cầu học tập của học sinh.",
+      "Trong bối cảnh học thuật, <ENT0> có thể <ENT1> để thúc đẩy sự hiểu biết.",
+      "<ENT0> thường có khả năng <ENT1> để cải thiện quá trình học tập.",
+      "<ENT0> thường được biết đến với việc <ENT1>, hỗ trợ quá trình giảng dạy và học tập."
+    ]
+  },
+  "Causes": {
+    "init_prompts": [
+      "Điển hình <ENT0> sẽ dẫn đến <ENT1>."
+    ],
+    "seed_ent_tuples": [
+      [
+        "học bài chăm chỉ",
+        "đạt kết quả cao"
+      ],
+      [
+        "giải thích chi tiết",
+        "học sinh hiểu bài"
+      ],
+      [
+        "không làm bài tập về nhà",
+        "kết quả học tập giảm"
+      ],
+      [
+        "đọc sách thường xuyên",
+        "mở rộng kiến thức"
+      ],
+      [
+        "tham gia lớp học ngoại khóa",
+        "phát triển kỹ năng mềm"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> tiêu biểu dẫn đến <ENT1>.",
+      "Thường thì <ENT0> sẽ gây ra <ENT1>.",
+      "Khi <ENT0>, kết quả thường là <ENT1>.",
+      "Hầu hết mọi người nhận thấy <ENT1> khi họ <ENT0>.",
+      "Điển hình là <ENT0> dẫn đến <ENT1> trong môi trường học tập.",
+      "Khi học sinh <ENT0>, họ thường trải nghiệm <ENT1>.",
+      "Giáo viên thường quan sát thấy <ENT1> khi học sinh <ENT0>.",
+      "Hành động <ENT0> thường dẫn đến kết quả là <ENT1>.",
+      "Khi bạn <ENT0>, bạn có thể kỳ vọng <ENT1> xảy ra.",
+      "<ENT1> là kết quả tự nhiên của <ENT0>.",
+      "Mọi người thường đạt được <ENT1> nhờ <ENT0>.",
+      "Việc <ENT0> thường xuyên sẽ tạo ra <ENT1>.",
+      "Trong học tập, <ENT0> thường gây ra <ENT1>.",
+      "<ENT1> là hệ quả của việc <ENT0> một cách nghiêm túc.",
+      "Khi giáo viên <ENT0>, học sinh thường sẽ <ENT1>."
+    ]
+  },
+  "CausesDesire": {
+    "init_prompts": [
+      "<ENT0> khiến ai đó muốn <ENT1>."
+    ],
+    "seed_ent_tuples": [
+      [
+        "điểm cao",
+        "học tập chăm chỉ"
+      ],
+      [
+        "giảng viên giỏi",
+        "tham dự lớp học"
+      ],
+      [
+        "khóa học thú vị",
+        "đăng ký học"
+      ],
+      [
+        "bài tập nhóm",
+        "tương tác với bạn bè"
+      ],
+      [
+        "bài kiểm tra khó",
+        "ôn luyện nhiều hơn"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> làm cho học sinh muốn <ENT1>.",
+      "Khi <ENT0>, hầu hết mọi người cảm thấy cần <ENT1>.",
+      "<ENT0> thường tạo động lực để học sinh <ENT1>.",
+      "Ai đó <ENT0> có thể cảm thấy thôi thúc muốn <ENT1>.",
+      "<ENT0> khơi dậy mong muốn <ENT1> ở học sinh.",
+      "<ENT0> khiến mọi người muốn <ENT1> để đạt được thành công.",
+      "Khi bạn <ENT0>, bạn thường muốn <ENT1> để cải thiện bản thân.",
+      "<ENT0> thường thúc đẩy ai đó <ENT1> để tiến bộ.",
+      "Một tình huống <ENT0> có khả năng làm nảy sinh mong muốn <ENT1>.",
+      "Học sinh thường <ENT1> khi được truyền cảm hứng bởi <ENT0>.",
+      "Môi trường <ENT0> khuyến khích mong muốn <ENT1> mạnh mẽ hơn.",
+      "Những người <ENT0> thường cảm thấy cần phải <ENT1>.",
+      "<ENT0> là lý do chính khiến nhiều học sinh muốn <ENT1>.",
+      "Giáo viên thường dùng <ENT0> để khuyến khích học sinh <ENT1>.",
+      "<ENT0> thường tạo ra sự thôi thúc mạnh mẽ để <ENT1>."
+    ]
+  },
+  "CreatedBy": {
+    "init_prompts": [
+      "<ENT1> là một quá trình hoặc tác nhân tạo ra <ENT0>."
+    ],
+    "seed_ent_tuples": [
+      [
+        "bài giảng",
+        "giảng viên"
+      ],
+      [
+        "bài kiểm tra",
+        "giáo viên"
+      ],
+      [
+        "luận văn",
+        "sinh viên"
+      ],
+      [
+        "giáo trình",
+        "nhà xuất bản"
+      ],
+      [
+        "bài nghiên cứu",
+        "nhà khoa học"
+      ]
+    ],
+    "prompts": [
+      "<ENT1> là người tạo ra <ENT0>.",
+      "Một <ENT1> chịu trách nhiệm sản xuất <ENT0>.",
+      "<ENT1> là tác nhân đứng sau việc tạo ra <ENT0>.",
+      "Một trong các nhiệm vụ của <ENT1> là tạo ra <ENT0>.",
+      "<ENT1> được biết đến với việc sản xuất ra <ENT0> trong giáo dục.",
+      "MỘT <ENT1> là người phát triển hoặc biên soạn <ENT0> để sử dụng trong giảng dạy.",
+      "<ENT1> đóng vai trò chính trong việc tạo ra <ENT0> cho học sinh.",
+      "Hầu hết <ENT0> được tạo ra bởi <ENT1> để phục vụ mục đích học tập.",
+      "Một sản phẩm đặc trưng của <ENT1> là <ENT0>.",
+      "<ENT1> là người sáng tạo ra các nội dung như <ENT0>.",
+      "<ENT1> tạo ra <ENT0> để hỗ trợ quá trình học tập và giảng dạy.",
+      "MỘT <ENT1> là nguồn sáng tạo chính của <ENT0> trong môi trường giáo dục.",
+      "Khi nói đến <ENT0>, <ENT1> là người chịu trách nhiệm thiết kế và sản xuất.",
+      "Người hoặc tổ chức tạo ra <ENT0> thường được gọi là <ENT1>.",
+      "Trong giáo dục, <ENT0> chủ yếu được tạo ra bởi <ENT1>."
+    ]
+  },
+  "DefinedAs": {
+    "init_prompts": [
+      "<ENT1> mô tả rõ ràng và chi tiết hơn so với <ENT0>."
+    ],
+    "seed_ent_tuples": [
+      [
+        "học tập",
+        "quá trình tiếp thu kiến thức"
+      ],
+      [
+        "giáo dục",
+        "hệ thống giảng dạy và học tập"
+      ],
+      [
+        "bài kiểm tra",
+        "đánh giá trình độ"
+      ],
+      [
+        "đề tài nghiên cứu",
+        "câu hỏi trung tâm của nghiên cứu"
+      ],
+      [
+        "giáo trình",
+        "tài liệu học tập"
+      ]
+    ],
+    "prompts": [
+      "<ENT1> = <ENT0>.",
+      "<ENT1> được hiểu như <ENT0>.",
+      "<ENT0> là một lĩnh vực nghiên cứu của <ENT1>.",
+      "các <ENT1> cung cấp giải thích chi tiết hơn về <ENT0>.",
+      "các <ENT1> được coi là <ENT0> trong bối cảnh giáo dục.",
+      "<ENT1> là một thuật ngữ chính xác hơn cho <ENT0>.",
+      "Thay vì \"<ENT0>\", bạn có thể nói \"<ENT1>\".",
+      "<ENT1> tốt hơn trong việc giải thích ý nghĩa của <ENT0>.",
+      "<ENT1> giúp cung cấp sự rõ ràng hơn về khái niệm <ENT0>.",
+      "<ENT1> là một định nghĩa chi tiết hơn về <ENT0>.",
+      "<ENT1> có thể giúp minh họa rõ hơn <ENT0> trong học tập.",
+      "Thuật ngữ \"<ENT1>\" thường được sử dụng để mô tả <ENT0>.",
+      "<ENT1> là cách giải thích chính xác và rõ ràng hơn về <ENT0>.",
+      "<ENT1> cung cấp bối cảnh và thông tin sâu hơn so với <ENT0>.",
+      "<ENT1> là cách cụ thể hơn để diễn đạt khái niệm <ENT0>.",
+      "Khi mô tả <ENT0>, <ENT1> là một phiên bản giải thích chi tiết hơn.",
+      "Trong giáo dục, <ENT1> thường được coi là <ENT0> ở dạng chi tiết hơn.",
+      "<ENT1> cung cấp sự hiểu biết thấu đáo và rõ ràng hơn về <ENT0>.",
+      "Một <ENT1> là định nghĩa mở rộng của <ENT0> để dễ hiểu hơn.",
+      "<ENT1> có thể được sử dụng để định nghĩa hoặc làm rõ <ENT0> trong giảng dạy."
+    ]
+  },
+  "HasA": {
+    "init_prompts": [
+      "Thông thường, chúng ta mong đợi <ENT0> có <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "giáo viên",
+        "kiến thức chuyên môn"
+      ],
+      [
+        "học sinh",
+        "sách giáo khoa"
+      ],
+      [
+        "trường học",
+        "phòng học"
+      ],
+      [
+        "kỳ thi",
+        "câu hỏi"
+      ],
+      [
+        "giảng viên",
+        "bài giảng"
+      ]
+    ],
+    "prompts": [
+      "Chúng tôi kỳ vọng rằng <ENT0> sẽ có <ENT1> để giảng dạy hiệu quả.",
+      "Thông thường, học sinh cần có <ENT1> để học <ENT0> một cách đầy đủ.",
+      "Trong giáo dục, chúng ta thường mong đợi rằng <ENT0> có <ENT1> để học sinh có thể tiếp thu tốt hơn.",
+      "Chúng tôi mong đợi rằng mỗi <ENT0> có <ENT1> để hỗ trợ quá trình học tập.",
+      "Thường xuyên có <ENT1> tại chỗ cho <ENT0> trong các lớp học để hỗ trợ giảng dạy.",
+      "Một kỳ thi thường yêu cầu <ENT0> có <ENT1> để đảm bảo rằng mọi học sinh đều có cơ hội làm bài tốt.",
+      "Chúng tôi thường mong đợi rằng mỗi <ENT0> sẽ có <ENT1> để giúp học sinh học tập hiệu quả.",
+      "Mỗi <ENT0> luôn cần có <ENT1> để đạt được mục tiêu học tập.",
+      "Khi giảng dạy một môn học, chúng ta mong đợi <ENT0> sẽ có <ENT1> để hỗ trợ học sinh hiểu bài hơn.",
+      "Chúng tôi kỳ vọng rằng một <ENT0> sẽ có <ENT1> đã được chuẩn bị kỹ lưỡng để dạy học sinh.",
+      "Mỗi lớp học cần có <ENT0> và <ENT1> để tạo môi trường học tập tích cực.",
+      "Khi học sinh tham gia kỳ thi, chúng ta mong đợi rằng <ENT0> sẽ có <ENT1> để phục vụ mục đích đánh giá chính xác.",
+      "Chúng tôi kỳ vọng rằng mỗi giáo viên sẽ có <ENT1> để tạo ra những bài giảng hấp dẫn và dễ hiểu.",
+      "Thường xuyên có <ENT1> tại lớp học, điều này giúp học sinh tiếp thu tốt hơn <ENT0> .",
+      "Trong một buổi học, chúng ta mong đợi giáo viên sẽ có <ENT1> để truyền đạt kiến thức hiệu quả."
+    ]
+  },
+  "HasFirstSubevent": {
+    "init_prompts": [
+      "<ENT0> là một sự kiện bắt đầu bằng sự kiện phụ <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "học",
+        "đọc sách"
+      ],
+      [
+        "giảng dạy",
+        "chuẩn bị bài giảng"
+      ],
+      [
+        "kiểm tra",
+        "phân phát đề thi"
+      ],
+      [
+        "thảo luận nhóm",
+        "chia nhóm"
+      ],
+      [
+        "bài thuyết trình",
+        "chuẩn bị nội dung"
+      ]
+    ],
+    "prompts": [
+      "\" <ENT1> \" là sự kiện phụ của \"<ENT0> .\" .",
+      "Thứ tự sự việc là: <ENT1> , sau đó <ENT0> .",
+      "Các <ENT0> bắt đầu với <ENT1> của một bài học.",
+      "\" <ENT0> \" sự kiện bắt đầu bằng \" <ENT1> \" sự kiện phụ .",
+      "Sự kiện \" <ENT0> \" bắt đầu với sự kiện phụ \" <ENT1> .\" .",
+      "Các <ENT0> bắt đầu bằng việc có những học sinh tham gia <ENT1> một bài học.",
+      "Sự kiện phụ \" <ENT1> \" là sự khởi đầu của sự kiện \" <ENT0> .\" .",
+      "Các <ENT0> là một sự kiện bắt đầu bằng sự kiện phụ của <ENT1> .",
+      "\" <ENT1> \" sự kiện phải xảy ra trước khi \" <ENT0> \" sự kiện có thể bắt đầu .",
+      "\" <ENT1> \" sự kiện xảy ra đầu tiên, sau đó là \" <ENT0> \" sự kiện có thể bắt đầu .",
+      "Để có được sự \" <ENT0> \" sự kiện bắt đầu, \" <ENT1> \" sự kiện đầu tiên phải xảy ra ."
+    ]
+  },
+  "HasLastSubevent": {
+    "init_prompts": [
+      "<ENT0> là một sự kiện kết thúc bằng sự kiện phụ <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "học xong bài",
+        "kiểm tra"
+      ],
+      [
+        "bài giảng",
+        "thảo luận"
+      ],
+      [
+        "thuyết trình",
+        "phản hồi từ giảng viên"
+      ],
+      [
+        "luyện tập thể thao",
+        "thư giãn"
+      ],
+      [
+        "đọc sách",
+        "ghi chú"
+      ]
+    ],
+    "prompts": [
+      "Sau khi bạn <ENT0> , bạn sẽ cần phải <ENT1> .",
+      "Các <ENT0> sự kiện kết thúc bằng <ENT1> sự kiện phụ .",
+      "Sự kiện \" <ENT0> \" kết thúc bằng sự kiện phụ \" <ENT1> \" .",
+      "Điều này có nghĩa là <ENT0> sự kiện kích hoạt <ENT1> sự kiện .",
+      "Nói cách khác, sự <ENT0> sự việc dẫn đến <ENT1> sự kiện .",
+      "'<ENT0>' sự kiện thường kết thúc bằng sự kiện phụ '<ENT1>' .",
+      "'<ENT0>' sự kiện hoàn tất khi '<ENT1>' sự kiện phụ đã xảy ra .",
+      "Trong hầu hết các trường hợp, '<ENT0>' sự kiện được theo sau bởi '<ENT1>' sự kiện phụ .",
+      "'<ENT0>' sự kiện thường liên quan đến sự kiện phụ của '<ENT1>' sau đó .",
+      "Sau sự kiện \" <ENT0> \" đã xảy ra, sự kiện phụ \" <ENT1> \" sẽ diễn ra."
+    ]
+  },
+  "HasPrerequisite": {
+    "init_prompts": [
+      "Nếu ai đó muốn <ENT0> , họ cần phải <ENT1> Đầu tiên ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "hoàn thành khóa học",
+        "hoàn thành bài tập"
+      ],
+      [
+        "thuyết trình",
+        "chuẩn bị tài liệu"
+      ],
+      [
+        "kiểm tra cuối kỳ",
+        "học tập"
+      ],
+      [
+        "viết luận văn",
+        "thu thập tài liệu"
+      ],
+      [
+        "được cấp bằng",
+        "hoàn thành các môn học"
+      ]
+    ],
+    "prompts": [
+      "Để <ENT0> , trước tiên người ta phải <ENT1> .",
+      "Nếu bạn muốn <ENT0> , bạn phải <ENT1> .",
+      "Nếu ai đó muốn <ENT0> , trước tiên họ cần <ENT1> .",
+      "Trước khi ai đó có thể bắt đầu <ENT0> , họ cần phải <ENT1> .",
+      "Nếu ai đó muốn <ENT0> , họ cần phải <ENT1> xuất hiện đầu tiên.",
+      "Các <ENT0> không thể bắt đầu cho đến khi người ta đã hoàn thành <ENT1> .",
+      "Nếu ai đó muốn <ENT0> , họ cần phải <ENT1> từ danh sách các yêu cầu đầu tiên."
+    ]
+  },
+  "HasProperty": {
+    "init_prompts": [
+      "<ENT0> là <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "bài kiểm tra",
+        "quan trọng"
+      ],
+      [
+        "sách giáo khoa",
+        "giá trị"
+      ],
+      [
+        "giảng viên",
+        "chuyên nghiệp"
+      ],
+      [
+        "lớp học",
+        "hữu ích"
+      ],
+      [
+        "bài tập",
+        "khó khăn"
+      ]
+    ],
+    "prompts": [
+      "<ENT0>s là <ENT1> .",
+      "Tất cả <ENT0> là <ENT1> .",
+      "<ENT0> là một <ENT1> chất lượng .",
+      "Màu sắc của <ENT0> là <ENT1> .",
+      "<ENT0> thường được xem là <ENT1> và có giá trị trong việc học.",
+      "Không thể phủ nhận điều đó <ENT0>s là <ENT1> trong giáo dục .",
+      "<ENT0> là một <ENT1> tài liệu do giảng viên biên soạn.",
+      "Trong khi không phải tất cả <ENT0>s là <ENT1> , một số có thể là .",
+      "<ENT0> là <ENT1> và rất quan trọng trong việc học tập.",
+      "Hầu hết <ENT0>s là <ENT1> và có thể giúp cải thiện kết quả học tập.",
+      "<ENT1> <ENT0> rất hữu ích khi học tập trong môi trường lớp học.",
+      "<ENT0>s là <ENT1> và có thể dễ dàng tạo động lực cho học sinh.",
+      "Nhiều học sinh tìm <ENT0> <ENT1> và khó có thể làm tốt mà không có nó.",
+      "<ENT0>s là tương đối <ENT1> so với các phương pháp giảng dạy khác.",
+      "Đây là một tuyên bố về <ENT0> nói chung - họ là <ENT1> .",
+      "Tất cả <ENT0>s có khả năng <ENT1> và cần được đánh giá kỹ càng.",
+      "<ENT0> sinh ra không có thành kiến ​​và định kiến; <ENT1> ."
+    ]
+  },
+  "HasSubEvent": {
+    "init_prompts": [
+      "<ENT1> xảy ra như một sự kiện phụ của <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "học",
+        "ghi chép"
+      ],
+      [
+        "giảng bài",
+        "giải thích khái niệm"
+      ],
+      [
+        "thực hành",
+        "luyện tập"
+      ],
+      [
+        "kiểm tra",
+        "chấm điểm"
+      ],
+      [
+        "nghiên cứu",
+        "thu thập tài liệu"
+      ]
+    ],
+    "prompts": [
+      "Bạn <ENT1> khi bạn <ENT0> .",
+      "Khi bạn <ENT0> , bạn <ENT1> .",
+      "Nguyên nhân của <ENT1> là <ENT0> .",
+      "Như bạn <ENT0> , bạn cũng sẽ <ENT1> .",
+      "Bạn cần phải <ENT1> để <ENT0> .",
+      "TÔI <ENT1> trước khi tôi có thể <ENT0> một khái niệm .",
+      "<ENT1> thường xảy ra khi bạn <ENT0> một bài học .",
+      "Sự kiện phụ của <ENT1> là điều đó xảy ra khi bạn <ENT0> .",
+      "Tôi <ENT0> bạn đó <ENT1> cũng là một phần của quá trình học.",
+      "Để <ENT0> kiến thức, trước tiên bạn phải <ENT1> tài liệu học.",
+      "Cơ thể bạn sản xuất <ENT1> khi bạn <ENT0> trong quá trình học.",
+      "Khi chúng tôi <ENT0> một lý thuyết, chúng tôi tự động <ENT1> về nó.",
+      "Bạn không thể <ENT0> một kỹ năng trừ khi bạn đầu tiên <ENT1> về nó.",
+      "Như bạn <ENT0> một bài giảng, bạn sẽ không chỉ <ENT1> , mà còn có kiến thức thực tế.",
+      "Khi bạn <ENT0> ai đó, bạn có thể tìm thấy chính mình <ENT1> cùng với họ trong quá trình học."
+    ]
+  },
+  "IsA": {
+    "init_prompts": [
+      "<ENT0> là một kiểu con hoặc một trường hợp cụ thể của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "giải tích",
+        "môn toán"
+      ],
+      [
+        "học phần lập trình",
+        "học phần kỹ thuật"
+      ],
+      [
+        "nghiên cứu trường hợp",
+        "phương pháp nghiên cứu"
+      ],
+      [
+        "công thức toán học",
+        "biểu thức toán học"
+      ],
+      [
+        "học trực tuyến",
+        "phương pháp học"
+      ]
+    ],
+    "prompts": [
+      "MỘT <ENT0> là một loại <ENT1> .",
+      "<ENT0>s là một phân loài của <ENT1> .",
+      "Nói cách khác, <ENT0> là một trong những điều đặc biệt <ENT1> .",
+      "<ENT0> đề cập cụ thể đến <ENT1> trong giảng dạy.",
+      "MỘT <ENT0> là một loại <ENT1> giúp sinh viên học tập hiệu quả.",
+      "Cụ thể hơn, <ENT0> là một loại <ENT1> được áp dụng trong các phương pháp học hiện đại.",
+      "MỘT <ENT0> là một <ENT1> liên quan đến các lý thuyết học thuật.",
+      "<ENT0> là một <ENT1> được sử dụng trong giảng dạy toán học.",
+      "<ENT0>s là một loại <ENT1> giúp sinh viên nâng cao kỹ năng lập trình.",
+      "MỘT <ENT0> là một loại <ENT1> hỗ trợ việc học trực tuyến.",
+      "MỘT <ENT0> là một loại <ENT1> nghiên cứu sử dụng phương pháp mô phỏng.",
+      "MỘT <ENT0> là một loại cụ thể của <ENT1> để học lập trình nâng cao.",
+      "Trong giáo dục, <ENT0> là một kiểu con của <ENT1> liên quan đến nghiên cứu chuyên sâu.",
+      "MỘT <ENT0> là một loại cụ thể của <ENT1> được sử dụng để giảng dạy về lý thuyết toán học.",
+      "MỘT <ENT0> là một loại <ENT1> áp dụng trong việc dạy học từ xa."
+    ]
+  },
+  "MadeOf": {
+    "init_prompts": [
+      "<ENT0> được làm bằng <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "sách giáo khoa",
+        "giấy"
+      ],
+      [
+        "bảng trắng",
+        "nhựa"
+      ],
+      [
+        "giấy thi",
+        "giấy"
+      ],
+      [
+        "bảng đen",
+        "gỗ"
+      ],
+      [
+        "máy chiếu",
+        "kim loại"
+      ]
+    ],
+    "prompts": [
+      "MỘT <ENT0> được làm bằng <ENT1>s .",
+      "<ENT0>s được làm từ <ENT1> .",
+      "các <ENT0> bao gồm <ENT1> .",
+      "MỘT <ENT0> thường được làm bằng <ENT1> .",
+      "Các <ENT0> trong lớp học thường được làm bằng <ENT1> .",
+      "<ENT1>s là một thành phần quan trọng trong hầu hết <ENT0>s .",
+      "<ENT1> là vật liệu phổ biến được sử dụng để làm <ENT0>s .",
+      "<ENT0>s trong trường học thường được làm bằng <ENT1> .",
+      "<ENT1> là nguyên liệu chính mà <ENT0>s được làm từ .",
+      "MỘT <ENT0> là một phần của <ENT1> giúp giảng dạy hiệu quả.",
+      "<ENT0> là một công cụ giảng dạy thường được làm bằng <ENT1>s .",
+      "<ENT0> là vật liệu giáo dục được làm từ <ENT1> .",
+      "MỘT <ENT0> là một thiết bị điện tử được làm từ <ENT1> .",
+      "Bằng chứng cho thấy rằng <ENT0>s có thể được làm từ nhiều vật liệu khác nhau như <ENT1> hoặc nhựa.",
+      "<ENT0> thường được làm bằng <ENT1> , mặc dù các vật liệu khác như gỗ hoặc thủy tinh có thể được sử dụng."
+    ]
+  },
+  "MotivatedByGoal": {
+    "init_prompts": [
+      "Ai đó làm <ENT0> bởi vì họ muốn <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "học",
+        "đạt_kiến thức"
+      ],
+      [
+        "làm bài tập",
+        "có điểm tốt"
+      ],
+      [
+        "tham gia_lớp học",
+        "hiểu_bài"
+      ],
+      [
+        "thực hành",
+        "cải thiện_kỹ_năng"
+      ],
+      [
+        "thi",
+        "được_cấp_chứng_chỉ"
+      ]
+    ],
+    "prompts": [
+      "Người nào đó <ENT0>s để <ENT1> .",
+      "Người nào đó <ENT0>là bởi vì họ muốn <ENT1> .",
+      "Người đó làm <ENT0> để có thể <ENT1> .",
+      "Nếu ai đó muốn <ENT1> , họ cần phải <ENT0> .",
+      "Ngay khi họ <ENT0> , họ làm vậy vì họ cần hoặc muốn <ENT1> .",
+      "Lý do ai đó sẽ <ENT0> là để họ có thể có thứ gì đó để <ENT1> .",
+      "Ai đó làm <ENT0> bởi vì họ muốn <ENT1> và họ cũng muốn đạt được kết quả mong muốn.",
+      "Người tham gia lớp học <ENT0> để <ENT1> và có thể cải thiện điểm số."
+    ]
+  },
+  "PartOf": {
+    "init_prompts": [
+      "<ENT0> là một phần của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "chương 1",
+        "sách"
+      ],
+      [
+        "bài giảng",
+        "khóa học"
+      ],
+      [
+        "học phần toán học",
+        "chương trình học"
+      ],
+      [
+        "đề thi giữa kỳ",
+        "môn học"
+      ],
+      [
+        "bài nghiên cứu",
+        "khóa luận"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một phần của <ENT1> .",
+      "Các <ENT0> là một phần của <ENT1> .",
+      "MỘT <ENT0> là một phần của <ENT1> trong chương trình học.",
+      "Các <ENT0> trong <ENT1> là phần quan trọng giúp nâng cao kiến thức.",
+      "MỘT <ENT0> là một phần của <ENT1> được học trong khóa học.",
+      "Các <ENT0> là phần của <ENT1> chứa thông tin quan trọng cần nắm vững.",
+      "<ENT0> là một phần của <ENT1>, nó cung cấp thông tin thiết yếu cho sinh viên.",
+      "Mỗi <ENT0> là một phần không thể thiếu trong <ENT1> giúp xây dựng nền tảng kiến thức.",
+      "<ENT0> là một phần của <ENT1> giúp sinh viên hiểu rõ hơn về các chủ đề liên quan."
+    ]
+  },
+  "ReceivesAction": {
+    "init_prompts": [
+      "<ENT1> có thể được thực hiện để <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "bài kiểm tra",
+        "đánh giá"
+      ],
+      [
+        "học sinh",
+        "được dạy"
+      ],
+      [
+        "giảng viên",
+        "giảng dạy"
+      ],
+      [
+        "khóa học",
+        "hoàn thành"
+      ],
+      [
+        "bài tập",
+        "nộp"
+      ]
+    ],
+    "prompts": [
+      "Các <ENT0> có thể <ENT1> để đánh giá sự tiến bộ.",
+      "<ENT0> có thể <ENT1> để xác định mức độ hiểu biết.",
+      "<ENT0> có thể <ENT1> trong quá trình học để kiểm tra sự tiến bộ.",
+      "Đây là một quá trình để xem liệu <ENT0> có thể <ENT1> không.",
+      "<ENT0> có thể <ENT1> sau khi hoàn thành khóa học.",
+      "<ENT0>s có thể <ENT1> để đánh giá sự hiểu biết của học sinh.",
+      "Để đảm bảo rằng học sinh đã nắm vững kiến thức, <ENT0> có thể <ENT1> .",
+      "Cả giáo viên và học sinh có thể đảm bảo rằng <ENT0> được <ENT1> chính xác.",
+      "Các <ENT0> có thể <ENT1> để đảm bảo sự công bằng trong quá trình đánh giá.",
+      "<ENT0> có thể <ENT1> để đảm bảo rằng học sinh đạt được mục tiêu học tập."
+    ]
+  },
+  "SymbolOf": {
+    "init_prompts": [
+      "<ENT0> tượng trưng cho <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "bảng đen",
+        "giáo dục"
+      ],
+      [
+        "quả cầu trái đất",
+        "kiến thức"
+      ],
+      [
+        "bằng cấp",
+        "thành tựu học thuật"
+      ]
+    ],
+    "prompts": [
+      "Các <ENT0> là biểu tượng của <ENT1> .",
+      "MỘT <ENT0> đại diện cho <ENT1> một cách tượng trưng.",
+      "Trong giáo dục, <ENT0> là biểu tượng của <ENT1> .",
+      "Các <ENT0> thường tượng trưng cho <ENT1> trong học thuật.",
+      "Một chiếc <ENT0> là sự đại diện cho <ENT1> của người học.",
+      "<ENT0> là biểu tượng của <ENT1> và đại diện cho sự học hỏi.",
+      "Khi bạn nhìn thấy <ENT0>, bạn có thể nghĩ đến <ENT1> .",
+      "<ENT0> đại diện cho <ENT1> vì nó liên quan trực tiếp đến sự phát triển kiến thức.",
+      "Cái <ENT0> này tượng trưng cho những thành tựu trong <ENT1> .",
+      "Là một biểu tượng học thuật, <ENT0> thường được sử dụng trong <ENT1> ."
+    ]
+  },
+  "UsedFor": {
+    "init_prompts": [
+      "<ENT0> được sử dụng cho <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "sách",
+        "học"
+      ],
+      [
+        "máy chiếu",
+        "giảng dạy"
+      ],
+      [
+        "bảng trắng",
+        "giải thích"
+      ],
+      [
+        "máy tính",
+        "nghiên cứu"
+      ],
+      [
+        "giấy",
+        "viết"
+      ]
+    ],
+    "prompts": [
+      "Các <ENT0> được sử dụng cho <ENT1> .",
+      "Chức năng của <ENT0> là để <ENT1> .",
+      "Các <ENT0> là phương tiện phổ biến <ENT1> .",
+      "Các <ENT0> là nơi mọi người đến <ENT1> .",
+      "Các <ENT0> là phương tiện được sử dụng để <ENT1> .",
+      "Các <ENT0> là một công cụ hỗ trợ trong quá trình <ENT1> .",
+      "Các <ENT0> là vật dụng được sử dụng trong <ENT1> các hoạt động học thuật.",
+      "Các <ENT0> là một phương tiện hỗ trợ trong việc <ENT1> kiến thức.",
+      "Các <ENT0> là công cụ phổ biến được sử dụng trong <ENT1> .",
+      "Một <ENT0> là một thiết bị giúp <ENT1> thông qua việc trình chiếu thông tin."
+    ]
+  }
+}

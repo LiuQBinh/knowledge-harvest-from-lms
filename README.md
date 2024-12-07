@@ -113,4 +113,4 @@ The results will be saved into `summary.txt` in `{result_dir}`, e.g., [results/c
 |                       \                        |        ['strong arms', 'strong legs', 'stand']         |            ['men', 'blood', 'fight']             |
 |                       \                        |        ['good company', 'good friends', 'keep']        |           ['humans', 'blood', 'feed']            |
 |                       \                        |    ['French Wines', 'Wine Glasses', 'taste better']    |  ['male cells', 'sperm cells', 'differentiate']  |
-+------------------------------------------------+--------------------------------------------------------+--------------------------------------------------+```
++------------------------------------------------+--------------------------------------------------------+--------------------------------------------------+

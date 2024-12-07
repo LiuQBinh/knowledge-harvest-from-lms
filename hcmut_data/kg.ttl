@@ -3634,7 +3634,7 @@ prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 <http://education.org/Kỳ thi quốc gia> a <http://education.org/exam> .
 
-<http://education.org/Chương trình giảng dạy tích hợp> a <http://education.org/initiative> .
+<http://education.org/ChươngChương trình giảng dạy tích hợp> a <http://education.org/initiative> .
 
 <http://education.org/Crisis Intervention Services> a <http://education.org/service> .
 

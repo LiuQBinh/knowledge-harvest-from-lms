@@ -1,0 +1,838 @@
+{
+  "AtLocation": {
+    "init_prompts": [
+      "<ENT1> là vị trí cho <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "thiết bị tuyển nổi",
+        "thuyền"
+      ],
+      [
+        "Nước",
+        "nước ngọt"
+      ],
+      [
+        "bánh răng",
+        "xe hơi"
+      ],
+      [
+        "hươu cao cổ",
+        "Châu phi"
+      ],
+      [
+        "quần dài",
+        "va li"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> được tìm thấy ở <ENT1> .",
+      "các <ENT1> là một <ENT0> giải pháp y.",
+      "có thể có <ENT0> trong <ENT1> .",
+      "<ENT0> là một thành phần trong <ENT1>s .",
+      "các <ENT0> nằm ở <ENT1> .",
+      "các <ENT1> là nơi tôi đặt <ENT0> .",
+      "các <ENT1>lục địa n là quê hương của <ENT0> .",
+      "MỘT <ENT0> thường được tìm thấy trên một <ENT1> .",
+      "<ENT1> là môi trường sống tự nhiên của <ENT0> .",
+      "các <ENT1> là nơi <ENT0> được đặt.",
+      "các <ENT1> là nơi hoàn hảo để có được <ENT0> .",
+      "Phần lớn <ENT0> sống ở cận Sahara <ENT1> .",
+      "các <ENT1> là nơi bạn thường tìm thấy <ENT0> .",
+      "MỘT <ENT1> là một vị trí tuyệt vời để giữ một <ENT0> trong trường hợp bạn cần nó.",
+      "các <ENT1> là nơi tốt nhất để lưu trữ của bạn <ENT0> khi bạn đang đi du lịch.",
+      "<ENT1> Các bộ phận giúp xe hoạt động bình thường được gọi chung là <ENT0> ."
+    ]
+  },
+  "CapableOf": {
+    "init_prompts": [
+      "Một cái gì đó <ENT0> thường có thể làm là <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "hàng xóm",
+        "hàng rào_property"
+      ],
+      [
+        "đầu bếp",
+        "bánh mì_filet"
+      ],
+      [
+        "thợ sửa ống nước",
+        "fix_vòi"
+      ],
+      [
+        "giáo viên",
+        "câu trả lời_câu hỏi"
+      ],
+      [
+        "tội phạm",
+        "trường hợp_joint"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> Có thể <ENT1> .",
+      "<ENT0> Có thể <ENT1> mà học sinh có.",
+      "Một điều mà <ENT0> thường làm là <ENT1> .",
+      "Một điều điển hình là một <ENT0> có thể làm là <ENT1> .",
+      "Một điểm chung <ENT0>kỹ năng ing là khả năng <ENT1> .",
+      "Một trong nhiều điều mà <ENT0> có thể làm là <ENT1> .",
+      "Một trong những kỹ năng mà <ENT0> thường có khả năng <ENT1> .",
+      "<ENT0> thường \" <ENT1> \" có nghĩa là họ nghiên cứu và đánh giá trước một mục tiêu tiềm năng .",
+      "<ENT0> có thể thường xuyên <ENT1>hoặc địa điểm để tìm ra những nơi tốt nhất để phạm tội.",
+      "<ENT0> Có thể <ENT1> trước để vạch ra cách bố trí và tìm ra cách tốt nhất để cướp địa điểm.",
+      "<ENT0> Có thể <ENT1> , hoặc địa điểm mà họ dự định phạm tội, bằng cách tìm hiểu trước để có ý tưởng .",
+      "<ENT0> thường có thể <ENT1> , đó là khi họ xác định trước vị trí để xem liệu đó có phải là mục tiêu tốt cho .",
+      "<ENT0> thường có thể <ENT1> , có nghĩa là họ quan sát và nghiên cứu một địa điểm để tìm ra những lỗ hổng mà họ có thể khai thác ."
+    ]
+  },
+  "Causes": {
+    "init_prompts": [
+      "Nó là điển hình cho <ENT0> gây ra <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "mua_hamburger",
+        "chi_tiền"
+      ],
+      [
+        "đánh máy",
+        "giao tiếp"
+      ],
+      [
+        "chiến đấu_kẻ thù",
+        "hy vọng_chiến thắng"
+      ],
+      [
+        "giải trí_mọi người",
+        "chụp_chú ý"
+      ],
+      [
+        "cưỡi_xe đạp",
+        "chuột rút"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> tiêu biểu <ENT1> .",
+      "<ENT0> thường dẫn đến <ENT1>s .",
+      "Đó là điển hình để <ENT1> khi <ENT0>s .",
+      "Hầu hết mọi người <ENT1> khi họ <ENT0>s .",
+      "Nó là điển hình cho <ENT0> gây ra <ENT1> .",
+      "Khi bạn <ENT0> , bạn thường <ENT1> .",
+      "Mọi người thường trải nghiệm <ENT1> trong khi <ENT0> .",
+      "Hầu hết mọi người đều trải nghiệm <ENT1> trong khi <ENT0>vào một thời điểm nào đó.",
+      "Khi bạn là <ENT0> , thông thường bạn sẽ <ENT1>e với những người khác.",
+      "Khi mọi người đang <ENT0> , điển hình là họ <ENT1> với ai đó.",
+      "Khi mọi người đang <ENT1> với nhau, thông thường họ sẽ <ENT0> ."
+    ]
+  },
+  "CausesDesire": {
+    "init_prompts": [
+      "<ENT0> khiến ai đó muốn <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "vũ hội",
+        "váy_đẹp"
+      ],
+      [
+        "cảm giác_bẩn",
+        "tắm_tắm"
+      ],
+      [
+        "đang_tò mò",
+        "open_gift"
+      ],
+      [
+        "tính háu ăn",
+        "ăn_nhanh"
+      ],
+      [
+        "cần_thứ",
+        "chạy_việc vặt"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> khiến mọi người muốn <ENT1>r.",
+      "<ENT0> là mong muốn <ENT1> hoặc với số lượng lớn.",
+      "Mọi người thường cảm thấy thôi thúc <ENT1> khi họ <ENT0> .",
+      "Người <ENT0> có thể muốn <ENT1> để xem bên trong có gì.",
+      "MỘT <ENT0> sẽ làm cho ai đó muốn <ENT1>r hơn bình thường .",
+      "Mọi người nói chung <ENT1>r cho <ENT0> bởi vì họ muốn trông mình đẹp nhất.",
+      "các <ENT0> tạo ra mong muốn ở ai đó <ENT1>r hơn họ thường làm.",
+      "Nếu ai đó <ENT0> , họ có thể muốn <ENT1> để xem bên trong có gì.",
+      "Ai đó <ENT0> có khả năng muốn <ENT1> , vì họ quan tâm đến những gì bên trong .",
+      "Một người quan tâm đến <ENT0> có khả năng <ENT1> , vì họ quan tâm đến những gì bên trong .",
+      "Mọi người <ENT0> về bản chất và điều này thường khiến họ muốn <ENT1>s, ngay cả khi họ không được phép làm vậy."
+    ]
+  },
+  "CreatedBy": {
+    "init_prompts": [
+      "<ENT1> là một quá trình hoặc tác nhân tạo ra <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "bánh mỳ",
+        "thợ làm bánh"
+      ],
+      [
+        "phim ảnh",
+        "giám đốc"
+      ],
+      [
+        "đi tiểu",
+        "thận"
+      ],
+      [
+        "trứng",
+        "con gà mái"
+      ],
+      [
+        "bài hát",
+        "nhà soạn nhạc"
+      ]
+    ],
+    "prompts": [
+      "MỘT <ENT1> là người làm <ENT0> .",
+      "MỘT <ENT1> là một loài động vật nằm <ENT0>s .",
+      "MỘT <ENT1> là một cá nhân làm bánh <ENT0> .",
+      "MỘT <ENT1> là một nhạc sĩ đã tạo ra <ENT0>s .",
+      "Một chức năng của <ENT1> là nằm <ENT0>s .",
+      "MỘT <ENT1> là một con gà cái tạo ra <ENT0>s .",
+      "MỘT <ENT1> là người giám sát việc sản xuất một <ENT0> .",
+      "Người chịu trách nhiệm tạo ra một <ENT0> được gọi là <ENT1> .",
+      "<ENT1> đề cập đến người chịu trách nhiệm tạo ra một <ENT0> .",
+      "Từ \" <ENT1> \" đề cập đến người tạo ra hoặc chuẩn bị <ENT0> .",
+      "MỘT <ENT1> là người sản xuất các sản phẩm làm từ bột mì như <ENT0> , bánh ngọt và bánh nướng .",
+      "các <ENT1> là lực lượng sáng tạo đằng sau <ENT0> , chịu trách nhiệm về tầm nhìn và định hướng chung của mình .",
+      "MỘT <ENT1> là người giúp tạo ra một <ENT0> bằng cách phối hợp các yếu tố khác nhau để tạo nên nó .",
+      "<ENT1>tạo ra <ENT0>bằng cách tự viết nhạc hoặc cộng tác với người viết lời và các nhạc sĩ khác."
+    ]
+  },
+  "DefinedAs": {
+    "init_prompts": [
+      "<ENT1> là một phiên bản giải thích hơn của <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "lịch sử",
+        "sự kiện quá khứ"
+      ],
+      [
+        "đá",
+        "nước_đóng băng"
+      ],
+      [
+        "Nghe",
+        "nhận_sound"
+      ],
+      [
+        "cửa",
+        "cổng vào"
+      ],
+      [
+        "sức khỏe",
+        "cơ thể_tình trạng"
+      ]
+    ],
+    "prompts": [
+      "<ENT1> = <ENT0> .",
+      "<ENT1> được biết đến như <ENT0> .",
+      "<ENT0> là nghiên cứu của <ENT1> .",
+      "các <ENT0> là <ENT1> về phòng.",
+      "các <ENT1> vào phòng là <ENT0> .",
+      "<ENT1> là một thuật ngữ chính xác hơn cho <ENT0> .",
+      "Thay vì \" <ENT0> \"bạn có thể nói\" <ENT1> \" .",
+      "<ENT1> tốt hơn là giải thích những gì <ENT0> là .",
+      "<ENT1> là một phiên bản giải thích hơn của <ENT0> .",
+      "<ENT1> giúp giải thích những gì đã xảy ra trong <ENT0> .",
+      "<ENT1> là thước đo cách <ENT0>y là một con vật.",
+      "<ENT1> là một cách cụ thể hơn để mô tả <ENT0> .",
+      "TÔI <ENT1> qua tai tôi, hay nói cách khác, tôi <ENT0> .",
+      "các <ENT1> đến một căn phòng là <ENT0> điều đó dẫn vào đó.",
+      "<ENT1> có thể giải thích tốt hơn hiện tượng <ENT0> .",
+      "Thuật ngữ \" <ENT1> \" đề cập đến tổng thể <ENT0> của một cá nhân.",
+      "<ENT1> có thể cung cấp sự hiểu biết chi tiết và sâu sắc hơn về <ENT0> .",
+      "<ENT1> là một cách sâu sắc và chính xác hơn để mô tả động vật <ENT0> .",
+      "MỘT <ENT1> là một <ENT0> hoặc cổng cho phép truy cập vào một tòa nhà hoặc không gian kín .",
+      "<ENT1> là thước đo cách <ENT0>y một con vật là, dựa trên ngoại hình của nó.",
+      "Từ \" <ENT1> \" có thể được sử dụng để mô tả hành động đi vào một địa điểm hoặc <ENT0>con đường mà một người đi vào.",
+      "Hai thuật ngữ này về cơ bản có thể hoán đổi cho nhau, nhưng \" <ENT1> \" có thể là cách chính xác hơn để mô tả điều gì xảy ra khi chúng ta <ENT0> đến một cái gì đó."
+    ]
+  },
+  "Desires": {
+    "init_prompts": [
+      "<ENT1> là một cái gì đó mà mọi <ENT0> mong muốn."
+    ],
+    "seed_ent_tuples": [
+      [
+        "những người theo chủ nghĩa vô chính phủ",
+        "miễn phí"
+      ],
+      [
+        "người_tức giận",
+        "trút giận"
+      ],
+      [
+        "động vật",
+        "tái tạo"
+      ],
+      [
+        "con ong",
+        "hoa"
+      ],
+      [
+        "bọn trẻ",
+        "play_games"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> mong muốn <ENT1> .",
+      "<ENT1> là điều mà mọi người <ENT0> mong muốn.",
+      "<ENT0> sự mong muốn <ENT1>dom cho mọi người.",
+      "các <ENT1>đó là những gì mọi người <ENT0> muốn .",
+      "Mọi <ENT0> muốn giao phối để <ENT1> .",
+      "<ENT0>bạn có một khát khao mãnh liệt được bay về phía trước <ENT1>s .",
+      "Mọi <ENT0> mong muốn một cách để <ENT1> sự thất vọng của họ.",
+      "Mọi <ENT0> mong muốn một lối thoát, hoặc một <ENT1> , vì sự tức giận của họ .",
+      "BẰNG <ENT0> , chúng tôi tin vào sức mạnh của <ENT1>dom dành cho tất cả mọi người.",
+      "các <ENT0> thu thập phấn hoa từ <ENT1> để làm mật ong.",
+      "<ENT0>S <ENT1> để tạo ra thế hệ mới của loài mình.",
+      "<ENT0> tin vào <ENT1>dom khỏi các chính phủ và hệ thống áp bức.",
+      "Tất cả <ENT0>chúng ta có bản năng để <ENT1> để tiếp tục loài của họ.",
+      "<ENT0>s bị thu hút bởi <ENT1>vì chúng cần mật hoa để làm mật.",
+      "<ENT0> muốn trở thành <ENT1> khỏi các cấu trúc và hệ thống áp bức, cả về thể chất lẫn tâm lý.",
+      "<ENT0> tin vào <ENT1>thống trị khỏi mọi hệ thống áp bức, cho dù đó là kinh tế, chính trị hay xã hội."
+    ]
+  },
+  "HasA": {
+    "init_prompts": [
+      "Thông thường, chúng ta mong đợi <ENT0> có <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "violon",
+        "dây"
+      ],
+      [
+        "hành động",
+        "hậu quả"
+      ],
+      [
+        "chó",
+        "lông thú"
+      ],
+      [
+        "xe hơi",
+        "bánh xe"
+      ],
+      [
+        "các môn thể thao",
+        "quy tắc"
+      ]
+    ],
+    "prompts": [
+      "Nên có <ENT1> vì <ENT0> .",
+      "Chúng tôi mong đợi một <ENT0> có <ENT1> .",
+      "thường có <ENT1> tại chỗ cho <ENT0> .",
+      "Chúng tôi kỳ vọng rằng sẽ có <ENT1> cho chúng tôi <ENT0> .",
+      "Chúng tôi thường mong đợi điều đó <ENT0> sẽ thiết lập <ENT1> .",
+      "Chúng tôi mong đợi sẽ có <ENT1> tại chỗ cho <ENT0> .",
+      "<ENT0> luôn luôn có <ENT1> , dù chúng tốt hay xấu .",
+      "Nó không phải là hiếm đối với <ENT0> có nhiều hơn bốn <ENT1> .",
+      "Chúng tôi mong đợi <ENT0> có <ENT1> , tạo ra âm thanh tuyệt vời .",
+      "<ENT0> thường có <ENT1> , mặc dù có một số giống thì không như vậy .",
+      "Nếu chúng ta đang nói về một <ENT0> , chúng ta thường mong đợi nó có <ENT1> .",
+      "Chúng tôi thường mong đợi điều đó <ENT0> sẽ có <ENT1> được thiết lập theo một cách nhất định.",
+      "Chúng tôi thường mong đợi rằng một <ENT0> sẽ đi kèm với bốn <ENT1> đã được cài đặt rồi.",
+      "Chúng tôi mong đợi sẽ có một số loại <ENT1> hoặc để tóc <ENT0> , để giúp giữ ấm cho họ .",
+      "Trong nhiều trường hợp, chúng tôi kỳ vọng rằng tính cạnh tranh <ENT0> sẽ có một tập hợp được xác định trước <ENT1> chi phối cách trò chơi được chơi."
+    ]
+  },
+  "HasFirstSubevent": {
+    "init_prompts": [
+      "<ENT0> là một sự kiện bắt đầu bằng sự kiện phụ <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "đầu bếp",
+        "rửa_tay"
+      ],
+      [
+        "chiến đấu_kẻ thù",
+        "lấy_vũ khí"
+      ],
+      [
+        "học",
+        "đọc"
+      ],
+      [
+        "ngủ",
+        "nhắm mắt"
+      ],
+      [
+        "tắm",
+        "loại bỏ_quần áo"
+      ]
+    ],
+    "prompts": [
+      "\" <ENT1> \" là sự kiện phụ của \"<ENT0> .\" .",
+      "Thứ tự sự việc là: <ENT1> , sau đó <ENT0> .",
+      "các <ENT0> bắt đầu với <ENT1>của một văn bản.",
+      "\" <ENT0> \" sự kiện bắt đầu bằng \" <ENT1> \" sự kiện phụ .",
+      "Sự kiện\" <ENT0> \" bắt đầu với sự kiện phụ \"<ENT1> .\" .",
+      "các <ENT0> bắt đầu bằng việc có những người tham gia <ENT1> một văn bản.",
+      "Sự kiện phụ\" <ENT1> \"là sự khởi đầu của sự kiện\"<ENT0> .\" .",
+      "các <ENT0> là một sự kiện bắt đầu bằng sự kiện phụ của <ENT1> .",
+      "\" <ENT1> \" sự kiện phải xảy ra trước \" <ENT0> \" sự kiện có thể bắt đầu .",
+      "\" <ENT1> \" sự kiện xảy ra đầu tiên, sau đó là \" <ENT0> \" sự kiện có thể bắt đầu .",
+      "Để có được sự \" <ENT0> \" sự kiện bắt đầu, \" <ENT1> \" sự kiện đầu tiên phải xảy ra ."
+    ]
+  },
+  "HasLastSubevent": {
+    "init_prompts": [
+      "<ENT0> là một sự kiện kết thúc bằng sự kiện phụ <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "phân tích",
+        "make_kết luận"
+      ],
+      [
+        "tắm",
+        "mặc quần áo"
+      ],
+      [
+        "leo_núi",
+        "đạt_đỉnh"
+      ],
+      [
+        "bàn chải_răng",
+        "súc miệng"
+      ],
+      [
+        "mua_hamburger",
+        "trả_tiền"
+      ]
+    ],
+    "prompts": [
+      "Sau bạn <ENT0> , bạn sẽ cần phải <ENT1> .",
+      "các <ENT0> sự kiện kết thúc bằng <ENT1> sự kiện phụ .",
+      "Sự kiện\" <ENT0> \" kết thúc bằng sự kiện phụ \" <ENT1> \" .",
+      "Điều này có nghĩa là<ENT0> sự kiện kích hoạt <ENT1> sự kiện .",
+      "Nói cách khác, sự <ENT0> sự việc dẫn đến <ENT1> sự kiện .",
+      "'<ENT0>' sự kiện thường kết thúc bằng sự kiện phụ '<ENT1>' .",
+      "'<ENT0>' sự kiện hoàn tất khi '<ENT1>' sự kiện phụ đã xảy ra .",
+      "Trong hầu hết các trường hợp, '<ENT0>' sự kiện được theo sau bởi '<ENT1>' sự kiện phụ .",
+      "'<ENT0>' sự kiện thường liên quan đến sự kiện phụ của '<ENT1>' sau đó .",
+      "Sau sự kiện \" <ENT0> \" đã xảy ra, sự kiện phụ \" <ENT1> \" sẽ diễn ra."
+    ]
+  },
+  "HasPrerequisite": {
+    "init_prompts": [
+      "Nếu ai đó muốn <ENT0> , họ cần phải <ENT1> Đầu tiên ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "phân tích",
+        "nghĩ"
+      ],
+      [
+        "viết_chương trình",
+        "thiết kế_chương trình"
+      ],
+      [
+        "make_grow",
+        "kích thích"
+      ],
+      [
+        "nghe_lời khai",
+        "triệu tập_nhân chứng"
+      ],
+      [
+        "đánh máy",
+        "nhấn_keys"
+      ]
+    ],
+    "prompts": [
+      "Để <ENT0> , trước tiên người ta phải <ENT1> .",
+      "Nếu bạn muốn <ENT0> , bạn phải <ENT1> .",
+      "Nếu ai đó muốn <ENT0> , trước tiên họ cần <ENT1> .",
+      "Trước khi ai đó có thể bắt đầu <ENT0> , họ cần phải <ENT1> trên bàn phím.",
+      "Nếu ai đó muốn <ENT0> , họ cần phải <ENT1> xuất hiện trước mặt họ đầu tiên.",
+      "các <ENT0>không thể bắt đầu cho đến khi người suy nghĩ đã gõ xong <ENT1>s trên bàn phím.",
+      "Nếu ai đó muốn <ENT0> , họ cần phải <ENT1> từ danh sách các nhân chứng tiềm năng đầu tiên."
+    ]
+  },
+  "HasProperty": {
+    "init_prompts": [
+      "<ENT0> là <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "súng",
+        "nguy hiểm"
+      ],
+      [
+        "sổ tay bỏ túi",
+        "bé nhỏ"
+      ],
+      [
+        "những đứa trẻ",
+        "vô tội"
+      ],
+      [
+        "rượu bia",
+        "gây nghiện"
+      ],
+      [
+        "sữa",
+        "trắng"
+      ]
+    ],
+    "prompts": [
+      "<ENT0>s là <ENT1> .",
+      "Tất cả <ENT0> là <ENT1> .",
+      "<ENT0> là một <ENT1> chất lỏng .",
+      "Màu sắc của <ENT0> là <ENT1> .",
+      "<ENT0> thường được xem là <ENT1> và tinh khiết.",
+      "Không thể phủ nhận điều đó <ENT0>s là <ENT1> .",
+      "<ENT0> là một <ENT1> chất lỏng do động vật có vú tiết ra.",
+      "Trong khi không phải tất cả <ENT0>s là <ENT1> , một số có thể là .",
+      "<ENT0> là <ENT1> và không đáng bị tổn thương.",
+      "Hầu hết <ENT0>s là <ENT1> và có thể dẫn đến lệ thuộc.",
+      "<ENT1> <ENT0>thật tuyệt vời khi mang theo bên mình.",
+      "<ENT0>s là <ENT1> và có thể dễ dàng mang theo bên mình.",
+      "Nhiều người tìm <ENT0> <ENT1> và khó bỏ tiêu dùng.",
+      "<ENT0>s là tương đối <ENT1> so với các loại máy tính xách tay khác.",
+      "Đây là một tuyên bố về <ENT0> nói chung - họ là <ENT1> .",
+      "Tất cả <ENT0>s có khả năng <ENT1> và cần được xử lý một cách thận trọng.",
+      "<ENT0> sinh ra không có thành kiến ​​và định kiến;  <ENT1> .",
+      "<ENT0> là những phiến đá sạch;  <ENT1> ."
+    ]
+  },
+  "HasSubEvent": {
+    "init_prompts": [
+      "<ENT1> xảy ra như một sự kiện phụ của <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "đồng ý với",
+        "gật đầu"
+      ],
+      [
+        "đang ngủ",
+        "trẻ hóa_cơ thể"
+      ],
+      [
+        "tham dự_lớp học",
+        "đạt được_kiến thức"
+      ],
+      [
+        "phán xét",
+        "thu thập_thông tin"
+      ],
+      [
+        "chơi_thể thao",
+        "mồ hôi"
+      ]
+    ],
+    "prompts": [
+      "Bạn <ENT1> khi bạn <ENT0> .",
+      "Khi bạn <ENT0> , Bạn <ENT1> .",
+      "Nguyên nhân của <ENT1> là <ENT0> .",
+      "Như bạn <ENT0> , bạn cũng sẽ <ENT1> .",
+      "Bạn cần phải <ENT1> để <ENT0> .",
+      "TÔI <ENT1> trước khi tôi có thể <ENT0> thứ gì đó .",
+      "<ENT1> thường xảy ra khi bạn <ENT0> người nào đó .",
+      "Sự kiện phụ của <ENT1>điều đó xảy ra khi bạn <ENT0> .",
+      "TÔI <ENT0> bạn đó <ENT1> cũng là một hình thức thỏa thuận.",
+      "Để <ENT0> một cái gì đó, trước tiên bạn phải <ENT1> .",
+      "Cơ thể bạn sản xuất <ENT1> để tự làm mát khi bạn <ENT0> .",
+      "Khi chúng tôi <ENT0> điều gì đó, chúng tôi tự động <ENT1> về nó.",
+      "bạn không thể <ENT0> một cái gì đó trừ khi bạn đầu tiên <ENT1> về nó.",
+      "Như bạn <ENT0> , bạn sẽ không chỉ <ENT1> , mà còn có kinh nghiệm .",
+      "Khi bạn <ENT0> ai đó, bạn có thể tìm thấy chính mình <ENT1> cùng với họ.",
+      "Là một phần của quá trình thực hiện một <ENT0>nhớ lại, người ta thường phải <ENT1> Đầu tiên ."
+    ]
+  },
+  "IsA": {
+    "init_prompts": [
+      "<ENT0> là một kiểu con hoặc một trường hợp cụ thể của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "viêm đường mật",
+        "viêm"
+      ],
+      [
+        "cơm_cây",
+        "ngũ cốc_cây"
+      ],
+      [
+        "tế bào đa bội",
+        "tế bào không ung thư"
+      ],
+      [
+        "minsk",
+        "thành phố"
+      ],
+      [
+        "quân_ant",
+        "kiến"
+      ]
+    ],
+    "prompts": [
+      "MỘT <ENT0> là một loại <ENT1> .",
+      "<ENT0>s là một phân loài của <ENT1> .",
+      "Nói cách khác, <ENT0> là một trong những điều đặc biệt <ENT1> .",
+      "<ENT0> đề cập cụ thể đến <ENT1> của các ống mật.",
+      "MỘT <ENT0> là một loại <ENT1> tạo ra các loại ngũ cốc ăn được.",
+      "Cụ thể hơn, <ENT0> là một loại <ENT1> của các ống mật.",
+      "MỘT <ENT0> là một <ENT1> có nhiều hơn hai bộ nhiễm sắc thể.",
+      "<ENT0> là một <ENT1> , và đặc biệt, nó là thủ đô của Belarus .",
+      "<ENT0>s là một loại <ENT1> thường sống thành đàn lớn .",
+      "MỘT <ENT0> là một loại <ENT1> xảy ra khi ống mật bị viêm.",
+      "MỘT <ENT0> là một loại <ENT1> được trồng đặc biệt để lấy hạt mà nó tạo ra.",
+      "MỘT <ENT1> đó là của <ENT0> loại là loại được đặc trưng bởi quy mô và dân số lớn.",
+      "Trong y học, <ENT0> là một kiểu con của <ENT1> ảnh hưởng đến đường mật, bao gồm cả các ống mật.",
+      "MỘT <ENT0> là một loại cụ thể của <ENT1> được biết đến là loài sống theo nhóm lớn và rất hung dữ.",
+      "MỘT <ENT0> là một loại cụ thể của <ENT1> được trồng để thu hoạch ngũ cốc, được sử dụng làm nguồn thực phẩm."
+    ]
+  },
+  "MadeOf": {
+    "init_prompts": [
+      "<ENT0> được làm bằng <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "ống kính",
+        "thủy tinh"
+      ],
+      [
+        "gạch",
+        "đất sét"
+      ],
+      [
+        "bóng bay",
+        "cao su"
+      ],
+      [
+        "bánh ngọt",
+        "trứng"
+      ],
+      [
+        "sách",
+        "giấy"
+      ]
+    ],
+    "prompts": [
+      "MỘT <ENT0> được làm bằng <ENT1>s .",
+      "<ENT0>s được làm từ <ENT1> .",
+      "các <ENT0> bao gồm <ENT1> .",
+      "MỘT <ENT0> thường được làm bằng <ENT1> .",
+      "các <ENT0> trong một chiếc máy ảnh được làm bằng <ENT1> .",
+      "<ENT1>s là một thành phần quan trọng trong hầu hết <ENT0>s .",
+      "<ENT1> là vật liệu phổ biến được sử dụng để làm <ENT0>s .",
+      "<ENT0>s thường được làm bằng mủ cao su, một chất liệu tự nhiên <ENT1> .",
+      "<ENT1> là nguyên liệu chính mà <ENT0>s được làm từ .",
+      "MỘT <ENT0> là một phần của <ENT1> giúp tập trung ánh sáng.",
+      "<ENT0> là một món tráng miệng thường được làm bằng <ENT1>s .",
+      "<ENT0> là vật liệu xây dựng được làm từ cứng <ENT1> .",
+      "MỘT <ENT0> là một <ENT1> vật được thổi phồng lên bằng không khí hoặc khí đốt.",
+      "Bằng chứng cho thấy người Ai Cập cổ đại là những người đầu tiên sử dụng <ENT1> làm <ENT0>s .",
+      "<ENT0> thường được làm bằng <ENT1> , mặc dù các vật liệu khác như nhựa hoặc thạch anh có thể được sử dụng ."
+    ]
+  },
+  "MotivatedByGoal": {
+    "init_prompts": [
+      "Ai đó làm <ENT0> bởi vì họ muốn <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "tắm",
+        "trở thành_sạch"
+      ],
+      [
+        "bán",
+        "tiền bạc"
+      ],
+      [
+        "tìm_việc",
+        "kiếm_tiền"
+      ],
+      [
+        "phục vụ_khách hàng",
+        "ở lại_làm việc"
+      ],
+      [
+        "đầu bếp",
+        "ăn"
+      ]
+    ],
+    "prompts": [
+      "Người nào đó <ENT0>s để <ENT1> .",
+      "Người nào đó <ENT0>là bởi vì họ muốn <ENT1> .",
+      "Người đó là <ENT0>để làm <ENT1> .",
+      "Nếu ai đó muốn <ENT1> , họ cần phải <ENT0> Tốt .",
+      "Ngay <ENT0>đó là việc của họ bởi vì họ cần hoặc muốn <ENT1> từ nó.",
+      "Lý do ai đó sẽ <ENT0> là để họ có thể có thứ gì đó để <ENT1> .",
+      "Ai đó làm <ENT0> bởi vì họ muốn <ENT1> và họ cũng muốn có ý thức về mục đích."
+    ]
+  },
+  "PartOf": {
+    "init_prompts": [
+      "<ENT0> là một phần của <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "lòng trắng trứng",
+        "trứng"
+      ],
+      [
+        "đỉnh núi",
+        "núi"
+      ],
+      [
+        "biển chết",
+        "jordan"
+      ],
+      [
+        "bối cảnh",
+        "bộ phim"
+      ],
+      [
+        "Stuttgart",
+        "nước Đức"
+      ]
+    ],
+    "prompts": [
+      "<ENT0> là một thành phố ở <ENT1> .",
+      "các <ENT0> là một phần của <ENT1> .",
+      "MỘT <ENT0> là điểm cao nhất trên <ENT1> .",
+      "các <ENT0> trong <ENT1> lấy bối cảnh ở một thành phố.",
+      "Thành phố của <ENT0> nằm ở <ENT1>s .",
+      "các <ENT0> là một vùng nước nằm ở <ENT1> .",
+      "<ENT0> là một thành phố nằm ở phía tây nam <ENT1> .",
+      "các <ENT0> là một trong những phần chính của một <ENT1> .",
+      "các <ENT0> trong <ENT1> là một phần tuyệt vời của bộ phim.",
+      "các <ENT0> là chất lỏng trong suốt, dính bao quanh <ENT1> lòng đỏ.",
+      "các <ENT0> là một cái hồ được bao bọc bởi <ENT1> về phía đông và Israel về phía tây.",
+      "MỘT <ENT0> trong một <ENT1> là một phân đoạn khép kín thường có một vị trí, điểm cốt truyện hoặc ký tự cụ thể .",
+      "MỘT <ENT0> trong một <ENT1> là một phần cụ thể của bộ phim thường diễn ra ở một địa điểm và xoay quanh một sự kiện hoặc điểm cốt truyện cụ thể."
+    ]
+  },
+  "ReceivesAction": {
+    "init_prompts": [
+      "<ENT1> có thể được thực hiện để <ENT0> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "stringed_instrument",
+        "điều chỉnh"
+      ],
+      [
+        "đôi khi_có tội",
+        "bị kết án"
+      ],
+      [
+        "lụa",
+        "nhuộm"
+      ],
+      [
+        "viên thuốc",
+        "uống_bằng miệng"
+      ],
+      [
+        "hợp đồng",
+        "đánh giá"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> có thể <ENT1> .",
+      "<ENT0> có thể <ENT1> trong nhiều màu sắc khác nhau.",
+      "<ENT0> có thể <ENT1> để xem chúng có hiệu quả không.",
+      "Đây là một thử nghiệm để xem liệu <ENT0> có thể <ENT1> .",
+      "các <ENT0> có thể <ENT1> với màu sắc mà bạn muốn.",
+      "<ENT0>s có thể <ENT1> để tạo ra các cấp độ cao độ khác nhau.",
+      "Để đảm bảo rằng cả hai bên đều hài lòng, <ENT0> có thể <ENT1> .",
+      "Cả hai bên đều có thể đảm bảo rằng <ENT0> là <ENT1> bằng cách tự mình lấy chúng.",
+      "các <ENT0> có thể <ENT1> để đánh giá tính hiệu quả và sự tuân thủ của chúng.",
+      "<ENT0> có thể <ENT1> để đảm bảo sự công bằng và đáp ứng nhu cầu của cả hai bên."
+    ]
+  },
+  "SymbolOf": {
+    "init_prompts": [
+      "<ENT0> tượng trưng cho <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "lễ phục",
+        "linux"
+      ],
+      [
+        "tặng_hoa hồng",
+        "yêu"
+      ],
+      [
+        "chiếc cúp",
+        "chiến thắng"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> là biểu tượng của <ENT1> .",
+      "MỘT <ENT0> đại diện cho <ENT1> một cách tượng trưng.",
+      "<ENT1> linh vật chính thức của kernel là <ENT0> .",
+      "MỘT <ENT0> là một hiện thân vật lý của <ENT1> .",
+      "các <ENT0> linh vật đại diện cho <ENT1> hạt nhân .",
+      "<ENT0> với ai đó một cách tượng trưng <ENT1> .",
+      "<ENT0> là linh vật chính thức của <ENT1> hạt nhân .",
+      "các <ENT1> linh vật, <ENT0> , là một nhân vật chim cánh cụt được cách điệu .",
+      "Khi bạn <ENT0> với ai đó, nó là biểu tượng của bạn <ENT1> cho họ.",
+      "Một số người cho rằng <ENT0> tượng trưng cho <ENT1> .",
+      "Linh vật chính thức của <ENT1> kernel là một con chim cánh cụt có tên <ENT0> .",
+      "các <ENT0> là biểu tượng của <ENT1> vì nó là hệ điều hành mã nguồn mở và miễn phí."
+    ]
+  },
+  "UsedFor": {
+    "init_prompts": [
+      "<ENT0> được sử dụng cho <ENT1> ."
+    ],
+    "seed_ent_tuples": [
+      [
+        "giường",
+        "ngủ"
+      ],
+      [
+        "đấu trường",
+        "trận đánh"
+      ],
+      [
+        "cánh",
+        "bay"
+      ],
+      [
+        "máy bay",
+        "vận tải"
+      ],
+      [
+        "kéo",
+        "cắt"
+      ]
+    ],
+    "prompts": [
+      "các <ENT0> được sử dụng cho <ENT1> .",
+      "Chức năng của <ENT0> là để <ENT1> .",
+      "các <ENT0> là một phương tiện phổ biến <ENT1> .",
+      "các <ENT0> là nơi mọi người đến <ENT1> .",
+      "các <ENT0> là phương tiện được sử dụng để <ENT1> .",
+      "các <ENT0> là một món đồ nội thất dành cho <ENT1>đang vào .",
+      "các <ENT0> là một phần của con chim giúp nó <ENT1> .",
+      "các <ENT0> là một nơi mà <ENT1>ers có thể chiến đấu với nhau.",
+      "các <ENT0> là một chế độ phổ biến của <ENT1> được mọi người trên khắp thế giới sử dụng.",
+      "MỘT <ENT0> là một món đồ nội thất thường được sử dụng để <ENT1>đang vào .",
+      "MỘT <ENT0> là một <ENT1>công cụ ting bao gồm hai lưỡi kim loại được kết nối tại một điểm xoay.",
+      "MỘT <ENT0> là một tấm vật liệu mỏng, thường được gắn vào cơ thể động vật, giúp động vật <ENT1> bằng cách cung cấp lực nâng và tăng dần."
+    ]
+  }
+}
