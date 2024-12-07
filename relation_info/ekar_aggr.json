@@ -217,7 +217,7 @@
       "MỘT <ENT0> là một loại <ENT1> liên quan đến tranh chấp giữa người dân, doanh nghiệp và chính phủ.",
       "<ENT0> là một loại <ENT1> chi phối các mối quan hệ giữa cá nhân, gia đình và doanh nghiệp.",
       "Tranh chấp giữa người dân, doanh nghiệp và chính phủ được giải quyết bằng <ENT0> , đó là một loại <ENT1> .",
-      "Các loại khác nhau của <ENT1>bao gồm <ENT0>, được sử dụng để giải quyết tranh chấp giữa các cá nhân và/hoặc tổ chức.",
+      "Các loại khác nhau của <ENT1>bao gồm <ENT0> , được sử dụng để giải quyết tranh chấp giữa các cá nhân và/hoặc tổ chức.",
       "<ENT1> có thể được chia thành nhiều loại khác nhau, một trong số đó là <ENT0> , giải quyết tranh chấp giữa các cá nhân và/hoặc tổ chức .",
       "<ENT1> có thể được chia thành nhiều loại khác nhau, một trong số đó là <ENT0> , quy định các tranh chấp giữa người dân, doanh nghiệp và chính phủ.",
       "<ENT0> là một loại <ENT1> giải quyết các mối quan hệ giữa các cá nhân và tổ chức, trái ngược với tội phạm được xử lý bởi tội phạm."
@@ -2630,7 +2630,7 @@
       "MỘT <ENT1> được thắp sáng bởi một <ENT0> khi nó tiếp xúc với dòng điện.",
       "MỘT <ENT0> là một sợi dây trong một <ENT1> tạo ra ánh sáng khi có dòng điện chạy qua.",
       "<ENT0> là dây dẫn khi có dòng điện đốt nóng sẽ phát ra ánh sáng và được sử dụng trong <ENT1> .",
-      "Bạn có thể tìm thấy một <ENT0> trong hầu hết <ENT1>, phát ra ánh sáng khi có dòng điện chạy qua nó.",
+      "Bạn có thể tìm thấy một <ENT0> trong hầu hết <ENT1> , phát ra ánh sáng khi có dòng điện chạy qua nó.",
       "<ENT0> là sợi dây giống như sợi dây bên trong một <ENT1> tạo ra ánh sáng khi bị dòng điện đốt nóng.",
       "<ENT1> tạo ra ánh sáng khi dây nóng bên trong nó, gọi là <ENT0> , chịu tác dụng của dòng điện.",
       "<ENT1> là một loại ánh sáng được tạo ra khi có một sợi dây bên trong nó, gọi là <ENT0> , được làm nóng bằng điện."
@@ -2896,7 +2896,7 @@
       "<ENT1> ban đầu được đề cập đến <ENT0> .",
       "Hình thức sớm nhất của <ENT1> là <ENT0> .",
       "Bạn có thể biết thời gian bằng một <ENT1> hoặc một <ENT0> .",
-      "Trước <ENT1>, mọi người đã viết thời gian trên <ENT0>es .",
+      "Trước <ENT1> , mọi người đã viết thời gian trên <ENT0>es .",
       "<ENT0> là một loại <ENT1> cái đó dùng để đo thời gian"
     ]
   },
@@ -4790,7 +4790,7 @@
       "<ENT0>có mặt để giúp đỡ và cung cấp dịch vụ cho <ENT1> .",
       "Bạn có thể tìm thấy <ENT0>ở đâu <ENT1>họ có thể tìm kiếm sự giúp đỡ và dịch vụ.",
       "<ENT0> cung cấp dịch vụ cho <ENT1>để giúp họ phục hồi.",
-      "Bạn có thể tìm thấy <ENT1>ở trong <ENT0>, cung cấp dịch vụ giúp họ khôi phục các tệp .",
+      "Bạn có thể tìm thấy <ENT1>ở trong <ENT0> , cung cấp dịch vụ giúp họ khôi phục các tệp .",
       "Bạn có thể tìm thấy những gì bạn cần tại một <ENT0> , là nơi bán hàng hóa cho <ENT1> ."
     ]
   },
@@ -5089,7 +5089,7 @@
       "<ENT0> là một loại <ENT1> , nhưng nó thường được chưng cất .",
       "Có một số tranh luận về việc liệu <ENT0> là một loại <ENT1> .",
       "<ENT0> thường được coi là một <ENT1> , nhưng thực ra nó là một loài động vật có vú .",
-      "Có rất nhiều loại <ENT1>, nhưng <ENT0> là một trong những phổ biến nhất."
+      "Có rất nhiều loại <ENT1> , nhưng <ENT0> là một trong những phổ biến nhất."
     ]
   },
   "EKAR_159": {
@@ -6803,7 +6803,7 @@
       "các <ENT0> được đặc trưng bởi nó <ENT1> chất lượng .",
       "các <ENT0> là <ENT1> vì nó tràn đầy năng lượng.",
       "Chất lượng khác biệt của <ENT0> là của nó <ENT1> thuộc tính .",
-      "Nếu bạn nói rằng ai đó là \"<ENT0>,\" điều đó có nghĩa là họ <ENT1> ."
+      "Nếu bạn nói rằng ai đó là \"<ENT0> ,\" điều đó có nghĩa là họ <ENT1> ."
     ]
   },
   "EKAR_212": {
@@ -7191,7 +7191,7 @@
       "MỘT <ENT1> di chuyển trong không gian được gọi là <ENT0> .",
       "Một số <ENT1>được tìm thấy trên trái đất bao gồm <ENT0> .",
       "MỘT <ENT0> là một loại <ENT1> đó di chuyển trong không gian.",
-      "Trái Đất có nhiều dạng <ENT1>, bao gồm <ENT0> .",
+      "Trái Đất có nhiều dạng <ENT1> , bao gồm <ENT0> .",
       "Trái đất là nơi sinh sống của nhiều loại <ENT1> , chẳng hạn như <ENT0> .",
       "MỘT <ENT1> được sử dụng để khám phá không gian bên ngoài được gọi là <ENT0> .",
       "Hành tinh trái đất chứa rất nhiều <ENT1> , bao gồm <ENT0> .",
@@ -8166,7 +8166,7 @@
       "Khi bạn nói <ENT0> , nó có nghĩa là <ENT1> .",
       "Cho rằng nó là <ENT0> , đó là <ENT1> .",
       "Nếu như <ENT1> , có thể giả định rằng <ENT0> .",
-      "Khi nó <ENT0>, bạn có thể cho rằng đó là <ENT1> .",
+      "Khi nó <ENT0> , bạn có thể cho rằng đó là <ENT1> .",
       "Suy luận từ <ENT0> , nó theo sau đó <ENT1> .",
       "Bạn có thể suy ra <ENT1> từ thực tế là <ENT0> .",
       "Bạn có thể suy luận rằng đó là <ENT1> bởi vì <ENT0> .",
@@ -11755,7 +11755,7 @@
       "Một số người được đào tạo về một lĩnh vực cụ thể <ENT0>tôi là <ENT1> .",
       "Một số người đã tiến bộ <ENT0>ise trong một lĩnh vực nhất định là <ENT1> .",
       "Một số người có kỹ năng trong một lĩnh vực cụ thể <ENT1> , chẳng hạn như <ENT0> .",
-      "Một số <ENT1> những cá nhân là chuyên gia trong lĩnh vực của họ, như <ENT0>, hãy nhớ đến .",
+      "Một số <ENT1> những cá nhân là chuyên gia trong lĩnh vực của họ, như <ENT0> , hãy nhớ đến .",
       "Những người có kỹ năng đặc biệt đôi khi có thể được coi là một <ENT1> , chẳng hạn như một <ENT0> .",
       "Một số người đặc biệt giỏi ở một lĩnh vực nào đó có thể được ví như <ENT1> , chẳng hạn như <ENT0> .",
       "Khi người ta nghĩ về một <ENT0> , một số <ENT1> những người rất am hiểu trong lĩnh vực của họ có thể nghĩ đến.",
@@ -12456,7 +12456,7 @@
       "Một lần <ENT0> xảy ra, <ENT1> phải được thực hiện.",
       "trong sự trỗi dậy của <ENT0> , <ENT1> được yêu cầu.",
       "Sau đó <ENT0> , <ENT1> nên được thực hiện.",
-      "Sau khi được <ENT0>, <ENT1> trở thành một điều bắt buộc.",
+      "Sau khi được <ENT0> , <ENT1> trở thành một điều bắt buộc.",
       "Một lần <ENT0> đã xảy ra, <ENT1> là cần thiết.",
       "Sau khi trải nghiệm <ENT0> , <ENT1> là cần thiết.",
       "Một lần <ENT0> phát triển, <ENT1> phải được thực hiện.",
@@ -15383,7 +15383,7 @@
       "Tác dụng của <ENT0> có thể so sánh với <ENT1> .",
       "Cảm giác của <ENT1> được gợi lên bởi <ENT0> .",
       "Tác dụng của <ENT0> Và <ENT1> có thể so sánh được.",
-      "Khi mọi người đang <ENT0>, họ có thể thường xuyên <ENT1> .",
+      "Khi mọi người đang <ENT0> , họ có thể thường xuyên <ENT1> .",
       "Tác động của <ENT0> tương tự như của <ENT1> .",
       "Bị choáng ngợp với <ENT0> thường có thể dẫn đến <ENT1> .",
       "Khi mọi người trải nghiệm <ENT0> điều đó, nó thường dẫn đến <ENT1> ."
@@ -15807,7 +15807,7 @@
       "Những người tự nhận mình là <ENT1> Có lẽ <ENT0> .",
       "Những người tự xếp mình vào loại <ENT1> có thể là <ENT0> .",
       "Những người coi mình <ENT1> có thể được phân loại là <ENT0> .",
-      "Những người gốc Hoa sống bên ngoài Trung Quốc có thể bao gồm <ENT0>, được gọi là <ENT1> ."
+      "Những người gốc Hoa sống bên ngoài Trung Quốc có thể bao gồm <ENT0> , được gọi là <ENT1> ."
     ]
   },
   "EKAR_480": {

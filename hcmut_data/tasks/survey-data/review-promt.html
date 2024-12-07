@@ -73,11 +73,12 @@
     /* Container cho scroll snap */
     .scroll-container {
       width: 100%;
-      height: 100vh;
+      height: calc(100vh - 80px);
       overflow-y: scroll;
       scroll-snap-type: y mandatory;
       scroll-behavior: smooth;
     }
+    
 
     /* Các phần tử tiêu đề và bảng sẽ dừng lại ở mỗi vị trí */
     h2 {
@@ -85,12 +86,21 @@
       padding-top: 50px;  /* Thêm khoảng cách để dễ dàng nhận biết khi dừng */
     }
 
+    /* Bảng có chiều cao giới hạn trong viewport */
+    table-container {
+      max-height: 70vh; /* Giới hạn chiều cao của bảng trong 70% viewport */
+      overflow-y: auto;
+      display: block;
+    }
+
   </style>
 </head>
 <body>
 
-  <h1>Hiển thị dữ liệu từ file JSON</h1>
-  <input type="file" id="jsonFile" accept=".json" />
+  <div>
+    <h1 style="margin: 0;">Hiển thị dữ liệu từ file JSON</h1>
+    <input type="file" id="jsonFile" accept=".json" />
+  </div>
   <div id="tableContainer" class="scroll-container"></div>
 
   <script>
@@ -125,7 +135,7 @@
 
       for (const key in data) {
         if (data[key].seed_ent_tuples && Array.isArray(data[key].seed_ent_tuples)) {
-          htmlContent += `<h2>${sectionNumber}. ${key}</h2><table><thead><tr><th>Entity 1</th><th>Entity 2</th><th>Init Prompt</th><th>Prompts</th></tr></thead><tbody>`;
+          htmlContent += `<h2>${sectionNumber}. ${key}</h2><div class="table-container"><table><thead><tr><th>INDEX</th><th>Entity 1</th><th>Entity 2</th><th>Init Prompt</th><th>Prompts</th></tr></thead><tbody>`;
           
           // Duyệt qua từng phần tử trong seed_ent_tuples
           data[key].seed_ent_tuples.forEach((tuple, index) => {
@@ -136,6 +146,7 @@
             
             // Cột Init Prompt thay thế <ENT0> , <ENT1> bằng giá trị thực và highlight
             htmlContent += `<tr>
+                              <td>${index}</td>
                               <td class="highlight-entity highlight-entity-1">${escapeHtml(tuple[0])}</td>
                               <td class="highlight-entity highlight-entity-2">${escapeHtml(tuple[1])}</td>
                               <td>${highlightTokens((initPrompt))} </td>
@@ -143,7 +154,7 @@
                             </tr>`;
           });
 
-          htmlContent += `</tbody></table>`;
+          htmlContent += `</tbody></table></div>`;
           sectionNumber++; // Tăng số thứ tự phần tiếp theo
         }
       }

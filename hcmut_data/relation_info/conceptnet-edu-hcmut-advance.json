@@ -396,7 +396,7 @@
   },
   "AssistsInAdmissions": {
     "init_prompts": [
-      "<ENT0> hỗ trợ trong việc tuyển sinh cho <ENT1> ."
+      "<ENT0> hỗ trợ trong việc tuyển sinh cho <ENT1>."
     ],
     "seed_ent_tuples": [
       [
@@ -421,21 +421,21 @@
       ]
     ],
     "prompts": [
-      "<ENT0> giúp đỡ trong việc tuyển sinh của <ENT1> .",
+      "<ENT0> giúp đỡ trong việc tuyển sinh của <ENT1>.",
       "Công việc của <ENT0> là hỗ trợ <ENT1> trong quy trình tuyển sinh.",
       "Một phần công việc của <ENT0> là giúp đỡ <ENT1> trong các bước tuyển sinh.",
-      "Giảng viên đã hỗ trợ trong việc tuyển sinh cho <ENT1> để đảm bảo các thí sinh hoàn tất hồ sơ đúng hạn.",
+      "<ENT0> đã hỗ trợ trong việc tuyển sinh cho <ENT1> để đảm bảo các thí sinh hoàn tất hồ sơ đúng hạn.",
       "<ENT0> là người giúp đỡ trong việc tuyển sinh cho <ENT1> và cung cấp thông tin cần thiết về quá trình ứng tuyển.",
       "<ENT0> có vai trò quan trọng trong việc hướng dẫn và hỗ trợ <ENT1> trong việc nộp hồ sơ tuyển sinh.",
       "Quá trình tuyển sinh của <ENT1> được hỗ trợ bởi <ENT0> để đảm bảo mọi thứ diễn ra suôn sẻ.",
-      "Cố vấn học tập đã hỗ trợ trong việc tuyển sinh cho sinh viên mới bằng cách cung cấp thông tin về các khóa học.",
+      "<ENT0> đã hỗ trợ trong việc tuyển sinh cho <ENT1> bằng cách cung cấp thông tin về các khóa học.",
       "<ENT0> hỗ trợ <ENT1> trong việc hoàn thành các thủ tục cần thiết để gia nhập trường.",
-      "Nhân viên tuyển sinh có trách nhiệm hỗ trợ <ENT1> trong quá trình làm hồ sơ và đáp ứng yêu cầu tuyển sinh."
+      "<ENT0> có trách nhiệm hỗ trợ <ENT1> trong quá trình làm hồ sơ và đáp ứng yêu cầu tuyển sinh."
     ]
   },
   "Categorizes": {
     "init_prompts": [
-      "<ENT0> phân loại <ENT1> ."
+      "<ENT0> phân loại <ENT1>."
     ],
     "seed_ent_tuples": [
       [
@@ -463,13 +463,13 @@
       "<ENT0> phân loại <ENT1> theo một nhóm hoặc tiêu chí cụ thể.",
       "Một trong những công việc của <ENT0> là phân loại <ENT1> để dễ dàng quản lý.",
       "<ENT0> phân loại các <ENT1> theo các nhóm đặc biệt hoặc thể loại.",
-      "Công ty phân loại các <ENT1> vào các nhóm khác nhau tùy theo mục đích sử dụng.",
-      "Trường học phân loại <ENT1> theo môn học để quản lý chương trình giảng dạy.",
+      "<ENT0> phân loại <ENT1> vào các nhóm khác nhau tùy theo mục đích sử dụng.",
+      "<ENT0> phân loại <ENT1> theo môn học để quản lý chương trình giảng dạy.",
       "<ENT0> sử dụng hệ thống phân loại để chia các <ENT1> thành các danh mục dễ hiểu.",
-      "Giảng viên phân loại các học sinh theo kết quả học tập của họ.",
-      "Sách giáo khoa phân loại các chủ đề học tập theo các lĩnh vực khác nhau.",
-      "<ENT0> chịu trách nhiệm phân loại các sản phẩm dựa trên tính năng hoặc ngành nghề.",
-      "Một trong những nhiệm vụ của phòng ban là phân loại các dự án theo tính chất và ưu tiên."
+      "<ENT0> phân loại <ENT1> theo kết quả học tập của họ.",
+      "<ENT0> phân loại <ENT1> theo các lĩnh vực khác nhau trong tài liệu giảng dạy.",
+      "<ENT0> chịu trách nhiệm phân loại <ENT1> dựa trên tính năng hoặc ngành nghề.",
+      "Một trong những nhiệm vụ của <ENT0> là phân loại <ENT1> theo tính chất và ưu tiên."
     ]
   },
   "HasDepartment": {
@@ -540,14 +540,14 @@
     "prompts": [
       "<ENT0> tổ chức các sự kiện <ENT1> để nâng cao chất lượng học tập.",
       "<ENT0> tổ chức các sự kiện <ENT1> để hỗ trợ phát triển kỹ năng cho học sinh.",
-      "Giảng viên tổ chức các sự kiện <ENT1> để truyền đạt kiến thức chuyên môn cho sinh viên.",
+      "<ENT0> tổ chức các sự kiện <ENT1> để truyền đạt kiến thức chuyên môn cho sinh viên.",
       "<ENT0> tổ chức các cuộc thi học thuật <ENT1> để khuyến khích học sinh phát triển tư duy sáng tạo.",
       "<ENT0> tổ chức các khóa học ngoại khóa <ENT1> để bổ sung kiến thức ngoài chương trình học chính thức.",
       "<ENT0> tổ chức các sự kiện <ENT1> để khuyến khích sự tham gia và phát triển cộng đồng học thuật.",
       "<ENT0> tổ chức các sự kiện <ENT1> để tạo ra môi trường học tập năng động và sáng tạo.",
       "<ENT0> tổ chức các hội thảo <ENT1> để cập nhật những kiến thức mới và các xu hướng trong giáo dục.",
       "<ENT0> tổ chức các sự kiện <ENT1> để kết nối các bạn sinh viên và thúc đẩy sự học hỏi lẫn nhau.",
-      "Trung tâm đào tạo tổ chức các sự kiện <ENT1> để hỗ trợ học viên trong việc phát triển kỹ năng nghề nghiệp."
+      "<ENT0> tổ chức các sự kiện <ENT1> để hỗ trợ học viên trong việc phát triển kỹ năng nghề nghiệp."
     ]
   },
   "HasReceivedAward": {
@@ -786,7 +786,7 @@
   },
   "HasAttended": {
     "init_prompts": [
-      "<ENT0> đã tham gia vào <ENT1> ."
+      "<ENT0> đã tham gia vào <ENT1>."
     ],
     "seed_ent_tuples": [
       [
@@ -812,20 +812,20 @@
     ],
     "prompts": [
       "<ENT0> đã tham gia vào <ENT1> để nâng cao kiến thức.",
-      "Sự tham gia của <ENT0> vào <ENT1> là cần thiết để hoàn thành chương trình học.",
-      "<ENT0> đã tham gia <ENT1> để tiếp thu thêm thông tin và kỹ năng.",
+      "<ENT0> đã tham gia vào <ENT1> để tiếp thu thêm thông tin và kỹ năng.",
       "<ENT0> tham gia vào <ENT1> để cải thiện hiệu quả học tập của mình.",
-      "Học viên đã tham gia <ENT1> do yêu cầu của chương trình học.",
-      "<ENT0> đã tham gia đầy đủ các lớp học và buổi thảo luận trong <ENT1> .",
+      "<ENT0> đã tham gia đầy đủ các buổi học và thảo luận trong <ENT1>.",
+      "<ENT0> đã tham gia <ENT1> do yêu cầu của chương trình học.",
       "<ENT0> tham gia vào các khóa học và hội thảo của <ENT1> để phát triển nghề nghiệp.",
-      "Sinh viên đã tham gia vào <ENT1> như một phần của chương trình học.",
-      "<ENT0> tham gia vào các buổi học, hội thảo và các hoạt động của <ENT1> .",
-      "Nghiên cứu sinh đã tham gia vào các chương trình đào tạo của <ENT1> để phát triển kỹ năng nghiên cứu."
+      "<ENT0> đã tham gia vào <ENT1> như một phần của chương trình học.",
+      "<ENT0> tham gia vào các buổi học, hội thảo và các hoạt động trong <ENT1>.",
+      "<ENT0> đã tham gia vào các chương trình đào tạo của <ENT1> để phát triển kỹ năng chuyên môn.",
+      "<ENT0> tham gia vào các lớp học và hội thảo trong <ENT1> để đáp ứng yêu cầu đào tạo."
     ]
   },
   "IsRelatedTo": {
     "init_prompts": [
-      "<ENT0> có mối quan hệ với <ENT1> ."
+      "<ENT0> có mối quan hệ với <ENT1>."
     ],
     "seed_ent_tuples": [
       [
@@ -856,15 +856,15 @@
       "Mối quan hệ của <ENT0> và <ENT1> giúp cải thiện chất lượng giảng dạy và học tập.",
       "<ENT0> có liên quan đến <ENT1> trong việc xây dựng chương trình giảng dạy.",
       "Sự liên kết giữa <ENT0> và <ENT1> thúc đẩy sự phát triển nghề nghiệp và học thuật.",
-      "Học viên có mối quan hệ với khóa học này để hoàn thành chương trình đào tạo.",
+      "<ENT0> có mối quan hệ với <ENT1> để hoàn thành các mục tiêu học tập.",
       "<ENT0> và <ENT1> có mối liên hệ chặt chẽ trong việc thực hiện các nghiên cứu học thuật.",
-      "Sinh viên có mối quan hệ với chuyên ngành của mình để phát triển nghề nghiệp.",
-      "Lớp học có mối quan hệ với giảng viên trong việc truyền đạt kiến thức cho học sinh."
+      "<ENT0> có mối quan hệ với <ENT1> nhằm đạt được các kết quả giáo dục tích cực.",
+      "Mối liên hệ giữa <ENT0> và <ENT1> là nền tảng của việc cải tiến hệ thống giáo dục."
     ]
   },
   "Affects": {
     "init_prompts": [
-      "<ENT0> ảnh hưởng đến <ENT1> ."
+      "<ENT0> ảnh hưởng đến <ENT1>."
     ],
     "seed_ent_tuples": [
       [
@@ -890,20 +890,19 @@
     ],
     "prompts": [
       "<ENT0> ảnh hưởng đến <ENT1> trong quá trình học tập.",
-      "Phương pháp giảng dạy có thể ảnh hưởng đến hiệu quả học tập của học sinh.",
-      "Chế độ học tập ảnh hưởng đến sự tiến bộ của học sinh trong suốt khóa học.",
-      "Môi trường học tập có thể ảnh hưởng đến tinh thần học tập của học sinh.",
-      "<ENT0> có thể ảnh hưởng đến <ENT1> trong suốt quá trình học.",
-      "Chương trình đào tạo ảnh hưởng đến kết quả học tập của học sinh.",
-      "Phương pháp giảng dạy của giáo viên ảnh hưởng đến kết quả học tập của học sinh.",
-      "Môi trường học tập và phương pháp giảng dạy ảnh hưởng đến sự phát triển học thuật của học sinh.",
-      "Sự tiến bộ của học sinh bị ảnh hưởng bởi chế độ học tập mà họ tham gia.",
-      "Điểm số của học sinh ảnh hưởng đến sự đánh giá cuối kỳ của khóa học."
+      "<ENT0> có ảnh hưởng lớn đến <ENT1> của học sinh.",
+      "<ENT0> ảnh hưởng trực tiếp đến <ENT1> trong các lớp học.",
+      "<ENT0> ảnh hưởng đến <ENT1> của học sinh.",
+      "<ENT0> ảnh hưởng đến <ENT1> thông qua các yếu tố như tài liệu học tập và thời gian học.",
+      "<ENT0> ảnh hưởng đến <ENT1> của học sinh trong môi trường học tập.",
+      "<ENT0> ảnh hưởng đến <ENT1> trong việc đạt được các mục tiêu học thuật.",
+      "<ENT0> ảnh hưởng lâu dài đến <ENT1> trong quá trình học và phát triển.",
+      "<ENT0> đóng vai trò quan trọng trong việc quyết định <ENT1> của học sinh."
     ]
   },
   "Submits": {
     "init_prompts": [
-      "<ENT0> nộp <ENT1> ."
+      "<ENT0> nộp <ENT1>."
     ],
     "seed_ent_tuples": [
       [
@@ -930,15 +929,16 @@
     "prompts": [
       "<ENT0> nộp <ENT1> vào cuối học kỳ.",
       "<ENT0> phải nộp <ENT1> để hoàn thành khóa học.",
-      "Học sinh nộp bài tập cho giáo viên để được đánh giá.",
-      "Giáo viên nộp báo cáo cho ban giám hiệu.",
-      "Sinh viên cần phải nộp đơn xin nghỉ học cho phòng đào tạo.",
-      "Nghiên cứu sinh nộp bài luận cho hội đồng phản biện.",
-      "Học viên nộp bài kiểm tra để có điểm đánh giá.",
+      "<ENT0> nộp <ENT1> cho giáo viên để được đánh giá.",
+      "<ENT0> nộp <ENT1> cho ban giám hiệu để xét duyệt.",
+      "<ENT0> cần nộp <ENT1> cho phòng đào tạo để xử lý yêu cầu.",
+      "<ENT0> nộp <ENT1> cho hội đồng phản biện để được đánh giá.",
+      "<ENT0> nộp <ENT1> để có điểm đánh giá cuối kỳ.",
       "<ENT0> nộp <ENT1> đúng hạn để đảm bảo không bị trừ điểm.",
       "<ENT0> cần nộp <ENT1> cho giảng viên trước khi kết thúc kỳ học.",
-      "Các học sinh nộp bài tập cuối kỳ để được xét điểm."
+      "<ENT0> nộp <ENT1> cuối kỳ để được xét điểm."
     ]
+
   },
   "HasDegree": {
     "init_prompts": [
@@ -1527,7 +1527,7 @@
   },
   "ResolvesConflicts": {
     "init_prompts": [
-      "<ENT0> giải quyết xung đột giữa <ENT1> ."
+      "<ENT0> giải quyết xung đột giữa <ENT1>."
     ],
     "seed_ent_tuples": [
       [
@@ -1552,15 +1552,15 @@
       ]
     ],
     "prompts": [
-      "<ENT0> giải quyết xung đột giữa <ENT1> .",
-      "Mỗi lần có xung đột, <ENT0> sẽ giải quyết vấn đề với <ENT1> .",
+      "<ENT0> giải quyết xung đột giữa <ENT1>.",
+      "Mỗi lần có xung đột, <ENT0> sẽ giải quyết vấn đề với <ENT1>.",
       "<ENT0> là người giải quyết mọi xung đột giữa <ENT1> và các bên liên quan.",
-      "Giảng viên giải quyết các xung đột trong lớp giữa sinh viên.",
-      "<ENT0> luôn là người giúp giải quyết các vấn đề xung đột giữa <ENT1> .",
+      "<ENT0> giải quyết các xung đột giữa <ENT0> và <ENT1>.",
+      "<ENT0> luôn là người giúp giải quyết các vấn đề xung đột giữa <ENT0> và <ENT1>.",
       "<ENT0> có trách nhiệm giải quyết mọi tranh chấp giữa <ENT1> trong môi trường làm việc.",
-      "Cố vấn học tập sẽ can thiệp để giải quyết xung đột giữa học sinh.",
+      "<ENT0> sẽ can thiệp để giải quyết xung đột giữa <ENT0> và <ENT1>.",
       "<ENT0> đã giải quyết xung đột giữa <ENT1> bằng cách đưa ra giải pháp hợp lý.",
-      "Đội trưởng sẽ giúp giải quyết xung đột giữa các thành viên trong nhóm.",
+      "<ENT0> sẽ giúp giải quyết xung đột giữa <ENT0> và <ENT1>.",
       "Khi có sự bất đồng, <ENT0> sẽ giải quyết xung đột giữa <ENT1> một cách công bằng."
     ]
   },
@@ -1595,10 +1595,10 @@
       "Mỗi <ENT0> phải tham gia buổi định hướng trước khi bắt đầu tại <ENT1> .",
       "<ENT0> đã tham gia một buổi định hướng tổ chức bởi <ENT1> .",
       "Tất cả các <ENT0> đều tham gia buổi định hướng tại <ENT1> .",
-      "Học sinh tham gia buổi định hướng tại <ENT1> để làm quen với môi trường học tập.",
-      "Nhân viên mới phải tham gia buổi định hướng do <ENT1> tổ chức.",
-      "Thực tập sinh đã tham gia buổi định hướng của <ENT1> để hiểu rõ hơn về công việc.",
-      "Giảng viên đã tham gia buổi định hướng do <ENT1> tổ chức để chuẩn bị cho năm học mới.",
+      "<ENT0> tham gia buổi định hướng tại <ENT1> để làm quen với môi trường học tập.",
+      "<ENT0> phải tham gia buổi định hướng do <ENT1> tổ chức.",
+      "<ENT0> đã tham gia buổi định hướng của <ENT1> để hiểu rõ hơn về công việc.",
+      "<ENT0> đã tham gia buổi định hướng do <ENT1> tổ chức để chuẩn bị cho năm học mới.",
       "<ENT0> đã hoàn thành việc tham gia buổi định hướng tại <ENT1> để bắt đầu công việc.",
       "<ENT0> đã tham gia buổi định hướng tại <ENT1> để làm quen với quy trình làm việc."
     ]
@@ -1868,9 +1868,9 @@
       "<ENT0> bắt đầu áp dụng từ <ENT1> .",
       "Mọi thay đổi trong <ENT0> sẽ có hiệu lực từ <ENT1> .",
       "Các quy định của <ENT0> sẽ có hiệu lực từ <ENT1> .",
-      "Chương trình học sẽ được áp dụng từ <ENT1> .",
-      "Thời gian biểu sẽ có hiệu lực từ <ENT1> .",
-      "Kế hoạch giảng dạy bắt đầu từ <ENT1> .",
+      "<ENT0> sẽ có hiệu lực từ <ENT1> .",
+      "<ENT0> bắt đầu áp dụng từ <ENT1> .",
+      "Kế hoạch giảng dạy của <ENT0> sẽ có hiệu lực từ <ENT1> .",
       "<ENT0> sẽ có hiệu lực từ <ENT1> đối với tất cả học sinh.",
       "Hợp đồng giữa <ENT0> và <ENT1> sẽ có hiệu lực từ ngày ký kết.",
       "Lịch học của <ENT0> có hiệu lực từ <ENT1> ."
@@ -2064,7 +2064,8 @@
       "Trong <ENT1> , <ENT0> đóng vai trò quan trọng trong việc học và đánh giá.",
       "<ENT0> là một phần của <ENT1> bao gồm nhiều bài kiểm tra và bài tập.",
       "<ENT0> là một phần trong <ENT1> nhằm đánh giá mức độ hiểu biết của học sinh.",
-      "Bài luận này là một phần trong <ENT1> cần hoàn thành trong suốt khóa học."
+      "Bài luận này là một phần trong <ENT1> mà <ENT0> cần hoàn thành trong suốt khóa học.",
+      "<ENT0> là một phần quan trọng trong <ENT1> giúp sinh viên nắm bắt kiến thức."
     ]
   },
   "Mentors": {
@@ -4319,41 +4320,23 @@
   },
   "CoordinatesWith": {
     "init_prompts": [
-      "<ENT0> phối hợp với <ENT1> ."
+        "<ENT0> tọa độ với <ENT1>."
     ],
     "seed_ent_tuples": [
-      [
-        "Giảng viên A",
-        "Giảng viên B"
-      ],
-      [
-        "Trường Đại học X",
-        "Trường Đại học Y"
-      ],
-      [
-        "Khoa Công nghệ Thông tin",
-        "Khoa Khoa học Máy tính"
-      ],
-      [
-        "Chương trình C",
-        "Trung tâm Nghiên cứu D"
-      ],
-      [
-        "Trường Đại học E",
-        "Trường Đại học F"
-      ]
+        ["thành phố Hà Nội", "thành phố Hồ Chí Minh"],
+        ["Việt Nam", "Campuchia"]
     ],
     "prompts": [
-      "<ENT0> phối hợp với <ENT1> .",
-      "Giảng viên <ENT0> phối hợp với giảng viên <ENT1> để tổ chức các buổi học chung.",
-      "Trường Đại học <ENT0> phối hợp với Trường Đại học <ENT1> trong các chương trình nghiên cứu.",
-      "Khoa <ENT0> phối hợp với khoa <ENT1> để cung cấp các khóa học liên ngành.",
-      "Chương trình <ENT0> phối hợp với Trung tâm Nghiên cứu <ENT1> để phát triển các dự án học thuật.",
-      "Trường <ENT0> phối hợp với Trường <ENT1> để tổ chức các sự kiện học thuật quốc tế.",
-      "Giảng viên <ENT0> phối hợp với giảng viên <ENT1> để xây dựng một giáo trình học thuật.",
-      "Trường Đại học <ENT0> phối hợp với các đối tác quốc tế để tổ chức hội thảo học thuật.",
-      "Chương trình đào tạo <ENT0> phối hợp với Trung tâm <ENT1> để cung cấp các khóa học chuyên sâu.",
-      "Khoa <ENT0> phối hợp với Khoa <ENT1> để cung cấp cơ hội học tập cho sinh viên."
+        "<ENT0> có tọa độ với <ENT1>.",
+        "<ENT0> nằm tọa độ với <ENT1> trên bản đồ.",
+        "<ENT0> và <ENT1> có tọa độ chung trong khu vực này.",
+        "<ENT0> và <ENT1> chia sẻ cùng một tọa độ địa lý.",
+        "Các tọa độ của <ENT0> và <ENT1> là tương đồng.",
+        "<ENT0> và <ENT1> có cùng vị trí trong không gian địa lý.",
+        "Trong bản đồ, <ENT0> tọa độ với <ENT1> tại khu vực này.",
+        "<ENT0> và <ENT1> có các tọa độ được xác định cùng một lúc.",
+        "Vị trí của <ENT0> tọa độ với <ENT1> tại đây.",
+        "<ENT0> và <ENT1> tọa độ với nhau tại điểm này."
     ]
   },
   "Advises": {
@@ -5137,43 +5120,24 @@
     ]
   },
   "ContainsClause": {
-    "init_prompts": [
-      "<ENT0> chứa điều khoản <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "Hợp đồng học bổng",
-        "Điều kiện duy trì điểm số"
+      "init_prompts": [
+          "<ENT0> chứa các điều khoản của <ENT1>."
       ],
-      [
-        "Chương trình học",
-        "Quy định về vắng mặt"
+      "seed_ent_tuples": [
+          ["hợp đồng", "điều khoản"]
       ],
-      [
-        "Quy định học tập",
-        "Điều khoản về nộp bài đúng hạn"
-      ],
-      [
-        "Điều lệ kỳ thi",
-        "Điều khoản về gian lận"
-      ],
-      [
-        "Chính sách đào tạo",
-        "Điều khoản về thời gian học tập"
+      "prompts": [
+          "<ENT0> bao gồm các điều khoản của <ENT1>.",
+          "Các điều khoản của <ENT1> được chứa trong <ENT0>.",
+          "<ENT0> có các điều khoản cụ thể thuộc về <ENT1>.",
+          "Các điều khoản của <ENT1> là một phần của <ENT0>.",
+          "Mỗi <ENT0> đều bao gồm các điều khoản của <ENT1>.",
+          "Để thực hiện <ENT0> , cần phải tham khảo các điều khoản của <ENT1>.",
+          "Các điều khoản trong <ENT1> được ghi rõ trong <ENT0>.",
+          "<ENT0> luôn chứa các điều khoản quan trọng của <ENT1>.",
+          "Tất cả các điều khoản của <ENT1> đều có trong <ENT0>.",
+          "<ENT0> bao gồm những điều khoản chi tiết của <ENT1>."
       ]
-    ],
-    "prompts": [
-      "<ENT0> chứa điều khoản <ENT1> .",
-      "Hợp đồng học bổng <ENT0> chứa điều khoản về việc duy trì điểm số để nhận học bổng.",
-      "Chương trình học <ENT0> chứa điều khoản về việc sinh viên phải tuân thủ quy định vắng mặt.",
-      "Quy định học tập <ENT0> chứa điều khoản về việc sinh viên phải nộp bài đúng hạn.",
-      "Điều lệ kỳ thi <ENT0> chứa điều khoản về việc gian lận sẽ bị xử lý nghiêm túc.",
-      "Chính sách đào tạo <ENT0> chứa điều khoản về thời gian học tập của sinh viên.",
-      "Chính sách học bổng <ENT0> chứa điều khoản về việc duy trì kết quả học tập.",
-      "Điều lệ học tập <ENT0> chứa điều khoản về việc sinh viên phải tham gia đầy đủ các lớp học.",
-      "Chương trình học <ENT0> chứa điều khoản về việc sinh viên phải hoàn thành khóa học đúng hạn.",
-      "Quy định học tập <ENT0> chứa điều khoản về trách nhiệm của sinh viên đối với tài liệu học tập."
-    ]
   },
   "HasReceived": {
     "init_prompts": [
@@ -5761,43 +5725,28 @@
     ]
   },
   "FostersCreativity": {
-    "init_prompts": [
-      "<ENT0> thúc đẩy sự sáng tạo của <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "Trung tâm Nghệ thuật",
-        "học sinh"
+      "init_prompts": [
+          "<ENT0> thúc đẩy sự sáng tạo của <ENT1>."
       ],
-      [
-        "Giáo viên Toán",
-        "sinh viên"
+      "seed_ent_tuples": [
+          ["vẽ tranh", "nghệ sĩ"],
+          ["âm nhạc", "người sáng tạo"],
+          ["học sinh", "giáo viên"],
+          ["thảo luận nhóm", "sinh viên"],
+          ["chơi game", "người lập trình"]
       ],
-      [
-        "Câu lạc bộ Sáng tạo",
-        "thành viên"
-      ],
-      [
-        "Chương trình Học tập Khoa học",
-        "học sinh"
-      ],
-      [
-        "Khoa Mỹ Thuật",
-        "sinh viên"
+      "prompts": [
+          "<ENT0> giúp <ENT1> phát triển sự sáng tạo.",
+          "<ENT0> là một công cụ giúp <ENT1> khám phá và thể hiện sự sáng tạo.",
+          "<ENT0> cung cấp môi trường tốt để <ENT1> phát huy khả năng sáng tạo.",
+          "Nhờ vào <ENT0> , <ENT1> có thể phát triển những ý tưởng sáng tạo mới.",
+          "<ENT0> là nguồn cảm hứng lớn đối với sự sáng tạo của <ENT1>.",
+          "Sự sáng tạo của <ENT1> được thúc đẩy mạnh mẽ khi họ tham gia vào <ENT0>.",
+          "<ENT0> là yếu tố quan trọng giúp <ENT1> nuôi dưỡng khả năng sáng tạo.",
+          "Khi <ENT0> được sử dụng, sự sáng tạo của <ENT1> trở nên phong phú hơn.",
+          "<ENT0> tạo ra một không gian cho <ENT1> để phát triển các ý tưởng sáng tạo.",
+          "Việc tham gia vào <ENT0> giúp <ENT1> nảy sinh các ý tưởng sáng tạo mới mẻ."
       ]
-    ],
-    "prompts": [
-      "<ENT0> thúc đẩy sự sáng tạo của <ENT1> thông qua các hoạt động thú vị.",
-      "Chương trình học tại <ENT0> tạo ra môi trường thúc đẩy sự sáng tạo cho <ENT1> .",
-      "<ENT0> khuyến khích <ENT1> tham gia vào các dự án sáng tạo và đổi mới.",
-      "Giáo viên <ENT0> đã áp dụng phương pháp giảng dạy giúp thúc đẩy sự sáng tạo của <ENT1> .",
-      "Câu lạc bộ <ENT0> tạo ra các sự kiện giúp phát triển khả năng sáng tạo của các thành viên.",
-      "<ENT0> đã tổ chức các hoạt động nhóm sáng tạo để thúc đẩy khả năng tư duy của <ENT1> .",
-      "Chương trình <ENT0> thúc đẩy sự sáng tạo của sinh viên thông qua các bài tập sáng tạo và khám phá.",
-      "Giáo viên <ENT0> đã sử dụng các bài tập sáng tạo để giúp sinh viên mở rộng tầm nhìn và khả năng sáng tạo.",
-      "Khoa <ENT0> khuyến khích sinh viên tìm tòi và sáng tạo trong lĩnh vực nghệ thuật.",
-      "Trung tâm <ENT0> đã tạo ra không gian và các cơ hội cho <ENT1> phát triển sáng tạo."
-    ]
   },
   "Do": {
     "init_prompts": [
@@ -6736,43 +6685,28 @@
     ]
   },
   "IsStudentOf": {
-    "init_prompts": [
-      "<ENT0> là sinh viên của <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "John Doe",
-        "Giảng viên Lê Văn A"
+      "init_prompts": [
+          "<ENT0> là học sinh của <ENT1>."
       ],
-      [
-        "Jane Smith",
-        "Giảng viên Nguyễn Thị B"
+      "seed_ent_tuples": [
+          ["John", "Thầy Minh"],
+          ["Alice", "Cô Lan"],
+          ["David", "Giáo viên Toán"],
+          ["Sarah", "Giáo viên Ngữ văn"],
+          ["Mark", "Giáo viên Lịch sử"]
       ],
-      [
-        "Tom Hanks",
-        "Giảng viên Trần Văn C"
-      ],
-      [
-        "Lucy Liu",
-        "Giảng viên Phạm Minh D"
-      ],
-      [
-        "Mark Lee",
-        "Giảng viên Hoàng Thị E"
+      "prompts": [
+          "<ENT0> là học trò của <ENT1>.",
+          "<ENT0> học dưới sự hướng dẫn của <ENT1>.",
+          "<ENT0> đã học với <ENT1> trong một thời gian.",
+          "<ENT0> là một học sinh của <ENT1> , và đã học nhiều kiến thức từ họ.",
+          "Thầy/cô <ENT1> là người đã giảng dạy cho <ENT0>.",
+          "<ENT0> nhận sự giảng dạy từ <ENT1> trong các môn học.",
+          "<ENT0> được <ENT1> hướng dẫn và dạy dỗ trong suốt quá trình học.",
+          "Chúng ta biết rằng <ENT0> là học sinh của <ENT1> và luôn học hỏi từ họ.",
+          "<ENT0> được <ENT1> giáo dục trong nhiều năm qua.",
+          "<ENT0> là một trong những học viên của <ENT1> trong lớp học."
       ]
-    ],
-    "prompts": [
-      "<ENT0> là sinh viên của <ENT1> trong khóa học <ENT2>.",
-      "Sinh viên <ENT0> học dưới sự giảng dạy của <ENT1> trong môn học <ENT2>.",
-      "John Doe là sinh viên của giảng viên Lê Văn A trong chương trình học môn <ENT2>.",
-      "Jane Smith là sinh viên của giảng viên Nguyễn Thị B trong lớp học <ENT2>.",
-      "Tom Hanks là sinh viên của giảng viên Trần Văn C trong chương trình đào tạo <ENT2>.",
-      "Lucy Liu là sinh viên của giảng viên Phạm Minh D trong môn học <ENT2>.",
-      "Mark Lee là sinh viên của giảng viên Hoàng Thị E trong khóa học <ENT2>.",
-      "Sinh viên <ENT0> được giảng dạy bởi <ENT1> trong môn học <ENT2> về kỹ thuật phần mềm.",
-      "<ENT0> tham gia lớp học của <ENT1> trong khóa học <ENT2> để nghiên cứu về dữ liệu lớn.",
-      "Sinh viên <ENT0> có bài giảng từ <ENT1> trong chương trình đào tạo <ENT2>."
-    ]
   },
   "FacilitatesDiscussion": {
     "init_prompts": [
@@ -6853,43 +6787,28 @@
     ]
   },
   "IsPartOfScholarshipProgram": {
-    "init_prompts": [
-      "<ENT0> là một phần của chương trình học bổng <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "John Doe",
-        "Học bổng tài năng"
+      "init_prompts": [
+          "<ENT0> là một phần của chương trình học bổng <ENT1>."
       ],
-      [
-        "Jane Smith",
-        "Học bổng nghiên cứu"
+      "seed_ent_tuples": [
+          ["Alice", "Chương trình học bổng Toàn cầu"],
+          ["John", "Chương trình học bổng STEM"],
+          ["Maria", "Chương trình học bổng Dành cho nữ sinh"],
+          ["David", "Chương trình học bổng Học thuật"],
+          ["Sarah", "Chương trình học bổng Đổi mới sáng tạo"]
       ],
-      [
-        "Tom Hanks",
-        "Học bổng toàn phần"
-      ],
-      [
-        "Lucy Liu",
-        "Học bổng phát triển cộng đồng"
-      ],
-      [
-        "Mark Lee",
-        "Học bổng khoa học"
+      "prompts": [
+          "<ENT0> tham gia chương trình học bổng <ENT1>.",
+          "<ENT0> là một thành viên của <ENT1>.",
+          "<ENT0> nhận học bổng từ <ENT1>.",
+          "Chương trình học bổng <ENT1> đã trao học bổng cho <ENT0>.",
+          "<ENT0> được bao gồm trong chương trình học bổng <ENT1>.",
+          "Chương trình học bổng <ENT1> cung cấp hỗ trợ tài chính cho <ENT0>.",
+          "<ENT0> là một phần của sáng kiến học bổng <ENT1>.",
+          "<ENT0> đã đủ điều kiện để nhận học bổng từ chương trình <ENT1>.",
+          "<ENT0> là học sinh trong chương trình học bổng <ENT1>.",
+          "<ENT0> đã được chọn vào chương trình học bổng <ENT1> sau quá trình xét tuyển."
       ]
-    ],
-    "prompts": [
-      "<ENT0> là một phần của chương trình học bổng <ENT1> mà trường cung cấp.",
-      "Sinh viên <ENT0> nhận học bổng <ENT1> cho nghiên cứu khoa học.",
-      "John Doe là một phần của chương trình học bổng tài năng <ENT1> của trường.",
-      "Jane Smith là một phần của chương trình học bổng nghiên cứu <ENT1> và đang thực hiện một dự án nghiên cứu quan trọng.",
-      "Tom Hanks là một phần của học bổng toàn phần <ENT1> dành cho sinh viên xuất sắc.",
-      "Lucy Liu là một phần của chương trình học bổng phát triển cộng đồng <ENT1> mà trường hỗ trợ.",
-      "Mark Lee là một phần của chương trình học bổng khoa học <ENT1> trong ngành kỹ thuật.",
-      "<ENT0> tham gia chương trình học bổng <ENT1> và nhận tài trợ cho việc học.",
-      "Sinh viên <ENT0> là một phần của học bổng <ENT1> được trao cho những cá nhân xuất sắc trong nghiên cứu.",
-      "Chương trình học bổng <ENT1> đã hỗ trợ sinh viên <ENT0> trong việc hoàn thành nghiên cứu."
-    ]
   },
   "ProvidesSupport": {
     "init_prompts": [
@@ -7087,82 +7006,52 @@
     ]
   },
   "IsFresherOf": {
-    "init_prompts": [
-      "<ENT0> là sinh viên năm nhất của <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "John Doe",
-        "Chương trình quản trị kinh doanh"
+      "init_prompts": [
+          "<ENT0> là sinh viên năm nhất của <ENT1>."
       ],
-      [
-        "Jane Smith",
-        "Chương trình kỹ thuật phần mềm"
+      "seed_ent_tuples": [
+          ["Alice", "Đại học ABC"],
+          ["John", "Trường Đại học XYZ"],
+          ["Maria", "Học viện Kỹ thuật"],
+          ["David", "Đại học Quốc gia"],
+          ["Sarah", "Trường Đại học Kinh tế"]
       ],
-      [
-        "Tom Hanks",
-        "Chương trình y học"
-      ],
-      [
-        "Lucy Liu",
-        "Chương trình khoa học máy tính"
-      ],
-      [
-        "Mark Lee",
-        "Chương trình thiết kế đồ họa"
+      "prompts": [
+          "<ENT0> là sinh viên năm nhất tại <ENT1>.",
+          "<ENT0> mới bắt đầu học tại <ENT1>.",
+          "<ENT0> là sinh viên năm nhất của trường <ENT1>.",
+          "<ENT0> tham gia vào khóa học đầu tiên tại <ENT1>.",
+          "Chương trình giảng dạy tại <ENT1> bao gồm sinh viên năm nhất như <ENT0>.",
+          "<ENT0> bắt đầu năm học đầu tiên tại <ENT1>.",
+          "<ENT0> là một sinh viên mới của <ENT1>.",
+          "Học kỳ này, <ENT0> bắt đầu học tại <ENT1>.",
+          "Chương trình đào tạo của <ENT1> đón nhận <ENT0> như một sinh viên năm nhất.",
+          "<ENT0> là sinh viên mới trong khóa học của <ENT1>."
       ]
-    ],
-    "prompts": [
-      "<ENT0> là sinh viên năm nhất của <ENT1> .",
-      "Sinh viên <ENT0> là sinh viên năm nhất của chương trình <ENT1> tại trường đại học.",
-      "John Doe là sinh viên năm nhất của chương trình quản trị kinh doanh <ENT1> tại trường.",
-      "Jane Smith là sinh viên năm nhất của chương trình kỹ thuật phần mềm <ENT1> tại trường đại học.",
-      "Tom Hanks là sinh viên năm nhất của chương trình y học <ENT1> tại đại học.",
-      "Lucy Liu là sinh viên năm nhất của chương trình khoa học máy tính <ENT1> tại trường đại học.",
-      "Mark Lee là sinh viên năm nhất của chương trình thiết kế đồ họa <ENT1> tại trường đại học.",
-      "Sinh viên <ENT0> đã tham gia vào chương trình năm nhất của <ENT1> .",
-      "<ENT0> bắt đầu học chương trình năm nhất <ENT1> tại trường đại học.",
-      "Sinh viên <ENT0> đã nhập học và trở thành sinh viên năm nhất của chương trình <ENT1> ."
-    ]
   },
   "Attends": {
-    "init_prompts": [
-      "<ENT0> tham gia khóa học <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "Alice",
-        "Lập trình C"
+      "init_prompts": [
+          "<ENT0> tham gia vào <ENT1>."
       ],
-      [
-        "Bob",
-        "Kinh tế vi mô"
+      "seed_ent_tuples": [
+          ["Alice", "lớp học toán"],
+          ["John", "học kỳ mùa thu"],
+          ["Maria", "buổi hội thảo kỹ thuật"],
+          ["David", "lớp học lập trình"],
+          ["Sarah", "khóa học kinh tế"]
       ],
-      [
-        "Charlie",
-        "Thống kê"
-      ],
-      [
-        "David",
-        "Mạng máy tính"
-      ],
-      [
-        "Eva",
-        "Hóa học đại cương"
+      "prompts": [
+          "<ENT0> tham gia vào <ENT1>.",
+          "<ENT0> là một phần của <ENT1>.",
+          "<ENT0> có mặt trong <ENT1>.",
+          "<ENT0> tham gia khóa học <ENT1>.",
+          "<ENT0> tham gia buổi học <ENT1>.",
+          "<ENT0> đang tham gia vào <ENT1> trong năm nay.",
+          "<ENT0> là người tham gia trong <ENT1>.",
+          "<ENT0> tham gia vào chương trình học <ENT1>.",
+          "Khi <ENT0> tham gia vào <ENT1> , họ có thể học các kỹ năng mới.",
+          "<ENT0> là sinh viên tham gia vào <ENT1> tại trường."
       ]
-    ],
-    "prompts": [
-      "<ENT0> tham gia khóa học <ENT1> .",
-      "Alice tham gia khóa học lập trình C <ENT1> tại trường đại học.",
-      "Bob tham gia khóa học kinh tế vi mô <ENT1> để nâng cao kiến thức về kinh tế.",
-      "Charlie tham gia khóa học thống kê <ENT1> để hiểu về các phương pháp phân tích dữ liệu.",
-      "David tham gia khóa học mạng máy tính <ENT1> để học về cơ sở hạ tầng mạng.",
-      "Eva tham gia khóa học hóa học đại cương <ENT1> để nắm vững kiến thức cơ bản về hóa học.",
-      "<ENT0> tham gia khóa học <ENT1> để cải thiện kỹ năng trong lĩnh vực chuyên môn.",
-      "Sinh viên <ENT0> tham gia khóa học <ENT1> để bổ sung kiến thức cho chương trình học.",
-      "<ENT0> tham gia khóa học <ENT1> trong học kỳ này để học thêm về công nghệ mới.",
-      "Sinh viên <ENT0> tham gia khóa học <ENT1> để đáp ứng yêu cầu học phần trong chương trình học."
-    ]
   },
   "Explains": {
     "init_prompts": [
@@ -7243,165 +7132,96 @@
     ]
   },
   "CompletedWithGrade": {
-    "init_prompts": [
-      "<ENT0> đã hoàn thành khóa học <ENT1> với điểm <ENT2>."
-    ],
-    "seed_ent_tuples": [
-      [
-        "Alice",
-        "Lập trình C",
-        "A"
+      "init_prompts": [
+          "<ENT0> hoàn thành <ENT1> với điểm <ENT2>."
       ],
-      [
-        "Bob",
-        "Kinh tế vi mô",
-        "B+"
+      "seed_ent_tuples": [
+          ["Alice", "khóa học lập trình Python", "A"],
+          ["John", "lớp học toán học cao cấp", "B+"],
+          ["Maria", "học kỳ mùa thu", "C"],
+          ["David", "lớp học cơ sở dữ liệu", "A-"],
+          ["Sarah", "khóa học marketing", "B"]
       ],
-      [
-        "Charlie",
-        "Hóa học hữu cơ",
-        "A-"
-      ],
-      [
-        "David",
-        "Mạng máy tính",
-        "B"
-      ],
-      [
-        "Eva",
-        "Lịch sử thế giới",
-        "A+"
+      "prompts": [
+          "<ENT0> hoàn thành <ENT1> với điểm <ENT2>.",
+          "<ENT0> nhận được điểm <ENT2> trong <ENT1>.",
+          "<ENT0> đã kết thúc <ENT1> và đạt được điểm <ENT2>.",
+          "Kết quả của <ENT0> trong <ENT1> là điểm <ENT2>.",
+          "<ENT0> đã hoàn thành <ENT1> và đạt điểm <ENT2>.",
+          "<ENT0> hoàn thành bài kiểm tra trong <ENT1> và có điểm <ENT2>.",
+          "<ENT0> hoàn thành khóa học <ENT1> với điểm <ENT2> trong học kỳ này.",
+          "Sau khi hoàn thành <ENT1> , <ENT0> nhận được điểm <ENT2>."
       ]
-    ],
-    "prompts": [
-      "<ENT0> đã hoàn thành khóa học <ENT1> với điểm <ENT2>.",
-      "Alice đã hoàn thành khóa học Lập trình C với điểm A.",
-      "Bob đã hoàn thành khóa học Kinh tế vi mô với điểm B+.",
-      "Charlie đã hoàn thành khóa học Hóa học hữu cơ với điểm A-.",
-      "David đã hoàn thành khóa học Mạng máy tính với điểm B.",
-      "Eva đã hoàn thành khóa học Lịch sử thế giới với điểm A+.",
-      "<ENT0> đã hoàn thành khóa học <ENT1> với điểm số <ENT2> xuất sắc.",
-      "Sinh viên <ENT0> đã hoàn thành khóa học <ENT1> và nhận điểm <ENT2> trong kỳ thi cuối kỳ.",
-      "<ENT0> đạt điểm <ENT2> trong khóa học <ENT1> sau khi hoàn thành.",
-      "<ENT0> hoàn thành khóa học <ENT1> và nhận điểm <ENT2> theo tiêu chuẩn đánh giá."
-    ]
   },
   "Suspended": {
-    "init_prompts": [
-      "<ENT0> bị đình chỉ học tập vì <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "John Doe",
-        "vi phạm quy chế học đường"
+      "init_prompts": [
+          "<ENT0> bị đình chỉ vì <ENT1>."
       ],
-      [
-        "Jane Smith",
-        "chưa hoàn thành yêu cầu học phần"
+      "seed_ent_tuples": [
+          ["John", "vi phạm nội quy trường học"],
+          ["Mary", "không hoàn thành bài tập"],
+          ["Alex", "vắng mặt không lý do"],
+          ["Emma", "đi muộn quá nhiều lần"],
+          ["David", "điều kiện học không đạt"]
       ],
-      [
-        "Tom Hanks",
-        "đi trễ quá nhiều lần"
-      ],
-      [
-        "Lucy Liu",
-        "không tham gia các bài kiểm tra quan trọng"
-      ],
-      [
-        "Mark Lee",
-        "không đóng học phí đúng hạn"
+      "prompts": [
+          "<ENT0> bị đình chỉ vì <ENT1>.",
+          "Do <ENT1> , <ENT0> đã bị đình chỉ.",
+          "<ENT0> không thể tiếp tục học vì <ENT1>.",
+          "<ENT0> bị ngừng tham gia vì lý do <ENT1>.",
+          "<ENT0> bị tạm dừng học vì <ENT1>.",
+          "Hành động của <ENT0> đã dẫn đến việc bị đình chỉ do <ENT1>.",
+          "<ENT0> bị đình chỉ học vì đã vi phạm quy định liên quan đến <ENT1>.",
+          "Vì lý do <ENT1> , <ENT0> không được phép tham gia lớp học."
       ]
-    ],
-    "prompts": [
-      "<ENT0> bị đình chỉ học tập vì <ENT1> .",
-      "John Doe bị đình chỉ học tập vì vi phạm quy chế học đường.",
-      "Jane Smith bị đình chỉ học tập vì chưa hoàn thành yêu cầu học phần.",
-      "Tom Hanks bị đình chỉ học tập vì đi trễ quá nhiều lần.",
-      "Lucy Liu bị đình chỉ học tập vì không tham gia các bài kiểm tra quan trọng.",
-      "Mark Lee bị đình chỉ học tập vì không đóng học phí đúng hạn.",
-      "<ENT0> bị đình chỉ học tập vì lý do <ENT1> và không thể tiếp tục tham gia các môn học.",
-      "Sinh viên <ENT0> bị đình chỉ học tập vì <ENT1> và không thể tiếp tục học trong kỳ này.",
-      "Chính thức, <ENT0> đã bị đình chỉ học tập vì lý do <ENT1> và sẽ không tham gia lớp học tiếp theo.",
-      "<ENT0> bị đình chỉ học tập vì <ENT1> và cần giải quyết vấn đề này trước khi tiếp tục học."
-    ]
   },
   "Cites": {
-    "init_prompts": [
-      "<ENT0> trích dẫn <ENT1> trong nghiên cứu của mình."
-    ],
-    "seed_ent_tuples": [
-      [
-        "Alice",
-        "Bài báo về lập trình mạng"
+      "init_prompts": [
+          "<ENT0> trích dẫn <ENT1>."
       ],
-      [
-        "Bob",
-        "Nghiên cứu về lý thuyết trò chơi"
+      "seed_ent_tuples": [
+          ["Bài báo của Smith", "Nghiên cứu về AI của Johnson"],
+          ["Cuốn sách của Miller", "Phương pháp học máy của Zhang"],
+          ["Bài luận của Lee", "Lý thuyết học tập của Kim"],
+          ["Nghiên cứu của Brown", "Khám phá mới trong AI của Smith"],
+          ["Tạp chí khoa học", "Nghiên cứu về Blockchain của Davis"]
       ],
-      [
-        "Charlie",
-        "Sách giáo trình toán học"
-      ],
-      [
-        "David",
-        "Tạp chí nghiên cứu công nghệ"
-      ],
-      [
-        "Eva",
-        "Bài báo về học máy"
+      "prompts": [
+          "<ENT0> trích dẫn <ENT1> trong nghiên cứu của họ.",
+          "Trong bài viết của mình, <ENT0> đã trích dẫn <ENT1> như một nguồn tài liệu quan trọng.",
+          "<ENT0> tham khảo <ENT1> trong luận văn của mình.",
+          "Bài báo của <ENT0> đã trích dẫn công trình <ENT1> để hỗ trợ luận điểm của mình.",
+          "<ENT0> sử dụng <ENT1> làm nguồn tài liệu tham khảo trong nghiên cứu.",
+          "<ENT0> đề cập đến <ENT1> như một phần quan trọng trong luận văn của mình.",
+          "Công trình của <ENT0> đã trích dẫn <ENT1> trong phần lý thuyết nền tảng.",
+          "<ENT0> tham khảo nghiên cứu của <ENT1> để phát triển thêm về đề tài nghiên cứu của mình.",
+          "<ENT0> sử dụng <ENT1> như một phần của tài liệu học thuật trong bài báo của mình.",
+          "Cuốn sách của <ENT0> trích dẫn nghiên cứu của <ENT1> về các kỹ thuật mới trong lĩnh vực."
       ]
-    ],
-    "prompts": [
-      "<ENT0> trích dẫn <ENT1> trong nghiên cứu của mình.",
-      "Alice trích dẫn bài báo về lập trình mạng trong nghiên cứu của mình.",
-      "Bob trích dẫn nghiên cứu về lý thuyết trò chơi trong công trình của mình.",
-      "Charlie trích dẫn sách giáo trình toán học trong bài báo của mình.",
-      "David trích dẫn tạp chí nghiên cứu công nghệ trong nghiên cứu của mình.",
-      "Eva trích dẫn bài báo về học máy trong bài viết của mình.",
-      "<ENT0> đã trích dẫn nguồn tài liệu <ENT1> trong nghiên cứu về <ENT2>.",
-      "Nghiên cứu của <ENT0> trích dẫn bài báo <ENT1> như là nguồn tham khảo chính.",
-      "<ENT0> trích dẫn tài liệu <ENT1> để làm rõ các luận điểm trong bài nghiên cứu của mình.",
-      "Công trình của <ENT0> có trích dẫn từ tài liệu <ENT1> như một phần quan trọng trong phần nghiên cứu."
-    ]
   },
   "HostsSeminars": {
-    "init_prompts": [
-      "<ENT0> tổ chức hội thảo về <ENT1> ."
-    ],
-    "seed_ent_tuples": [
-      [
-        "Trường đại học A",
-        "nghiên cứu công nghệ"
+      "init_prompts": [
+          "<ENT0> tổ chức các hội thảo về <ENT1>."
       ],
-      [
-        "Khoa Kinh tế",
-        "thị trường tài chính"
+      "seed_ent_tuples": [
+          ["Đại học Harvard", "nghiên cứu AI"],
+          ["Trung tâm Nghiên cứu Công nghệ", "blockchain và an ninh mạng"],
+          ["Học viện Khoa học", "phát triển phần mềm"],
+          ["Viện Công nghệ Massachusetts", "robot và tự động hóa"],
+          ["Đại học Stanford", "khoa học dữ liệu"]
       ],
-      [
-        "Viện Công nghệ",
-        "mạng máy tính"
-      ],
-      [
-        "Trung tâm Nghiên cứu",
-        "học máy"
-      ],
-      [
-        "Phòng Giáo dục",
-        "đổi mới giáo dục"
+      "prompts": [
+          "<ENT0> tổ chức hội thảo về <ENT1> mỗi năm.",
+          "<ENT0> đã tổ chức một hội thảo về <ENT1> với sự tham gia của nhiều chuyên gia.",
+          "<ENT0> là nơi tổ chức hội thảo chuyên đề về <ENT1> cho các sinh viên và nghiên cứu sinh.",
+          "Hội thảo về <ENT1> do <ENT0> tổ chức đã thu hút nhiều sự quan tâm.",
+          "Mỗi năm, <ENT0> tổ chức các hội thảo để thảo luận về <ENT1>.",
+          "Hội thảo về <ENT1> tại <ENT0> giúp các nhà nghiên cứu trao đổi kiến thức.",
+          "<ENT0> là nơi tổ chức hội thảo quốc tế về <ENT1> với sự tham gia của các chuyên gia trong ngành.",
+          "Các hội thảo về <ENT1> được <ENT0> tổ chức nhằm nâng cao nhận thức và kiến thức trong cộng đồng.",
+          "Việc tổ chức các hội thảo về <ENT1> tại <ENT0> đóng góp vào sự phát triển nghiên cứu trong lĩnh vực.",
+          "<ENT0> tạo cơ hội cho sinh viên tham gia hội thảo về <ENT1> để học hỏi từ các chuyên gia."
       ]
-    ],
-    "prompts": [
-      "<ENT0> tổ chức hội thảo về <ENT1> .",
-      "Trường đại học A tổ chức hội thảo về nghiên cứu công nghệ.",
-      "Khoa Kinh tế tổ chức hội thảo về thị trường tài chính.",
-      "Viện Công nghệ tổ chức hội thảo về mạng máy tính cho sinh viên.",
-      "Trung tâm Nghiên cứu tổ chức hội thảo về học máy trong nghiên cứu.",
-      "Phòng Giáo dục tổ chức hội thảo về đổi mới giáo dục nhằm nâng cao chất lượng giảng dạy.",
-      "<ENT0> tổ chức hội thảo chuyên đề về <ENT1> cho các chuyên gia và học giả trong lĩnh vực này.",
-      "Hội thảo về <ENT1> được tổ chức bởi <ENT0> vào tuần này.",
-      "<ENT0> tổ chức một hội thảo về <ENT1> dành cho sinh viên và giảng viên.",
-      "<ENT0> tổ chức hội thảo về <ENT1> nhằm giới thiệu các xu hướng mới trong lĩnh vực này."
-    ]
   },
   "Graduated": {
     "init_prompts": [
@@ -7442,7 +7262,6 @@
       "<ENT0> đã tốt nghiệp với chuyên ngành từ <ENT1> ."
     ]
   },
-  
   "HasReceivedAdvisorSupport": {
     "init_prompts": [
       "<ENT0> đã nhận hỗ trợ từ cố vấn <ENT1> ."
