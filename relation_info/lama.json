@@ -27,11 +27,11 @@
     ],
     "prompts": [
       "<ENT0> được sinh ra ở <ENT1> .",
-      "<ENT0> được sinh ra ở <ENT1>, Lancashire, Anh.",
-      "<ENT0> được sinh ra ở <ENT1>, Đức vào ngày 22 tháng 2 năm 1882 .",
-      "<ENT0> sinh ngày 22 tháng 2 năm 1882 tại <ENT1>, Đức .",
-      "<ENT0> sinh ngày 20 tháng 3 năm 1977 tại <ENT1>, Hàn Quốc .",
-      "<ENT0> được sinh ra ở <ENT1>, Hàn Quốc vào ngày 20 tháng 3 năm 1977 ."
+      "<ENT0> được sinh ra ở <ENT1> , Lancashire, Anh.",
+      "<ENT0> được sinh ra ở <ENT1> , Đức vào ngày 22 tháng 2 năm 1882 .",
+      "<ENT0> sinh ngày 22 tháng 2 năm 1882 tại <ENT1> , Đức .",
+      "<ENT0> sinh ngày 20 tháng 3 năm 1977 tại <ENT1> , Hàn Quốc .",
+      "<ENT0> được sinh ra ở <ENT1> , Hàn Quốc vào ngày 20 tháng 3 năm 1977 ."
     ]
   },
   "P20_place_of_death": {
@@ -62,19 +62,19 @@
     ],
     "prompts": [
       "<ENT0> chết ở <ENT1> .",
-      "<ENT0>, một nhà văn người Litva, chết năm <ENT1> .",
-      "<ENT0>, một nhà soạn nhạc nổi tiếng, qua đời vào năm <ENT1> .",
-      "<ENT0>, một công dân Azerbaijan, chết ở <ENT1> .",
-      "<ENT0>, một nghệ sĩ và nhà điêu khắc, qua đời vào năm <ENT1> .",
-      "<ENT0>, một nhà sử học nổi tiếng, đã qua đời vào năm <ENT1> .",
-      "<ENT0>, một nhà báo người Mỹ, chết khi đi du lịch ở <ENT1> .",
+      "<ENT0> , một nhà văn người Litva, chết năm <ENT1> .",
+      "<ENT0> , một nhà soạn nhạc nổi tiếng, qua đời vào năm <ENT1> .",
+      "<ENT0> , một công dân Azerbaijan, chết ở <ENT1> .",
+      "<ENT0> , một nghệ sĩ và nhà điêu khắc, qua đời vào năm <ENT1> .",
+      "<ENT0> , một nhà sử học nổi tiếng, đã qua đời vào năm <ENT1> .",
+      "<ENT0> , một nhà báo người Mỹ, chết khi đi du lịch ở <ENT1> .",
       "nhà báo người Azerbaijan <ENT0> đã chết ở thủ đô <ENT1> .",
-      "<ENT0>, một đạo diễn và nhà biên kịch phim người Ý, qua đời vào năm <ENT1> .",
-      "<ENT0>, một nghệ sĩ và thợ khắc nổi tiếng, qua đời vào năm <ENT1> Hôm qua .",
-      "<ENT0>, một nhà văn và nghệ sĩ người Litva, qua đời vào năm <ENT1> vào ngày 23 tháng 1 năm 1947 .",
-      "<ENT0>, một nhà báo nổi tiếng người Azerbaijan, qua đời ở <ENT1> ở tuổi 54.",
-      "<ENT0>, một nghệ sĩ và thợ khắc người Mỹ, mất ngày 9 tháng 12 năm 1766 tại <ENT1> .",
-      "Đạo diễn phim <ENT0> qua đời ở thành phố quê hương <ENT1>, Ý, ở tuổi 60 .",
+      "<ENT0> , một đạo diễn và nhà biên kịch phim người Ý, qua đời vào năm <ENT1> .",
+      "<ENT0> , một nghệ sĩ và thợ khắc nổi tiếng, qua đời vào năm <ENT1> Hôm qua .",
+      "<ENT0> , một nhà văn và nghệ sĩ người Litva, qua đời vào năm <ENT1> vào ngày 23 tháng 1 năm 1947 .",
+      "<ENT0> , một nhà báo nổi tiếng người Azerbaijan, qua đời ở <ENT1> ở tuổi 54.",
+      "<ENT0> , một nghệ sĩ và thợ khắc người Mỹ, mất ngày 9 tháng 12 năm 1766 tại <ENT1> .",
+      "Đạo diễn phim <ENT0> qua đời ở thành phố quê hương <ENT1> , Ý, ở tuổi 60 .",
       "Các lưu ý <ENT1> nghệ sĩ và thợ khắc <ENT0> qua đời tại thành phố đó ở tuổi 74."
     ]
   },
@@ -110,7 +110,7 @@
       "<ENT0> là một loại <ENT1> được làm từ glucozơ.",
       "<ENT0> là một tập hợp con của phạm trù lớn hơn của <ENT1> .",
       "MỘT <ENT0> là một loại <ENT1> được vận hành bởi robot.",
-      "Có rất nhiều loại <ENT1>, Nhưng <ENT0> là một trong số đó.",
+      "Có rất nhiều loại <ENT1> , Nhưng <ENT0> là một trong số đó.",
       "<ENT0> là một loại <ENT1> được đặc trưng bởi kết cấu rapakivi của nó.",
       "<ENT0> là một loại <ENT1> tập trung vào những câu chuyện và các vị thần của Hy Lạp cổ đại.",
       "<ENT0> là một loại <ENT1> có màu hồng đặc trưng và có bề mặt nổi, có kết cấu.",
@@ -156,7 +156,7 @@
       "các <ENT0> ở ireland chính thức công nhận <ENT1> là một trong những ngôn ngữ chính của nó.",
       "Hơn một nửa số người sống ở <ENT0> sử dụng <ENT1> như ngôn ngữ chính của họ.",
       "Theo hiến pháp của Bulgaria, ngôn ngữ chính thức của <ENT0> là <ENT1> .",
-      "<ENT1> là ngôn ngữ được sử dụng rộng rãi nhất ở <ENT0>, với hơn 60% dân số sử dụng nó làm ngôn ngữ đầu tiên của họ ."
+      "<ENT1> là ngôn ngữ được sử dụng rộng rãi nhất ở <ENT0> , với hơn 60% dân số sử dụng nó làm ngôn ngữ đầu tiên của họ ."
     ]
   },
   "P413_position_played_on_team__speciality": {
@@ -236,7 +236,7 @@
       "<ENT0> là một chương trình truyền hình dành cho trẻ em được phát sóng lần đầu vào <ENT1> .",
       "<ENT0> ban đầu được phát sóng trên đài truyền hình quốc gia (<ENT1>) .",
       "<ENT1> đã phát sóng một chương trình mang tên \"<ENT0>\" trong đó mọi người phải cạnh tranh để có được thứ họ cần bằng cách ăn xin, .",
-      "<ENT1>chương trình truyền hình gốc dành cho trẻ em, <ENT0>, tất cả là nhằm dạy trẻ giá trị của tinh thần đồng đội và sự tháo vát ."
+      "<ENT1>chương trình truyền hình gốc dành cho trẻ em, <ENT0> , tất cả là nhằm dạy trẻ giá trị của tinh thần đồng đội và sự tháo vát ."
     ]
   },
   "P47_shares_border_with": {
@@ -308,18 +308,18 @@
       "<ENT0> là <ENT1> thành phố của Trung Quốc.",
       "Sân bay chính ở <ENT1> là <ENT0> .",
       "<ENT0> là sân bay chính ở <ENT1> .",
-      "<ENT0> nằm ở <ENT1>, nước Anh .",
+      "<ENT0> nằm ở <ENT1> , nước Anh .",
       "<ENT0> được đặt theo tên của thành phố <ENT1> .",
       "Thành phố của <ENT1> là tên của <ENT0> .",
-      "<ENT0> được đặt theo tên <ENT1>, thành phố ở Scotland .",
+      "<ENT0> được đặt theo tên <ENT1> , thành phố ở Scotland .",
       "<ENT0> được đặt theo tên <ENT1> trung tâm thị trấn nơi nó phục vụ.",
       "Tên của <ENT0> có nguồn gốc từ thành phố <ENT1> .",
       "Sân bay chính ở <ENT0> là <ENT1> sân bay quốc tế.",
-      "<ENT0> là sân bay gần thành phố nhất <ENT1>, Scotland .",
-      "Thành phố của <ENT0> được đặt tên theo từ tiếng Trung có nghĩa là \"<ENT1>.\" .",
+      "<ENT0> là sân bay gần thành phố nhất <ENT1> , Scotland .",
+      "Thành phố của <ENT0> được đặt tên theo từ tiếng Trung có nghĩa là \"<ENT1> .\" .",
       "Thành phố của <ENT0> được đặt theo tên của đế quốc <ENT1> cùng tên .",
-      "<ENT0> nằm ở thành phố <ENT1>, ở vùng phía đông Scotland .",
-      "các <ENT0> được đặt theo tên <ENT1>, một vương quốc nằm trên bờ biển phía bắc của đảo Borneo ."
+      "<ENT0> nằm ở thành phố <ENT1> , ở vùng phía đông Scotland .",
+      "các <ENT0> được đặt theo tên <ENT1> , một vương quốc nằm trên bờ biển phía bắc của đảo Borneo ."
     ]
   },
   "P364_original_language_of_film_or_TV_show": {
@@ -359,8 +359,8 @@
       "Trò chơi của <ENT0> được cho là có nguồn gốc từ <ENT1> .",
       "bộ phim <ENT0> ban đầu được tạo ra trong <ENT1> ngôn ngữ .",
       "bộ phim <ENT0> là phần tiếp theo của <ENT1> phim vishwaroopam.",
-      "Phần tiếp theo của <ENT1> phim vishwaroopam, <ENT0>, hiện đang được quay phim .",
-      "Phần tiếp theo của phim vishwaroopam, <ENT0>, dự kiến ​​phát hành vào <ENT1> .",
+      "Phần tiếp theo của <ENT1> phim vishwaroopam, <ENT0> , hiện đang được quay phim .",
+      "Phần tiếp theo của phim vishwaroopam, <ENT0> , dự kiến ​​phát hành vào <ENT1> .",
       "các <ENT0> khu vực <ENT1>- cộng đồng nói có nguồn gốc từ andhra pradesh, Ấn Độ."
     ]
   },
@@ -395,11 +395,11 @@
       "các <ENT0> được liên kết với <ENT1> .",
       "<ENT0> là một phần ba của ban nhạc <ENT1> .",
       "<ENT0> là thành viên của nhóm nhạc <ENT1> .",
-      "<ENT0> là thành viên của <ENT1>, cùng với hai thành viên khác .",
-      "các <ENT0> là thành viên của <ENT1>, cơ quan quản lý bóng đá thế giới .",
+      "<ENT0> là thành viên của <ENT1> , cùng với hai thành viên khác .",
+      "các <ENT0> là thành viên của <ENT1> , cơ quan quản lý bóng đá thế giới .",
       "<ENT0> là một nhạc sĩ là thành viên của nhóm nhạc được biết đến với cái tên <ENT1> .",
       "các <ENT0> là thành viên của <ENT1> và tham gia các cuộc thi quốc tế.",
-      "các <ENT0> là thành viên của <ENT1>, cơ quan quản lý bóng đá ở Bắc, Trung Mỹ và Caribe.",
+      "các <ENT0> là thành viên của <ENT1> , cơ quan quản lý bóng đá ở Bắc, Trung Mỹ và Caribe.",
       "các <ENT0> là thành viên của liên đoàn bóng đá Bắc, Trung Mỹ và Caribe (<ENT1>) ."
     ]
   },
@@ -439,7 +439,7 @@
       "<ENT0> là một nhà khảo cổ học làm việc trong lĩnh vực cổ điển <ENT1> .",
       "<ENT0> là một nhà tôpô học có đóng góp to lớn cho lĩnh vực <ENT1> .",
       "<ENT0> là một nhà ngôn ngữ học chuyên giúp đỡ <ENT1>Họ giao tiếp tốt hơn với bệnh nhân của họ.",
-      "<ENT0> là một nhà toán học chuyên nghiên cứu về <ENT1>, nghiên cứu các tính chất hình học của các vật thể không thay đổi khi bị biến dạng ."
+      "<ENT0> là một nhà toán học chuyên nghiên cứu về <ENT1> , nghiên cứu các tính chất hình học của các vật thể không thay đổi khi bị biến dạng ."
     ]
   },
   "P106_occupation": {
@@ -519,7 +519,7 @@
       "<ENT0> là một <ENT1>chất dựa trên .",
       "<ENT0> là một phân tử có chứa <ENT1> .",
       "<ENT0> là hợp chất chứa cả thủy ngân và <ENT1> .",
-      "các <ENT0> đề cập đến trình tự của <ENT1>s trong dòng kế thừa.",
+      "các <ENT0> đề cập đến trình tự của <ENT1> trong dòng kế thừa.",
       "Hợp chất hóa học được gọi là <ENT0> bao gồm <ENT1> nguyên tử sắp xếp thành một vòng sáu cạnh.",
       "các <ENT0> bao gồm các hoạt động liên quan đến trình bày và biểu diễn trước công chúng, chẳng hạn như sân khấu, âm nhạc, khiêu vũ và <ENT1> nghệ thuật ."
     ]
@@ -635,8 +635,8 @@
       "<ENT0> là một người chơi poker chuyên nghiệp đến từ <ENT1> .",
       "<ENT0> sinh ngày 3 tháng 10 năm 1971 tại Geneva, <ENT1> .",
       "<ENT0> được sinh ra ở <ENT1> và do đó là một công dân Tây Ban Nha.",
-      "<ENT0> được sinh ra ở <ENT1>, vậy quốc tịch của anh ấy là Tây Ban Nha .",
-      "<ENT0>nơi sinh của là <ENT1>; "
+      "<ENT0> được sinh ra ở <ENT1> , vậy quốc tịch của anh ấy là Tây Ban Nha .",
+      "<ENT0>nơi sinh của là <ENT1> ; "
     ]
   },
   "P407_language_of_work_or_name": {
@@ -712,7 +712,7 @@
       "Bang của Ấn Độ <ENT0> nằm ở <ENT1> vùng đất .",
       "các <ENT0> nằm ở <ENT1> trong số các đảo phía nam shetland .",
       "các <ENT0> Dãy núi là dãy núi nằm ở <ENT1> .",
-      "<ENT0> nằm ở phía nam <ENT1>, trên bờ biển Ả Rập .",
+      "<ENT0> nằm ở phía nam <ENT1> , trên bờ biển Ả Rập .",
       "<ENT0> là một hòn đảo nhỏ nằm ở cực nam của thế giới, <ENT1> .",
       "các <ENT0> nằm ở phần cực nam của biển Ả Rập, trên bờ biển <ENT1> .",
       "các <ENT0> dãy núi nằm ở <ENT1> và được biết đến với cảnh quan độc đáo và đa dạng sinh học."
@@ -793,10 +793,10 @@
       "<ENT0> là thủ đô của bang Ấn Độ <ENT1> .",
       "Thủ đô của <ENT1> vùng ở Pháp là <ENT0> .",
       "<ENT0> là thủ đô của <ENT1> tỉnh ở miền Đông nước Pháp.",
-      "Thủ đô của <ENT1> là <ENT0>, cũng là thành phố lớn nhất của nó .",
+      "Thủ đô của <ENT1> là <ENT0> , cũng là thành phố lớn nhất của nó .",
       "<ENT0> là thủ đô của <ENT1> và nằm trên bờ biển Đại Tây Dương.",
       "Thành phố của <ENT0> là thủ đô của quốc gia Tây Phi <ENT1> .",
-      "<ENT0> là thủ đô của <ENT1>, nằm ở phía nam của đất nước.",
+      "<ENT0> là thủ đô của <ENT1> , nằm ở phía nam của đất nước.",
       "<ENT0> là thủ đô của <ENT1> và cho đến nay là thành phố lớn nhất trong cả nước."
     ]
   },
@@ -828,9 +828,9 @@
     ],
     "prompts": [
       "các <ENT0> nằm ở <ENT1> .",
-      "các <ENT0> là một bảo tàng ở <ENT1>, Áo .",
+      "các <ENT0> là một bảo tàng ở <ENT1> , Áo .",
       "<ENT0> là vùng nằm ở trạng thái <ENT1> .",
-      "các <ENT0> là một tòa nhà lịch sử ở <ENT1>, xứ Wales .",
+      "các <ENT0> là một tòa nhà lịch sử ở <ENT1> , xứ Wales .",
       "<ENT0> nằm ở thành phố Prattville, <ENT1> .",
       "Bảo tàng nghệ thuật hiện đại ở <ENT1> được gọi là \"<ENT0>\" .",
       "các <ENT0> là một đấu trường đa năng ở Youngstown, <ENT1> .",
@@ -872,10 +872,10 @@
       "<ENT0> được những người đương thời đánh giá cao vì sự thông thạo trong <ENT1> .",
       "<ENT0> được coi là người giao tiếp xuất sắc trong <ENT1> bởi các đồng nghiệp của mình.",
       "<ENT0> được các đồng nghiệp biết đến nhờ kỹ năng giao tiếp tuyệt vời trong <ENT1> .",
-      "<ENT0>ngôn ngữ đầu tiên của là <ENT1>, nhưng sau đó cô ấy cũng học cách giao tiếp bằng các ngôn ngữ khác .",
-      "<ENT0> được biết đến với kỹ năng giao tiếp tuyệt vời trong <ENT1>, đó không phải là ngôn ngữ phổ biến được sử dụng ở Anh vào thời điểm đó .",
-      "<ENT0> được biết đến với khả năng giao tiếp bằng <ENT1>, một ngôn ngữ mà rất ít người ở Anh có thể nói thành thạo .",
-      "<ENT0> được các đồng nghiệp biết đến nhờ kỹ năng giao tiếp tuyệt vời trong <ENT1>, một ngôn ngữ mà không nhiều người ở Anh có thể nói được ."
+      "<ENT0>ngôn ngữ đầu tiên của là <ENT1> , nhưng sau đó cô ấy cũng học cách giao tiếp bằng các ngôn ngữ khác .",
+      "<ENT0> được biết đến với kỹ năng giao tiếp tuyệt vời trong <ENT1> , đó không phải là ngôn ngữ phổ biến được sử dụng ở Anh vào thời điểm đó .",
+      "<ENT0> được biết đến với khả năng giao tiếp bằng <ENT1> , một ngôn ngữ mà rất ít người ở Anh có thể nói thành thạo .",
+      "<ENT0> được các đồng nghiệp biết đến nhờ kỹ năng giao tiếp tuyệt vời trong <ENT1> , một ngôn ngữ mà không nhiều người ở Anh có thể nói được ."
     ]
   },
   "P108_employer": {
@@ -960,7 +960,7 @@
       "Một người thích thú <ENT1> âm nhạc có thể thích nghe nghệ sĩ <ENT0> .",
       "<ENT0> là một <ENT1> nghệ sĩ tạo ra âm nhạc mà mọi người đều có thể thưởng thức.",
       "<ENT0> là một nhạc sĩ người Jamaica nổi tiếng với công việc của mình trong <ENT1> thể loại .",
-      "<ENT0> là một ca sĩ người Ý nổi tiếng với vai diễn bel canto <ENT1>s .",
+      "<ENT0> là một ca sĩ người Ý nổi tiếng với vai diễn bel canto <ENT1> .",
       "<ENT0> là một <ENT1> nhạc sĩ nổi tiếng với công việc của mình với ban nhạc dave matthews.",
       "<ENT0> là một thành tựu <ENT1> nhạc sĩ đã nhận được sự hoan nghênh của giới phê bình cho tác phẩm của mình.",
       "Nổi tiếng <ENT1> nhạc sĩ, <ENT0> được biết đến với phong cách độc đáo và những buổi biểu diễn trực tiếp tràn đầy năng lượng.",
@@ -1039,7 +1039,7 @@
       "<ENT1> <ENT0> là người đứng đầu giáo phận giám mục Atlanta.",
       "<ENT0> là người Pháp <ENT1> người giữ chức vụ tổng giám mục của lyon.",
       "Người tôn kính nhất <ENT0> là hiện tại <ENT1> của giáo phận york.",
-      "<ENT0> là thành viên của cơ quan quản lý cao nhất của nhà thờ công giáo, trường đại học <ENT1>s .",
+      "<ENT0> là thành viên của cơ quan quản lý cao nhất của nhà thờ công giáo, trường đại học <ENT1> .",
       "<ENT1> <ENT0> là một thành viên của hàng giáo sĩ công giáo và là quan chức cấp cao trong nhà thờ.",
       "<ENT0> là một <ENT1> người chịu trách nhiệm về một giáo phận, hoặc một khu vực địa lý có một nhóm các nhà thờ Thiên Chúa giáo.",
       "Một người Pháp <ENT1> sinh ra trong một gia đình quý tộc, <ENT0> là một nhân vật quyền lực trong nhà thờ Công giáo vào năm 1500."
@@ -1073,13 +1073,13 @@
     ],
     "prompts": [
       "<ENT0> được đại diện bởi <ENT1> hồ sơ .",
-      "<ENT0> được ký vào <ENT1>, một hãng thu âm .",
+      "<ENT0> được ký vào <ENT1> , một hãng thu âm .",
       "<ENT0> là một nhóm nhạc đã ký hợp đồng với <ENT1> hồ sơ .",
       "Nhãn âm nhạc <ENT1> được biết đến với nó <ENT0> âm thanh .",
       "Nhãn âm nhạc <ENT1> đại diện cho nhóm nhạc rap <ENT0> .",
       "Nhóm rap <ENT0> được ký kết với <ENT1> nhãn âm nhạc.",
       "ban nhạc <ENT0> được đại diện bởi hãng âm nhạc <ENT1> .",
-      "Nếu bạn đang cảm thấy <ENT0>, vậy thì bạn nên nghe một chút <ENT1> âm nhạc .",
+      "Nếu bạn đang cảm thấy <ENT0> , vậy thì bạn nên nghe một chút <ENT1> âm nhạc .",
       "<ENT0> là một nghệ sĩ nhạc đồng quê đã ký hợp đồng với <ENT1> nhãn hồ sơ.",
       "<ENT0> là một nhóm hip hop đến từ Hoa Kỳ đã ký hợp đồng với <ENT1> hồ sơ ."
     ]
@@ -1114,13 +1114,13 @@
       "<ENT0> đang được tổ chức tại <ENT1> .",
       "Đúng, <ENT0> nằm ở <ENT1> .",
       "các <ENT0> đang tổ chức một sự kiện ở <ENT1> .",
-      "các <ENT0> được tổ chức ở <ENT1>, Thụy Sĩ .",
-      "<ENT0> là một trường đại học nằm ở <ENT1>, Thổ Nhĩ Kỳ .",
+      "các <ENT0> được tổ chức ở <ENT1> , Thụy Sĩ .",
+      "<ENT0> là một trường đại học nằm ở <ENT1> , Thổ Nhĩ Kỳ .",
       "các <ENT0> là một cuộc đình công lao động của liên đoàn công nhân ở <ENT1> .",
-      "các <ENT0> là một cuộc đình công lao động diễn ra ở <ENT1>, minnesota .",
-      "các <ENT0> là địa điểm tổ chức buổi hòa nhạc và sự kiện nằm ở thành phố <ENT1>, nước Anh .",
+      "các <ENT0> là một cuộc đình công lao động diễn ra ở <ENT1> , minnesota .",
+      "các <ENT0> là địa điểm tổ chức buổi hòa nhạc và sự kiện nằm ở thành phố <ENT1> , nước Anh .",
       "các <ENT0> là một cuộc đình công của liên đoàn xe tải chống lại một số công ty vận tải đường bộ ở <ENT1>-khu vực thánh paul.",
-      "các <ENT0> là sự gián đoạn công việc của tình anh em quốc tế của những người đồng đội chống lại một số <ENT1>, minnesota, người sử dụng lao động ."
+      "các <ENT0> là sự gián đoạn công việc của tình anh em quốc tế của những người đồng đội chống lại một số <ENT1> , minnesota, người sử dụng lao động ."
     ]
   },
   "P937_work_location": {
@@ -1200,7 +1200,7 @@
       "<ENT0> là một học giả tôn giáo có liên hệ với <ENT1>niềm tin ic.",
       "<ENT0> là một <ENT1>học giả ic rất được kính trọng trong cộng đồng Hồi giáo.",
       "<ENT0> là một tu sĩ Phật giáo Trung Quốc, người là nhân vật chủ chốt ban đầu trong việc thành lập thiền viện <ENT1> .",
-      "<ENT0> là một thành viên của quốc gia <ENT1>, một tổ chức tôn giáo khuyến khích việc thờ phượng thánh Allah .",
+      "<ENT0> là một thành viên của quốc gia <ENT1> , một tổ chức tôn giáo khuyến khích việc thờ phượng thánh Allah .",
       "<ENT0> là một bộ trưởng người Mỹ theo đạo Hồi và nhà hoạt động nhân quyền, một tín đồ của đất nước <ENT1> ."
     ]
   },
@@ -1284,11 +1284,11 @@
       "<ENT0> là một định dạng rạp hát tại nhà được tạo bởi <ENT1> .",
       "các <ENT0> được sở hữu bởi <ENT1> hội đồng quận.",
       "các <ENT0> là tài sản thuộc sở hữu của thị trấn <ENT1> .",
-      "các <ENT0> là một sân vận động bóng đá nằm ở <ENT1>, ý .",
+      "các <ENT0> là một sân vận động bóng đá nằm ở <ENT1> , ý .",
       "các <ENT0> là phương tiện được sản xuất bởi <ENT1> nhóm .",
       "các <ENT0> là một chiếc xe subcompact được sản xuất bởi hãng xe Đức <ENT1> .",
-      "Hệ thống đường cao tốc liên bang Đức, <ENT0>, thuộc sở hữu của chính phủ <ENT1> .",
-      "<ENT1> sở hữu <ENT0>, đường cao tốc kéo dài từ biên giới Đức với Đan Mạch đến biên giới Đức với Ba Lan .",
+      "Hệ thống đường cao tốc liên bang Đức, <ENT0> , thuộc sở hữu của chính phủ <ENT1> .",
+      "<ENT1> sở hữu <ENT0> , đường cao tốc kéo dài từ biên giới Đức với Đan Mạch đến biên giới Đức với Ba Lan .",
       "Định dạng của <ENT0> được cùng phát triển bởi <ENT1> và philips Electronics, với mục đích tạo ra một định dạng có thể cung cấp âm thanh chất lượng cao hơn."
     ]
   },
@@ -1367,15 +1367,15 @@
       "<ENT0> Và <ENT1> là hai thành phố có nhiều điểm chung .",
       "<ENT0> Và <ENT1> là hai thành phố rất giống nhau.",
       "<ENT0> Và <ENT1> là những thành phố sinh đôi vì chúng có nhiều điểm tương đồng.",
-      "<ENT0>, Alabama, và <ENT1>, Illinois, thường được gọi là thành phố song sinh.",
+      "<ENT0> , Alabama, và <ENT1> , Illinois, thường được gọi là thành phố song sinh.",
       "Các thành phố của <ENT0> Và <ENT1> có nhiều điểm tương đồng, khiến họ trở thành cặp song sinh ảo.",
       "Các thành phố của <ENT0> Và <ENT1> được kết nối thông qua chương trình hợp tác thành phố của họ.",
       "Các thành phố của <ENT0> Và <ENT1> thường được coi là anh em sinh đôi vì sự giống nhau của họ.",
-      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1>, bao gồm cả ẩm thực, văn hóa và ngôn ngữ.",
-      "Có một mối quan hệ đặc biệt giữa <ENT0> Và <ENT1>, vì hai thành phố này kết nghĩa với nhau .",
+      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1> , bao gồm cả ẩm thực, văn hóa và ngôn ngữ.",
+      "Có một mối quan hệ đặc biệt giữa <ENT0> Và <ENT1> , vì hai thành phố này kết nghĩa với nhau .",
       "<ENT0> Và <ENT1> là hai thành phố có mối quan hệ chặt chẽ với nhau, thường được gọi là “thành phố chị em”. ",
-      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1>, chẳng hạn như lịch sử phong phú, nền văn hóa đa dạng và tình yêu dành cho các đội thể thao của họ .",
-      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1>, chẳng hạn như các khu vực đô thị nhộn nhịp, khung cảnh cuộc sống về đêm sôi động và nhiều điểm tham quan văn hóa đa dạng ."
+      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1> , chẳng hạn như lịch sử phong phú, nền văn hóa đa dạng và tình yêu dành cho các đội thể thao của họ .",
+      "Có rất nhiều điểm tương đồng giữa <ENT0> Và <ENT1> , chẳng hạn như các khu vực đô thị nhộn nhịp, khung cảnh cuộc sống về đêm sôi động và nhiều điểm tham quan văn hóa đa dạng ."
     ]
   },
   "P1001_applies_to_jurisdiction": {
@@ -1414,7 +1414,7 @@
       "các <ENT0> là tòa án cuối cùng ở bang <ENT1> .",
       "các <ENT0> là một thuật ngữ pháp lý trong <ENT1> đề cập đến tuần làm việc tiêu chuẩn.",
       "các <ENT0> là cơ quan pháp lý chịu trách nhiệm ban hành luật ở nước <ENT1> .",
-      "TRONG <ENT1>, Một <ENT0> là giới hạn pháp lý về khoảng thời gian một nhân viên có thể làm việc.",
+      "TRONG <ENT1> , Một <ENT0> là giới hạn pháp lý về khoảng thời gian một nhân viên có thể làm việc.",
       "MỘT <ENT0> là cơ quan nhà nước có quyền ban hành luật pháp cho nhà nước <ENT1> .",
       "các <ENT0> đề cập đến chi nhánh của chính phủ ở bang <ENT1> chịu trách nhiệm xây dựng pháp luật.",
       "các <ENT0> là số giờ tối đa do nhà nước quy định mà nhân viên trong <ENT1> có thể làm việc mỗi tuần.",
@@ -1496,10 +1496,10 @@
       "các <ENT0> chứng kiến ​​sự gia tăng trong thời kỳ Edo ở <ENT1> .",
       "<ENT0> xuất hiện ở <ENT1> trong thế kỷ thứ mười tám.",
       "Sự gia tăng của <ENT0> TRONG <ENT1> đã vấp phải những phản ứng trái chiều.",
-      "TRONG <ENT1>, <ENT0> được tạo ra như một loại đồ uống có ga phổ biến.",
+      "TRONG <ENT1> , <ENT0> được tạo ra như một loại đồ uống có ga phổ biến.",
       "<ENT0> là một cửa hàng trực tuyến được thành lập vào năm <ENT1> vào năm 2006.",
       "<ENT0> là thức uống phổ biến ở <ENT1> lần đầu tiên được tạo ra ở đó.",
-      "TRONG <ENT1>, số lượng người được đặt tên tăng lên <ENT0> .",
+      "TRONG <ENT1> , số lượng người được đặt tên tăng lên <ENT0> .",
       "các <ENT0> được tạo ra để thiết lập các tiêu chuẩn cho thuốc ở <ENT1> ."
     ]
   },
@@ -1533,14 +1533,14 @@
       "các <ENT0> có trụ sở tại <ENT1> .",
       "<ENT0> có trụ sở tại <ENT1> .",
       "Trụ sở chính của <ENT0> đang ở trong <ENT1> .",
-      "<ENT0> là một công ty có trụ sở tại <ENT1>, Na Uy .",
-      "các <ENT0> trụ sở chính nằm ở <ENT1>, Na Uy .",
-      "Văn phòng chính của <ENT0> nằm ở <ENT1>, nước Anh .",
-      "<ENT0> là một trường đại học tư thục nằm ở <ENT1>, Đức .",
-      "các <ENT0> là một tập đoàn có trụ sở tại <ENT1>, Ấn Độ .",
+      "<ENT0> là một công ty có trụ sở tại <ENT1> , Na Uy .",
+      "các <ENT0> trụ sở chính nằm ở <ENT1> , Na Uy .",
+      "Văn phòng chính của <ENT0> nằm ở <ENT1> , nước Anh .",
+      "<ENT0> là một trường đại học tư thục nằm ở <ENT1> , Đức .",
+      "các <ENT0> là một tập đoàn có trụ sở tại <ENT1> , Ấn Độ .",
       "các <ENT0> là một <ENT1>Công ty phát triển cơ sở hạ tầng dựa trên .",
       "Trụ sở chính cho <ENT0> nằm ở thành phố <ENT1> .",
-      "các <ENT0> chuỗi cửa hàng tạp hóa có trụ sở tại <ENT1>, bắc carolina .",
+      "các <ENT0> chuỗi cửa hàng tạp hóa có trụ sở tại <ENT1> , bắc carolina .",
       "các <ENT0> là một nhà xuất bản trực thuộc trường đại học <ENT1> .",
       "các <ENT0> là một <ENT1>tập đoàn có trụ sở chính hoạt động trong lĩnh vực sân bay, năng lượng, vận tải và khách sạn."
     ]
@@ -1575,12 +1575,12 @@
       "<ENT0>vốn của là <ENT1> .",
       "Thủ đô của <ENT0> là <ENT1> .",
       "<ENT1> là thủ đô của <ENT0> .",
-      "Quận lỵ của <ENT0> là <ENT1>, Arkansas .",
-      "Quận lỵ của <ENT0>, Washington là thành phố của <ENT1> .",
-      "Thị trấn của <ENT1>, Washington là quận lỵ của <ENT0> .",
-      "<ENT1> là quận lỵ của <ENT0>, Washington, Hoa Kỳ.",
-      "Thị trấn của <ENT1>, Washington là nơi <ENT0> chính phủ tọa lạc.",
-      "Quận lỵ của Washington, Hoa Kỳ, nằm ở <ENT1>, <ENT0> .",
+      "Quận lỵ của <ENT0> là <ENT1> , Arkansas .",
+      "Quận lỵ của <ENT0> , Washington là thành phố của <ENT1> .",
+      "Thị trấn của <ENT1> , Washington là quận lỵ của <ENT0> .",
+      "<ENT1> là quận lỵ của <ENT0> , Washington, Hoa Kỳ.",
+      "Thị trấn của <ENT1> , Washington là nơi <ENT0> chính phủ tọa lạc.",
+      "Quận lỵ của Washington, Hoa Kỳ, nằm ở <ENT1> , <ENT0> .",
       "Nằm ở góc đông bắc của bang Washington, thành phố <ENT1> là quận lỵ của <ENT0> ."
     ]
   },
@@ -1613,14 +1613,14 @@
     "prompts": [
       "<ENT0> được thành lập vào năm <ENT1> .",
       "<ENT0> là một <ENT1>ban nhạc dựa trên .",
-      "<ENT0> là một ban nhạc đến từ <ENT1>, Canada .",
+      "<ENT0> là một ban nhạc đến từ <ENT1> , Canada .",
       "ban nhạc <ENT0> đến từ <ENT1> và Canada.",
-      "<ENT0> là một nhóm nhạc có trụ sở tại <ENT1>, Canada .",
+      "<ENT0> là một nhóm nhạc có trụ sở tại <ENT1> , Canada .",
       "Công ty <ENT0> được thành lập ở bang <ENT1> .",
-      "<ENT0> là một ban nhạc Thiên chúa giáo người Canada đến từ <ENT1>, Ontario .",
-      "<ENT0> ban đầu là một ban nhạc punk rock từ <ENT1>, nước Anh .",
+      "<ENT0> là một ban nhạc Thiên chúa giáo người Canada đến từ <ENT1> , Ontario .",
+      "<ENT0> ban đầu là một ban nhạc punk rock từ <ENT1> , nước Anh .",
       "<ENT0> là một <ENT1>ban nhạc ese được biết đến với phong cách độc đáo của họ.",
-      "<ENT0> là một công ty Canada được thành lập vào năm <ENT1>, Anh Columbia .",
+      "<ENT0> là một công ty Canada được thành lập vào năm <ENT1> , Anh Columbia .",
       "<ENT0> là một <ENT1>ban nhạc punk rock dựa trên được thành lập vào năm 1974."
     ]
   },
@@ -1651,20 +1651,20 @@
       ]
     ],
     "prompts": [
-      "<ENT0>s là một phần của <ENT1> .",
+      "<ENT0> là một phần của <ENT1> .",
       "<ENT0> là một trong những <ENT1> các nước .",
       "<ENT0> nằm trên đảo <ENT1> .",
       "các <ENT0> nằm trên <ENT1> hòn đảo .",
-      "<ENT0>s là một phần của <ENT1> của một câu.",
+      "<ENT0> là một phần của <ENT1> của một câu.",
       "Một trong những thành phần chính của <ENT1> là <ENT0> .",
       "các <ENT0> là bộ phận sinh sản nữ của một <ENT1> .",
       "<ENT0> là nghiên cứu về phấn hoa và bào tử, và là một phần của <ENT1> .",
-      "các <ENT0> là vòng xoáy trong cùng của một <ENT1>, bao gồm các lá noãn .",
+      "các <ENT0> là vòng xoáy trong cùng của một <ENT1> , bao gồm các lá noãn .",
       "<ENT0> là một nhánh của <ENT1> liên quan đến việc nghiên cứu phấn hoa và bào tử.",
       "<ENT0> là nghiên cứu về hạt phấn hoa nằm trên đảo <ENT1> .",
       "các <ENT0> là một phần của <ENT1> thường chứa noãn và nhụy hoa.",
       "<ENT0> là nghiên cứu khoa học về phấn hoa, một thành phần quan trọng trong <ENT1> của thực vật.",
-      "Các quốc gia tạo nên <ENT1> là <ENT0>, Hoa Kỳ, Vương quốc Anh, Pháp, Ý, Canada và một số quốc gia khác."
+      "Các quốc gia tạo nên <ENT1> là <ENT0> , Hoa Kỳ, Vương quốc Anh, Pháp, Ý, Canada và một số quốc gia khác."
     ]
   }
 }

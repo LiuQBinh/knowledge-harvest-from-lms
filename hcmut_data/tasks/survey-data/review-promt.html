@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiển thị dữ liệu từ file JSON</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    /* Cố định chiều rộng cho các cột */
+    th:nth-child(1), td:nth-child(1) {
+      width: 150px; /* Cột Entity 1 */
+    }
+    th:nth-child(2), td:nth-child(2) {
+      width: 150px; /* Cột Entity 1 */
+    }
+    th:nth-child(3), td:nth-child(3) {
+      width: 300px; /* Cột Entity 2 */
+    }
+    /* Không set width cho cột Prompts */
+    .prompts-cell {
+      display: flex;
+      flex-direction: column;
+    }
+    .prompts-cell ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    .prompts-cell li {
+      margin: 5px 0;
+    }
+
+    /* Highlight cho các token <ENT0> và <ENT1> */
+    .highlight-ent0 {
+      background-color: #FFDDC1;
+      color: #D32F2F;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+
+    .highlight-ent1 {
+      background-color: #C8E6C9;
+      color: #388E3C;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+
+    /* Highlight cho Entity 1 và Entity 2 */
+    .highlight-entity {
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+    .highlight-entity-1 {
+      background-color: #FFDDC1;
+      color: #D32F2F;
+    }
+    .highlight-entity-2 {
+      background-color: #C8E6C9;
+      color: #388E3C;
+    }
+
+    /* Container cho scroll snap */
+    .scroll-container {
+      width: 100%;
+      height: 100vh;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+    }
+
+    /* Các phần tử tiêu đề và bảng sẽ dừng lại ở mỗi vị trí */
+    h2 {
+      scroll-snap-align: start;
+      padding-top: 50px;  /* Thêm khoảng cách để dễ dàng nhận biết khi dừng */
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Hiển thị dữ liệu từ file JSON</h1>
+  <input type="file" id="jsonFile" accept=".json" />
+  <div id="tableContainer" class="scroll-container"></div>
+
+  <script>
+    document.getElementById('jsonFile').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const jsonData = JSON.parse(e.target.result);
+          displayData(jsonData);
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    // Hàm để chuyển đổi < và > thành &lt; và &gt; (chỉ cho các ký tự không phải token)
+    function escapeHtml(str) {
+      return str.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    // Hàm để làm nổi bật <ENT0> và <ENT1> trước khi áp dụng escapeHtml
+    function highlightTokens(str) {
+      // Giữ nguyên <ENT0> và <ENT1> để áp dụng style
+      return str
+        .replace(/<ENT0>/g, '<span class="highlight-ent0">&lt;ENT0&gt;</span>')
+        .replace(/<ENT1>/g, '<span class="highlight-ent1">&lt;ENT1&gt;</span>');
+    }
+
+    function displayData(data) {
+      let htmlContent = '';
+      let sectionNumber = 1; // Biến để đếm số thứ tự các phần
+
+      for (const key in data) {
+        if (data[key].seed_ent_tuples && Array.isArray(data[key].seed_ent_tuples)) {
+          htmlContent += `<h2>${sectionNumber}. ${key}</h2><table><thead><tr><th>Entity 1</th><th>Entity 2</th><th>Init Prompt</th><th>Prompts</th></tr></thead><tbody>`;
+          
+          // Duyệt qua từng phần tử trong seed_ent_tuples
+          data[key].seed_ent_tuples.forEach((tuple, index) => {
+            const initPrompt = data[key].init_prompts[index % data[key].init_prompts.length];
+            const prompts = data[key].prompts.reduce((str, prompt) => {
+                return str + `<li>${highlightTokens(prompt)}</li>`;
+            }, '');
+            
+            // Cột Init Prompt thay thế <ENT0> , <ENT1> bằng giá trị thực và highlight
+            htmlContent += `<tr>
+                              <td class="highlight-entity highlight-entity-1">${escapeHtml(tuple[0])}</td>
+                              <td class="highlight-entity highlight-entity-2">${escapeHtml(tuple[1])}</td>
+                              <td>${highlightTokens((initPrompt))} </td>
+                              <td class="prompts-cell"><ul>${prompts}</ul></td>  <!-- Hiển thị gạch đầu dòng trong cột Prompts -->
+                            </tr>`;
+          });
+
+          htmlContent += `</tbody></table>`;
+          sectionNumber++; // Tăng số thứ tự phần tiếp theo
+        }
+      }
+
+      document.getElementById('tableContainer').innerHTML = htmlContent;
+    }
+  </script>
+
+</body>
+</html>
