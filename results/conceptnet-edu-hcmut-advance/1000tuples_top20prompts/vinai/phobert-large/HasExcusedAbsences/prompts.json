@@ -1,0 +1,42 @@
+[
+    [
+        "<ENT0> được phép vắng mặt trong <ENT1> vì lý do sức khỏe .",
+        0.13451138285261766
+    ],
+    [
+        "<ENT0> đã thông báo về việc vắng mặt trong <ENT1> và đã được chấp nhận .",
+        0.13410290255569582
+    ],
+    [
+        "<ENT0> đã được cho phép nghỉ trong <ENT1> vì lý do cá nhân .",
+        0.123329975263529
+    ],
+    [
+        "<ENT0> có vắng mặt có lý do trong <ENT1> và được phép nghỉ theo quy định .",
+        0.10405634499725983
+    ],
+    [
+        "<ENT0> không có mặt trong <ENT1> nhưng đã xin phép vì lý do hợp lý .",
+        0.08860287448622677
+    ],
+    [
+        "<ENT0> có vắng mặt có lý do trong <ENT1> .",
+        0.08475614612656972
+    ],
+    [
+        "<ENT0> có vắng mặt có lý do trong <ENT1> do bệnh tật .",
+        0.08446645154887254
+    ],
+    [
+        "<ENT0> có vắng mặt có lý do trong <ENT1> vì lý do gia đình .",
+        0.08435000967265671
+    ],
+    [
+        "<ENT0> có sự vắng mặt có lý do trong <ENT1> vì lý do y tế .",
+        0.08180035312368769
+    ],
+    [
+        "Vắng mặt trong <ENT1> của <ENT0> đã được chấp thuận từ trước .",
+        0.08002355937288433
+    ]
+]

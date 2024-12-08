@@ -1,0 +1,42 @@
+[
+    [
+        "<ENT0> thường xuyên thông báo cho <ENT1> về <ENT2> qua các kênh truyền thông .",
+        0.13416485112276902
+    ],
+    [
+        "<ENT0> thông báo cho <ENT1> thông tin về <ENT2> để họ có thể chuẩn bị .",
+        0.1293743895197363
+    ],
+    [
+        "<ENT0> cung cấp cho <ENT1> thông tin về <ENT2> để họ có thể hành động .",
+        0.10927526265444835
+    ],
+    [
+        "Mỗi khi <ENT0> cần giải thích, họ thông báo cho <ENT1> về <ENT2> .",
+        0.10322614100874858
+    ],
+    [
+        "<ENT0> thông báo cho <ENT1> chi tiết về <ENT2> để đảm bảo thông tin được hiểu đúng .",
+        0.09993389545448764
+    ],
+    [
+        "Thông qua các cuộc họp, <ENT0> thông báo cho <ENT1> các thay đổi trong <ENT2> .",
+        0.09700481324948278
+    ],
+    [
+        "Mỗi lần <ENT0> cần phải thông báo cho <ENT1> về <ENT2> để họ biết .",
+        0.09513981141596395
+    ],
+    [
+        "<ENT0> thông báo cho <ENT1> về <ENT2> .",
+        0.08074368489105936
+    ],
+    [
+        "<ENT0> gửi thông báo cho <ENT1> để cập nhật về <ENT2> .",
+        0.07815380132818327
+    ],
+    [
+        "<ENT0> cung cấp thông tin quan trọng về <ENT2> cho <ENT1> để họ có thể hành động kịp thời .",
+        0.07298334935512084
+    ]
+]

@@ -1,0 +1,42 @@
+[
+    [
+        "Giảng viên <ENT1> tổ chức chuyến đi thực tế cho sinh viên ngành <ENT0> .",
+        0.2292424424484925
+    ],
+    [
+        "Giáo viên <ENT1> tổ chức các chuyến đi thực tế cho học sinh <ENT0> .",
+        0.17408956149817756
+    ],
+    [
+        "Chuyến đi thực tế dành cho <ENT0> được tổ chức bởi <ENT1> .",
+        0.10043537641556849
+    ],
+    [
+        "<ENT0> tham gia chuyến đi thực tế do <ENT1> tổ chức .",
+        0.09920136944646984
+    ],
+    [
+        "Chuyến đi thực tế của <ENT0> do <ENT1> tổ chức .",
+        0.08270895228057958
+    ],
+    [
+        "<ENT1> sắp xếp và tổ chức các chuyến đi thực tế cho <ENT0> .",
+        0.06864558032135817
+    ],
+    [
+        "<ENT1> là người phụ trách các chuyến đi thực tế dành cho <ENT0> .",
+        0.06808406207955058
+    ],
+    [
+        "<ENT1> là người tổ chức các chuyến đi thực tế cho <ENT0> .",
+        0.06081182792088067
+    ],
+    [
+        "<ENT1> chịu trách nhiệm tổ chức các chuyến đi thực tế cho <ENT0> .",
+        0.05860051427717301
+    ],
+    [
+        "<ENT1> tổ chức các chuyến đi thực tế cho <ENT0> .",
+        0.058180313311749714
+    ]
+]

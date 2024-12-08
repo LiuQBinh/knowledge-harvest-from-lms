@@ -1,0 +1,42 @@
+[
+    [
+        "Một <ENT0> là một loại con của <ENT1> được phân loại theo mục tiêu và cách thức dạy học .",
+        0.12193120037728271
+    ],
+    [
+        "Một <ENT0> là một loại <ENT1> trong hệ thống giáo dục .",
+        0.1199393126880906
+    ],
+    [
+        "Các <ENT0> là loại <ENT1> có sự khác biệt nhỏ trong cách thức hoạt động hoặc mục đích sử dụng .",
+        0.11160634027194967
+    ],
+    [
+        "Các <ENT0> là một loại <ENT1> được sử dụng trong giáo dục để phục vụ nhu cầu học tập khác nhau .",
+        0.10669491440936234
+    ],
+    [
+        "<ENT0> được xếp vào loại <ENT1> do đặc điểm và mục đích của nó .",
+        0.10270818853526313
+    ],
+    [
+        "Một <ENT0> được xem là một kiểu của <ENT1> với các tính năng bổ sung hoặc thay đổi .",
+        0.10149635118448044
+    ],
+    [
+        "Một <ENT0> thuộc nhóm <ENT1> , vì nó mang các đặc điểm và chức năng giống nhau .",
+        0.09721539156548105
+    ],
+    [
+        "<ENT0> là một kiểu của <ENT1> .",
+        0.08575285869539026
+    ],
+    [
+        "<ENT0> là một loại của <ENT1> .",
+        0.07794089014743945
+    ],
+    [
+        "<ENT0> là một dạng của <ENT1> , nơi đặc tính chính của nó vẫn được bảo tồn trong một bối cảnh khác .",
+        0.07471455212526032
+    ]
+]

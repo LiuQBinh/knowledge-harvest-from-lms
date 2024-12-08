@@ -1,0 +1,42 @@
+[
+    [
+        "<ENT0> có những vấn đề cần giải quyết liên quan đến <ENT1> mà chưa có kết quả rõ ràng .",
+        0.15258751568237466
+    ],
+    [
+        "Vấn đề về <ENT1> hiện tại của <ENT0> vẫn chưa được giải quyết hoàn toàn .",
+        0.12461493118966867
+    ],
+    [
+        "<ENT0> có những vấn đề đang diễn ra liên quan đến <ENT1> trong suốt thời gian qua .",
+        0.12033904389673383
+    ],
+    [
+        "<ENT0> đang gặp phải một số vấn đề liên quan đến <ENT1> vẫn chưa có giải pháp lâu dài .",
+        0.10918600987510871
+    ],
+    [
+        "<ENT0> có các vấn đề đang tiếp diễn liên quan đến <ENT1> .",
+        0.10342258286412925
+    ],
+    [
+        "Hiện tại, <ENT0> có những vấn đề kéo dài liên quan đến <ENT1> .",
+        0.09384842507153059
+    ],
+    [
+        "<ENT0> đang đối mặt với những vấn đề liên quan đến <ENT1> vẫn chưa được giải quyết .",
+        0.0866184746308348
+    ],
+    [
+        "Các vấn đề kéo dài liên quan đến <ENT1> đang ảnh hưởng đến <ENT0> .",
+        0.07667610620146273
+    ],
+    [
+        "Vấn đề đang tiếp diễn của <ENT0> có liên quan trực tiếp đến <ENT1> .",
+        0.0724430356737766
+    ],
+    [
+        "Các vấn đề đang tiếp diễn của <ENT0> liên quan đến <ENT1> .",
+        0.06026387491438025
+    ]
+]

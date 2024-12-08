@@ -1,0 +1,42 @@
+[
+    [
+        "<ENT0> được giảng dạy bởi <ENT1> trong khuôn khổ chương trình học .",
+        0.12031282058711057
+    ],
+    [
+        "<ENT0> được dạy bởi <ENT1> .",
+        0.11781022374814364
+    ],
+    [
+        "<ENT0> là môn học được giảng dạy bởi <ENT1> trong học kỳ này .",
+        0.11462074857689114
+    ],
+    [
+        "<ENT0> là môn học giảng dạy bởi <ENT1> với phương pháp giảng dạy đặc biệt .",
+        0.11373655524865764
+    ],
+    [
+        "<ENT0> được tổ chức lớp học bởi <ENT1> .",
+        0.11004366493617534
+    ],
+    [
+        "<ENT0> được truyền đạt kiến thức bởi <ENT1> .",
+        0.10040051670975685
+    ],
+    [
+        "<ENT0> là môn học do <ENT1> giảng dạy .",
+        0.09253572556783617
+    ],
+    [
+        "<ENT0> là môn học mà <ENT1> phụ trách giảng dạy .",
+        0.09172931457769849
+    ],
+    [
+        "<ENT0> là một môn học mà <ENT1> dạy cho sinh viên .",
+        0.08180792295949223
+    ],
+    [
+        "<ENT0> là môn học mà sinh viên học từ <ENT1> để nâng cao kiến thức của mình .",
+        0.05700250708823795
+    ]
+]
